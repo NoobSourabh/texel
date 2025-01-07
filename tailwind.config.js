@@ -23,8 +23,10 @@ module.exports = {
         largeHeading: "60px",
       },
       colors: {
+        brown:"#8A6D59",
         logoclr: "#252B42",
-        gray: "#737373", // Custom gray color
+        gray: "#737373",
+        secondary: "#F5E8DF", // Custom gray color
       },
       backgroundImage: {
         "custom-gradient":

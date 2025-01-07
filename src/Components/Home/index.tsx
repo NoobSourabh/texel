@@ -1,4 +1,5 @@
 import HomeCard from '../Cards/HomeCard';
+import Features from './Features';
 import LeftCard from './LeftCard';
 import RightCard from './RightCard';
 import './styles.css'
@@ -24,6 +25,7 @@ const Home = () => {
                     title="1.4Lakh+  Students	"
                     description='Empowering students with seamless access to assignments, resources, and communication.' />
             </div>
+            <Features />
         </div>
 
 
