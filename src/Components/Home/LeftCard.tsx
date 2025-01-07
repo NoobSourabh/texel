@@ -1,10 +1,12 @@
 import TexelLogo from "../../assets/images/TexelLogo"
 import './leftcard.css'
 type VectorbgProps = {
-    className?: string;  
+    className?: string;
 }
 const LeftCard = ({ className }: VectorbgProps) => {
     return (
+
+
         <div className={className}>
             <div className='left-card'>
                 <p className='left-card-heading'>Empowering Education Through Seamless Connections </p>
@@ -12,7 +14,7 @@ const LeftCard = ({ className }: VectorbgProps) => {
                     <TexelLogo className='left-card-img' />
                 </div>
                 <p className='left-card-text'>Switch to paperless work and more consistent results</p>
-                <button />
+            <button className="btn">Learn More</button>
             </div>
         </div>
     )

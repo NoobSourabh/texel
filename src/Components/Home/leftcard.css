@@ -1,4 +1,4 @@
-
+/* 
 .left-card{
     @apply relative flex items-center flex-col;
 }
@@ -8,3 +8,19 @@
 .left-card-img{
     @apply absolute top-[-60%] w-full h-auto;
 }
+
+.btn{
+ @apply absolute w-[165px] h-[52px] top-[269px] gap-[10px] border border-[#937663];
+} */
+
+
+.left-card{
+    @apply  flex  flex-col gap-10 justify-between;
+}
+.left-card-img-container{
+    @apply  w-[60%] overflow-hidden;
+}
+
+.btn{
+ @apply  w-[165px] h-[52px] top-[269px] rounded-md border border-[#937663] ;
+} 

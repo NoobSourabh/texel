@@ -1,17 +1,22 @@
 .home-bg{
-   @apply bg-custom-gradient w-[100vw] h-[80vh]  ;
+   @apply bg-custom-gradient w-[100vw] h-[80vh] overflow-visible ;
 }
 
 
 
 
 .vector{
-  @apply relative flex max-w-[60vw] overflow-x-hidden ml-[10vw];
+  @apply relative flex max-w-[60vw]   overflow-x-hidden;
 }
 
 .vector-bg{
-    @apply object-cover justify-center ;
+    @apply relative justify-center z-10 ;
 }
 .vector-img{
-    @apply absolute  inset-0 my-[16vh] ml-[15vw]  w-[80%] h-auto  ;
+    @apply absolute  inset-0 my-[18vh] ml-[15vw]  w-[80%] h-auto z-20  ;
+}
+
+
+.cards{
+  @apply flex justify-center items-center z-10 gap-10 mt-[-10vh];
 }

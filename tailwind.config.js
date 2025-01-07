@@ -27,6 +27,7 @@ module.exports = {
         gray: "#737373", // Custom gray color
       },
       backgroundImage: {
+        "custom-gradient":
           "linear-gradient(250.46deg, rgba(125, 93, 72, 0.37) 17.73%, rgba(227, 169, 131, 0.37) 63.1%)",
       },
     },
