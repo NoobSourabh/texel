@@ -1,0 +1,66 @@
+/* _variables.css */
+
+:root {
+  /* Font Families */
+  --ff-berlin-sans: 'Berlin Sans FB Demi', sans-serif;
+  --ff-montserrat: 'Montserrat', sans-serif;
+  --ff-konkhmer-sleokchher: 'Konkhmer Sleokchher', sans-serif;
+  --ff-inter: 'Inter', sans-serif;
+  --ff-alkatra: 'Alkatra', sans-serif;
+  --ff-ms-ui-gothic: 'MS UI Gothic', sans-serif;
+  --ff-abhaya-libre: 'Abhaya Libre', serif;
+  --ff-pt-sans-caption: 'PT Sans Caption', sans-serif;
+  --ff-arimo-hebrew: 'Arimo Hebrew Subset Italic', sans-serif;
+  --ff-abhaya-libre-semibold: 'Abhaya Libre SemiBold', serif;
+  --ff-abhaya-libre-extrabold: 'Abhaya Libre ExtraBold', serif;
+  --ff-raleway: 'Raleway', sans-serif;
+
+  /* Font Sizes */
+  --fs-xs: 12px;
+  --fs-s: 14px;
+  --fs-m: 16px;
+  --fs-l: 18px;
+  --fs-xl: 20px;
+  --fs-xxl: 24px;
+  --fs-xxx: 32px;
+  --fs-xxxx: 40px;
+  --fs-xxxxx: 48px;
+  --fs-large-heading: 60px;
+
+  /* Line Heights */
+  --lh-xs: 16px;
+  --lh-s: 18px;
+  --lh-m: 20px;
+  --lh-l: 22px;
+  --lh-xl: 28px;
+  --lh-xxl: 32px;
+  --lh-xxx: 40px;
+  --lh-heading: 50px;
+
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+
+  /* Letter Spacing */
+  --ls-tight: -0.02em;
+  --ls-normal: 0em;
+  --ls-wide: 0.1em;
+  --ls-extra-wide: 0.2em;
+
+  /* Text Decorations */
+  --text-decoration-none: none;
+  --text-decoration-underline: underline;
+  --text-decoration-line-through: line-through;
+  --text-decoration-overline: overline;
+  --text-decoration-skip: skip-ink;
+
+  /* Text Alignments */
+  --text-align-left: left;
+  --text-align-center: center;
+  --text-align-right: right;
+  --text-align-justify: justify;
+}

@@ -1,0 +1,17 @@
+.home-bg{
+   @apply bg-custom-gradient w-[100vw] h-[80vh]  ;
+}
+
+
+
+
+.vector{
+  @apply relative flex max-w-[60vw] overflow-x-hidden ml-[10vw];
+}
+
+.vector-bg{
+    @apply object-cover justify-center ;
+}
+.vector-img{
+    @apply absolute  inset-0 my-[16vh] ml-[15vw]  w-[80%] h-auto  ;
+}

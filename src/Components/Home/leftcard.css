@@ -1,0 +1,10 @@
+
+.left-card{
+    @apply relative flex items-center flex-col;
+}
+.left-card-img-container{
+    @apply relative w-full h-[180px] overflow-hidden;
+}
+.left-card-img{
+    @apply absolute top-[-60%] w-full h-auto;
+}

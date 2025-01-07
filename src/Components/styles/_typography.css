@@ -1,0 +1,44 @@
+
+/* _typography.css */
+
+/* Headings */
+h1 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-xxxxx);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-heading);
+  letter-spacing: var(--ls-normal);
+  text-align: var(--text-align-center);
+  text-decoration: var(--text-decoration-none);
+}
+
+h2 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-xxxx);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-xxl);
+  letter-spacing: var(--ls-wide);
+  text-align: var(--text-align-left);
+  text-decoration: var(--text-decoration-none);
+}
+
+h3 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-xxl);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-xl);
+  letter-spacing: var(--ls-normal);
+  text-align: var(--text-align-left);
+  text-decoration: var(--text-decoration-none);
+}
+
+/* Paragraphs */
+p {
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-m);
+  font-weight: var(--fw-regular);
+  line-height: var(--lh-m);
+  letter-spacing: var(--ls-tight);
+  text-align: var(--text-align-left);
+  text-decoration: var(--text-decoration-none);
+}
