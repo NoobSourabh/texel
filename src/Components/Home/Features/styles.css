@@ -1,0 +1,11 @@
+.ftr-container{
+  @apply w-[100vw] flex flex-col items-center  bg-secondary py-[8vh] gap-8 ;
+}
+
+h1{
+  @apply text-xxxxl font-bold text-brown;
+}
+
+.ftr-cards{
+  @apply grid grid-cols-3 gap-6 px-8 py-4 ;
+}

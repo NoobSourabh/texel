@@ -1,0 +1,32 @@
+/* ftr-card Wrapper */
+
+
+/* ftr-card Container */
+.ftr-card-container {
+  @apply w-[312px] h-[276px] p-[24px] gap-[24px] bg-white shadow-lg rounded-lg flex flex-col  items-center text-black;
+}
+
+/* Icon Container */
+.icon-container {
+  @apply w-[78.23px] h-[80px] p-[20px] flex justify-center items-center opacity-100 bg-secondary;
+}
+
+/* Icon Image */
+.icon-image {
+  @apply w-full h-full object-contain;
+}
+
+/* Layout (Heading + Description) */
+.layout {
+  @apply w-[264px] h-[auto] gap-[10px] opacity-100 flex flex-col items-center;
+}
+
+/* Heading */
+.heading {
+  @apply  text-[18px] font-medium leading-[24px] text-center text-[#1D2026] ;
+}
+
+/* Description */
+.description {
+  @apply  text-[14px] font-normal leading-[22px] text-center text-[#6E7485];
+}
