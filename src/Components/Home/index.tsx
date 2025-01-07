@@ -3,6 +3,7 @@ import Features from './Features';
 import LeftCard from './LeftCard';
 import RightCard from './RightCard';
 import './styles.css'
+import ThirdSection from './Third';
 const Home = () => {
     return (
         <div className=' flex flex-col'>
@@ -26,6 +27,7 @@ const Home = () => {
                     description='Empowering students with seamless access to assignments, resources, and communication.' />
             </div>
             <Features />
+            <ThirdSection />
         </div>
 
 

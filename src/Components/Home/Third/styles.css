@@ -1,0 +1,36 @@
+.trd-container{
+    @apply px-[8vh];
+}
+
+.trd-upper{
+    @apply flex justify-between; 
+}
+
+.left-flex{
+@apply flex flex-col items-start pt-[20vh] gap-14 ; 
+}
+
+.left-h{
+@apply w-[400px] mb-8 ; 
+}
+.left-p{
+@apply w-[350px] text-xl text-gray text-left; 
+}
+
+.rt-vector{
+    @apply w-[50%] h-[50%] ;
+}
+
+
+.trd-row{
+    @apply flex justify-center items-center gap-[10vw] mt-[20vh];
+}
+
+.trd-img{
+    @apply w-[50%];
+}
+
+.trd-p{
+    @apply w-[350px] text-gray text-xl;
+}
+
