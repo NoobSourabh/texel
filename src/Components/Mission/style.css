@@ -1,0 +1,32 @@
+.mission-bg {
+    @apply w-[100vw] h-[80vh] overflow-visible flex;
+  }
+  
+  .left-part {
+    @apply w-1/2 flex justify-center;
+  }
+  
+  .right-part {
+    @apply w-1/2 flex justify-start;
+  }
+
+  .right-heading {
+    @apply font-montserrat font-bold text-[40px] leading-[50px] tracking-[0.2px];
+  }
+  
+  @media (max-width: 640px) {
+    .right-heading {
+      @apply text-[32px] leading-[40px]; 
+    }
+  }
+
+.paragraph-ms-ui-gothic {
+    @apply font-[400] text-[20px] leading-[29px] tracking-[0.2px];
+    font-family: "MS UI Gothic", sans-serif; /* Custom font */
+  }
+  
+.paragraph-pt-sans-bold {
+    @apply font-bold text-[17px] leading-[29px] tracking-[0.2px];
+    font-family: "PT Sans Caption", sans-serif; /* Custom font */
+  }
+  
