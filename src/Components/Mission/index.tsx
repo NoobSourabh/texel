@@ -1,38 +1,33 @@
+import MissionCard from '../Cards/Mission'
 import Paragraph from './paragraph'
 import './style.css'
-
+import {  missionData } from '../../data/data'
 const Mission = () => {
 
     return (
-        <div className='m-10 space-y-32' >
-        <div className="mission-bg ">
-            <div className="left-part">
-                <h1 >Left Part</h1>
-            </div>
-        <div className="flex flex-col right-part pt-4">
-            <h1 className="right-heading"><span className="border-t-8 border-[#E74040] pt-4">OUR</span> MISSION</h1>
-            <Paragraph/>
-        </div>
-        </div>
-            <div className='flex flex-col'>
-                <div>
-                    <h1 className="right-heading"><span className="border-t-8 border-[#E74040] pt-4">OUR</span> CORE VALUES</h1>
+        <div className='mission' >
+            <div className="mission-bg ">
+                <img className='left-part' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736349938/image-13_rrdsor.svg' />
+                <div className="left-part-para">
+                    <div className='red-border-mission'></div>
+
+                    <h1 className="right-heading"><span >OUR</span> MISSION</h1>
+                    <Paragraph />
                 </div>
-                <div className='flex flex-row justify-between space-x-4'> 
-                    <div>
-                        <h1>Heading</h1>
-                        <h2>Content</h2>
-                    </div>
-
-                    <div>
-                        <h1>Heading</h1>
-                        <h2>Content</h2>
-                    </div>
-
-                    <div>
-                        <h1>Heading</h1>
-                        <h2>Content</h2>
-                    </div>
+            </div>
+            <div className='core-values'>
+                <div>
+                    <div className='red-border-mission'></div>
+                    <h1 className="right-heading"><span >OUR</span> CORE VALUES</h1>
+                </div>
+                <div className='mission-card-flex'>
+                    {missionData.map((item, index) => (
+                        <MissionCard
+                            key={index}
+                            title={`${index + 1}.  ${item.title}`} // Combine index and title with double spaces
+                            content={item.content}
+                        />
+                    ))}
                 </div>
             </div>
         </div>

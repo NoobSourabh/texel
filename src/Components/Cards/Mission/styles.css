@@ -1,0 +1,17 @@
+.mission-card{
+    @apply  flex flex-col 
+    w-[328px] h-[378px]  py-[35px] 
+     pl-[40px] pr-[10px] gap-[20px] rounded-[10px]  bg-[#9BCAC71A] shadow-lg ;
+}
+
+
+.mission-card-title{
+    @apply text-xxl font-semibold; 
+
+}
+.red-border{
+    @apply w-[50px] h-[2px] bg-[#E74040]; 
+}
+.mission-card-content{
+    @apply text-left text-s text-gray font-semibold; 
+}

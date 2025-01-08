@@ -1,36 +1,47 @@
+.mission{
+  @apply flex flex-col pt-8 mx-auto   ;
+}
+
 .mission-bg {
-    @apply w-[100vw] h-[80vh] overflow-visible flex pt-4;
-  }
+    @apply w-[100vw] overflow-visible flex pt-4;
+}
   
   .left-part {
-    @apply w-1/2 flex justify-center;
+    @apply w-1/2 h-[110vh] mr-[-5vw] flex justify-center;
   }
   
+  .left-part-para{
+    @apply flex flex-col right-part ;
+  }
    .left-part h1{
     @apply text-white text-3xl font-bold;
   }
 
   .right-part {
-    @apply w-1/2 flex justify-start;
+    @apply w-1/2 flex justify-start pl-8;
   }
 
   .right-heading {
     @apply font-montserrat font-bold text-[40px] leading-[50px] tracking-[0.2px];
   }
   
+
+  
+.core-values {
+ @apply flex p-[8vw] flex-col;
+}
+
+.red-border-mission{
+    @apply w-[90px] h-[8px] mb-10 bg-[#E74040]; 
+}
+
+.mission-card-flex{
+ @apply flex items-center gap-14 py-[10vh] ;
+}
+
   @media (max-width: 640px) {
     .right-heading {
       @apply text-[32px] leading-[40px]; 
     }
   }
 
-.paragraph-ms-ui-gothic {
-    @apply font-[400] text-[20px] leading-[29px] tracking-[0.2px];
-    font-family: "MS UI Gothic", sans-serif; /* Custom font */
-  }
-  
-.paragraph-pt-sans-bold {
-    @apply font-bold text-[17px] leading-[29px] tracking-[0.2px];
-    font-family: "PT Sans Caption", sans-serif; /* Custom font */
-  }
-  
