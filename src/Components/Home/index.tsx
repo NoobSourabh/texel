@@ -1,7 +1,8 @@
 import HomeCard from '../Cards/HomeCard';
+import Footer from '../Footer';
 import Features from './Features';
 import LastSection from './LastSection';
-import LeftCard from './LeftCard';
+import LeftCard from './LeftCard'; 
 import RightCard from './RightCard';
 import './styles.css'
 import ThirdSection from './Third';
@@ -30,6 +31,7 @@ const Home = () => {
             <Features />
             <ThirdSection />
             <LastSection />
+            <Footer />
         </div>
 
 
