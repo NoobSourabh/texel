@@ -5,9 +5,9 @@ const Mission = () => {
 
     return (
         <div className='m-10 space-y-32' >
-        <div className="mission-bg pt-4">
+        <div className="mission-bg ">
             <div className="left-part">
-                <h1 className="text-white text-3xl font-bold">Left Part</h1>
+                <h1 >Left Part</h1>
             </div>
         <div className="flex flex-col right-part pt-4">
             <h1 className="right-heading"><span className="border-t-8 border-[#E74040] pt-4">OUR</span> MISSION</h1>

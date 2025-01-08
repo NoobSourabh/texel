@@ -1,0 +1,9 @@
+.textcard{
+    @apply w-[50vw] pl-4;
+}
+.textcard h1{
+    @apply text-xxxl;
+}
+.textcard p{
+    @apply text-xl ml-14 px-6  text-left text-gray  ;
+}

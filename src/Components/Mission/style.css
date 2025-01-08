@@ -1,11 +1,15 @@
 .mission-bg {
-    @apply w-[100vw] h-[80vh] overflow-visible flex;
+    @apply w-[100vw] h-[80vh] overflow-visible flex pt-4;
   }
   
   .left-part {
     @apply w-1/2 flex justify-center;
   }
   
+   .left-part h1{
+    @apply text-white text-3xl font-bold;
+  }
+
   .right-part {
     @apply w-1/2 flex justify-start;
   }

@@ -1,5 +1,5 @@
 .footer{
-    @apply  w-[100vw]  mx-auto border-t-[3px] border-[#3F5652D6] flex flex-col;
+    @apply  bottom-0 w-[100vw]  mx-auto border-t-[3px] border-[#3F5652D6] flex flex-col;
 }
 .footer-container{
     @apply flex gap-[12vw] mx-auto justify-between;

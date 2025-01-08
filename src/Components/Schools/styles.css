@@ -1,0 +1,11 @@
+.sec-1{
+    @apply flex flex-col p-[8vh];
+}
+.sec-1 p{
+    @apply text-gray py-6;
+}
+
+
+.sec-1-para{
+@apply container mx-auto w-[60vw] mt-14 text-center text-gray ;
+}

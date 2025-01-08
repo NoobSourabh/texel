@@ -1,0 +1,6 @@
+.para-left{
+    @apply flex items-center py-[20vh];
+}
+.para-right{
+    @apply flex flex-row-reverse items-center;
+}

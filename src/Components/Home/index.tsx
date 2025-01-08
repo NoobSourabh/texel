@@ -1,5 +1,4 @@
 import HomeCard from '../Cards/HomeCard';
-import Footer from '../Footer';
 import Features from './Features';
 import LastSection from './LastSection';
 import LeftCard from './LeftCard'; 
@@ -31,7 +30,6 @@ const Home = () => {
             <Features />
             <ThirdSection />
             <LastSection />
-            <Footer />
         </div>
 
 
