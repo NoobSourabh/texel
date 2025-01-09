@@ -25,6 +25,6 @@
 }
 
 .test-role-p{
-    @apply text-gray text-sm;
+    @apply text-gray text-[18px] mt-auto;
 }
 

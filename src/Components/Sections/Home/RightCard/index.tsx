@@ -12,6 +12,7 @@ const RightCard = ({ className }: VectorbgProps) => {
             <div className='vector'>
                 <Vector className="vector-img" />
                 <Vectorbg className='vector-bg' />
+                
             </div>
 
         </div>

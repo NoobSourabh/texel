@@ -31,8 +31,8 @@ const TestimonialCard = ({ img, name, rating, testimonial, role }: CardProp) => 
                 </div>
                 <div>{renderStars(rating)}</div>
             </div>
-            <p className='testimonial-test'>{testimonial}</p>
-            <p className='test-role-p'>{role}</p>
+                <p className='testimonial-test'>{testimonial}</p>
+                <p className='test-role-p'>{role}</p>
         </div>
     )
 }

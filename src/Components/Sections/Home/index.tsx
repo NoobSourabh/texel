@@ -1,7 +1,7 @@
 import HomeCard from '../../UI/Cards/HomeCard';
 import Features from './Features';
 import LastSection from './LastSection';
-import LeftCard from './LeftCard'; 
+import LeftCard from './LeftCard';
 import RightCard from './RightCard';
 import './styles.css'
 import ThirdSection from './Third';
