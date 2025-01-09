@@ -11,7 +11,7 @@ import ContactUs from './Components/Sections/Contact Us';
 const App = () => {
   return (
     <Router>
-      <div >
+      <div className='overflow-x-hidden'>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
