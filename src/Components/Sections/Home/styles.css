@@ -1,6 +1,9 @@
 .home-bg{
-   @apply bg-custom-gradient w-[100vw] h-[80vh] overflow-visible ;
-}
+   @apply h-[48vh] md:bg-custom-gradient w-[100vw] md:h-[80vh] overflow-visible ;
+  }
+  .home-bg-vector{
+      @apply bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736451635/image-25_ghktac.svg')] bg-cover bg-no-repeat md:bg-custom-gradient;
+  }
 
 
 
@@ -12,8 +15,13 @@
 .vector-bg{
     @apply relative justify-center z-10 ;
 }
-.vector-img{
-    @apply absolute  inset-0 my-[18vh] ml-[15vw]  w-[80%] h-auto z-20  ;
+.vector-img-full{
+    /* @apply absolute  inset-0 my-[18vh] ml-[15vw]  w-[80%] h-auto z-20  ; */
+    @apply hidden md:h-[95vh] h-[100vw] md:mt-0 mt-[20vh] md:block;
+}
+.vector-img-mobile{
+    /* @apply absolute  inset-0 my-[18vh] ml-[15vw]  w-[80%] h-auto z-20  ; */
+    @apply md:h-[95vh] h-[100vw] md:mt-0 mt-[20vh] md:hidden;
 }
 
 
@@ -21,3 +29,14 @@
   @apply  flex flex-col justify-center items-center z-10 gap-10 mt-[-10vh] pb-[10vh];
   @apply  md:flex-row;
 }
+
+/* .right-card-div{
+  @apply flex;
+} */
+.left-card-div{
+  @apply  pl-[4vw] md:pt-[18vh] pt-[4vh] md:w-[50vw];
+}
+.right-vector-img{
+  @apply w-[50vw];
+}
+

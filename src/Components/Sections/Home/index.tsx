@@ -8,9 +8,9 @@ import ThirdSection from './Third';
 const Home = () => {
     return (
         <div className=' flex flex-col'>
-            <div className="home-bg flex justify-between ">
-                <LeftCard className=' px-[4vw] pt-[18vh]' />
-                <RightCard className='top-[40vh]' />
+            <div className="home-bg home-bg-vector flex justify-between ">
+                <LeftCard className='left-card-div ' />
+                <RightCard className='right-card-div' />
             </div>
 
             <div className='cards'>

@@ -1,11 +1,26 @@
 
 .left-card{
-    @apply  flex  flex-col gap-10 justify-between;
+    @apply  flex  flex-col md:gap-10 justify-between md:w-[40vw];
+    @apply  gap-4 w-[48vw];
+
 }
 .left-card-img-container{
-    @apply  w-[60%] overflow-hidden;
+    @apply  md:w-[60%] overflow-hidden ;
+}
+.left-card-img{
+    @apply  w-[120px] md:w-[500px];
 }
 
+
 .btn{
- @apply  w-[165px] h-[52px] top-[269px] rounded-md border border-[#937663] ;
+ @apply md:text-m w-[56px] h-[17px] md:w-[165px] md:h-[52px] top-[269px] md:rounded-md border border-[#937663] 
+ text-[7px] rounded-sm 
+ ;
 } 
+
+.left-card-heading{
+    @apply text-[11px] md:text-m text-brown font-bold py-2 md:py-4;
+}
+.left-card-text{
+    @apply text-[11px] md:text-m text-brown py-2 md:py-4 ;
+}
