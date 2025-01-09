@@ -1,0 +1,51 @@
+.contact-container{
+    @apply flex w-full px-14 py-14 gap-12;
+}
+.left-contact{
+    @apply flex flex-col w-[40vw];
+}
+.left-contact p{
+    @apply text-s text-gray py-5 mb-4;
+}
+
+.about-img{
+    @apply p-8;
+}
+
+.right-contact{
+    /* @apply my-auto mx-auto items-center; *
+    /* @apply content-center mx-auto; */
+    @apply  flex flex-col  mx-auto justify-center;
+}
+
+.form{
+    @apply flex flex-col gap-6 items-center pt-4;
+}
+
+label{
+    @apply text-sm font-semibold text-gray;
+}
+
+input ,.textarea{
+   @apply w-[40vw] h-[56px] p-4
+    gap-2
+    rounded-[8px]
+    border border-solid border-[#CCCCCC]
+    font-sans text-[16px] font-[400] leading-[24px] text-left
+    text-gray
+}
+
+.textarea{
+    @apply h-[100px];
+}
+button{
+    @apply bg-[#79B4B5] w-1/4 p-4 rounded-md text-white  ;
+}
+
+.input-div{
+    @apply flex flex-col gap-2;
+}
+
+/* h1{
+    @apply pl-[10vw];
+} */
