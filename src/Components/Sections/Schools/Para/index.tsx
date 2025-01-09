@@ -1,5 +1,5 @@
 import SCard from "../SchoolCard";
-import { schoolCardPropData } from "../../../data/data";
+import { schoolCardPropData } from "../../../../data/data";
 const Para = () => {
     return (
         <div>

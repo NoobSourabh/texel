@@ -32,7 +32,7 @@
 }
 
 .red-border-mission{
-    @apply w-[90px] h-[8px] mb-10 bg-[#E74040]; 
+    @apply w-[90px] h-[8px] mb-5 bg-[#E74040]; 
 }
 
 .mission-card-flex{

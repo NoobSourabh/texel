@@ -1,4 +1,4 @@
-import HomeCard from '../Cards/HomeCard';
+import HomeCard from '../../UI/Cards/HomeCard';
 import Features from './Features';
 import LastSection from './LastSection';
 import LeftCard from './LeftCard'; 

@@ -6,3 +6,7 @@ export type TextCardProps = {
 export type SchoolCard = TextCardProps & {
     imgUrl: string
 }
+
+export type RedHeadingProp = {
+    heading: string
+}

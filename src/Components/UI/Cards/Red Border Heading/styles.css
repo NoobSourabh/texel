@@ -1,0 +1,7 @@
+.red-border-heading{
+    @apply w-[90px] h-[8px] mb-5 bg-[#E74040]; 
+}
+
+.heading{
+    @apply inline-flex font-montserrat font-bold text-[36px] leading-[50px] tracking-[0.2px];
+}

@@ -1,7 +1,8 @@
-import MissionCard from '../Cards/Mission'
+import MissionCard from '../../UI/Cards/Mission'
 import Paragraph from './paragraph'
 import './style.css'
-import {  missionData } from '../../data/data'
+import { missionData } from '../../../data/data'
+import RedHeading from '../../UI/Cards/Red Border Heading'
 const Mission = () => {
 
     return (
@@ -9,16 +10,13 @@ const Mission = () => {
             <div className="mission-bg ">
                 <img className='left-part' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736349938/image-13_rrdsor.svg' />
                 <div className="left-part-para">
-                    <div className='red-border-mission'></div>
-
-                    <h1 className="right-heading"><span >OUR</span> MISSION</h1>
+                    <RedHeading heading='OUR MISSION' />
                     <Paragraph />
                 </div>
             </div>
             <div className='core-values'>
                 <div>
-                    <div className='red-border-mission'></div>
-                    <h1 className="right-heading"><span >OUR</span> CORE VALUES</h1>
+                    <RedHeading heading='OUR CORE VALUES' />
                 </div>
                 <div className='mission-card-flex'>
                     {missionData.map((item, index) => (

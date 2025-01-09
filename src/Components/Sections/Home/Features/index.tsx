@@ -1,4 +1,4 @@
-import FeatureCard from "../../Cards/Features"
+import FeatureCard from '../../../UI/Cards/Features'
 import './styles.css'
 const Features = () => {
     return (

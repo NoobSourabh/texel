@@ -1,10 +1,11 @@
 import './App.css'
-import Header from './Components/Header'
-import Home from './Components/Home'
-import Mission from './Components/Mission'
+import Header from './Components/UI/Header'
+import Home from './Components/Sections/Home';
+import Mission from './Components/Sections/Mission';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import School from './Components/Schools';
-import Footer from './Components/Footer';
+import School from './Components/Sections/Schools';
+import Footer from './Components/UI/Footer';
+import About from './Components/Sections/About';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/mission" element={<Mission />} />
           <Route path="/for-schools" element={<School />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>

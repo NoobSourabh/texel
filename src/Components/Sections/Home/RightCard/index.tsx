@@ -1,5 +1,5 @@
-import Vector from "../../../assets/images/Vector";
-import Vectorbg from "../../../assets/images/Vectorbg";
+import Vector from "../../../../assets/images/Vector";
+import Vectorbg from "../../../../assets/images/Vectorbg";
 import '../styles.css'
 // import './rightcard.css'
 

@@ -1,6 +1,6 @@
 import './styles.css';
 
-import { TextCardProps } from '../../../Types/PropTypes';
+import { TextCardProps } from '../../../../Types/PropTypes';
 
 const TextCard = ({ heading, paragraph }: TextCardProps) => {
     return (

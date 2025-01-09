@@ -1,4 +1,4 @@
-import TexelLogo from "../../../assets/images/TexelLogo"
+import TexelLogo from '../../../../assets/images/TexelLogo';
 import './styles.css'
 type VectorbgProps = {
     className?: string;

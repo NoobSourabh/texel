@@ -1,0 +1,31 @@
+.about-container{
+   @apply flex flex-col  py-[50px]; 
+}
+
+.about-header{
+@apply px-[100px];
+}
+.about-flex{
+    @apply flex w-full items-center justify-between  pr-10;
+}
+.about-flex img{
+    @apply w-[30vw] my-14;
+}
+
+.about-para{
+    @apply flex flex-col w-[60vw] gap-8 text-m text-gray px-[12vw];
+}
+
+.lower-flex{
+    @apply flex px-16  ;
+}
+.lower-flex img{
+    @apply w-[40vw] ;
+}
+.lower-flex-para{
+    @apply flex flex-col gap-10 px-4 ;
+}
+.lower-flex-para p{
+    @apply py-8 text-gray;
+}
+
