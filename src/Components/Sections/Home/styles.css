@@ -27,7 +27,7 @@
 
 .cards{
   @apply  flex flex-col justify-center items-center z-10 gap-10 mt-[-10vh] pb-[10vh];
-  @apply  md:flex-row;
+  @apply  md:flex-row ; 
 }
 
 /* .right-card-div{
