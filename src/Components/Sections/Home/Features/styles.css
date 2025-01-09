@@ -1,5 +1,5 @@
 .ftr-container{
-  @apply w-[100vw] flex flex-col items-center  bg-secondary py-[8vh] gap-8 ;
+  @apply w-[100vw] flex flex-col items-center  bg-[#E9D7CA] py-[8vh] gap-8 ;
 }
 
 .ftr-h1{
