@@ -65,3 +65,36 @@ export const schoolCardPropData = [
     position: "para-right",
   },
 ]
+
+
+
+export const testimonialData = [
+  {
+    img: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736416392/image-21_w35ugb.svg',
+    name: 'Ananya R.',
+    rating: 5,
+    testimonial: "Texel has made our lives so much easier. As a busy parent, staying on top of my child's schoolwork was stressful. Now, I get instant updates on everything. We're more connected and I have more information about my child’s education.",
+    role: 'A Parent'
+  },
+  {
+    img: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736416392/image-21_w35ugb.svg',
+    name: 'Ms Shreya S.',
+    rating: 5,
+    testimonial: "Texel is fantastic for keeping parents in the loop. They know what's going on with their kids, which makes my job easier and helps the students do better. It's a win-win!",
+    role: 'A Parent'
+  },
+  {
+    img: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736416392/image-21_w35ugb.svg',
+    name: 'Mr. Amit M.',
+    rating: 5,
+    testimonial: "Texel helps us talk better with parents by sharing updates about their children right away. The system keeps all our school data organized and error-free. Its easy-to-read reports help us make better choices for our students, teachers and staff. Parents love being more involved, which has naturally boosted our admissions.",
+    role: 'A Principal'
+  },
+  {
+    img: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736416392/image-21_w35ugb.svg',
+    name: 'Ravi P.',
+    rating: 5,
+    testimonial: "Texel is a lifesaver! I don't have to nag about homework to my child. The app tells me everything I need to know, so I can help my child better. It's been a game-changer for us.",
+    role: 'A Parent'
+  }
+];

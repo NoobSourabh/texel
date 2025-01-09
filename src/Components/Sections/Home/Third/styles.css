@@ -23,7 +23,7 @@
 
 
 .trd-row{
-    @apply flex justify-center items-center gap-[10vw] mt-[20vh];
+    @apply flex gap-[20vw] justify-center items-center gap-[10vw] mt-[20vh];
 }
 
 .trd-img{
@@ -31,6 +31,29 @@
 }
 
 .trd-p{
-    @apply w-[350px] text-gray text-xl;
+    @apply max-w-[350px] h-[10vh] text-gray text-xl ;
 }
 
+.testimonial-scroll{
+    @apply flex  overflow-x-auto snap-x scroll-smooth py-8 auto-scroll overflow-y-visible content-center;
+box-shadow: 
+        0px 0px 0px 0px rgba(0, 0, 0, 0.1),               /* light shadow */
+        0px 21px 46px 0px rgba(0, 0, 0, 0.1),              /* subtle blur shadow */
+        0px 83px 83px 0px rgba(0, 0, 0, 0.09),             /* medium blur shadow */
+        0px 187px 112px 0px rgba(0, 0, 0, 0.05),           /* deep blur shadow */
+        0px 333px 133px 0px rgba(0, 0, 0, 0.02),           /* large spread shadow */
+        0px 520px 146px 0px rgba(0, 0, 0, 0.00);
+}
+
+@keyframes auto-scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.auto-scroll {
+    animation: auto-scroll 20s linear infinite;
+}

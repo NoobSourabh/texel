@@ -1,0 +1,30 @@
+.testimonial-card{
+@apply  mt-12 mb-[-40px] flex flex-col flex-shrink-0 mx-8  max-w-[600px] p-8 rounded-3xl gap-4 text-left;
+ box-shadow: 
+        0px 0px 0px 0px rgba(0, 0, 0, 0.1),               /* light shadow */
+        0px 21px 46px 0px rgba(0, 0, 0, 0.1),              /* subtle blur shadow */
+        0px 83px 83px 0px rgba(0, 0, 0, 0.09),             /* medium blur shadow */
+        0px 187px 112px 0px rgba(0, 0, 0, 0.05),           /* deep blur shadow */
+        0px 333px 133px 0px rgba(0, 0, 0, 0.02),           /* large spread shadow */
+        0px 520px 146px 0px rgba(0, 0, 0, 0.00);
+}
+
+.upper-flex{
+    @apply flex items-center justify-between;
+}
+
+.inner-upper-flex{
+    @apply flex items-center gap-4 p-3;
+}
+
+.testimonial-heading{
+    @apply font-bold text-l;
+}
+.testimonial-test{
+    @apply  text-l;
+}
+
+.test-role-p{
+    @apply text-gray text-sm;
+}
+
