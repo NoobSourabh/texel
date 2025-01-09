@@ -13,9 +13,9 @@
   .left-part-para{
     @apply flex flex-col right-part ;
   }
-   .left-part h1{
+   /* .left-part h1{
     @apply text-white text-3xl font-bold;
-  }
+  } */
 
   .right-part {
     @apply w-1/2 flex justify-start pl-8;

@@ -1,17 +1,17 @@
-.card-container {
+.homecard-container {
   @apply w-[328px] h-[290px] p-[30px] gap-[15px]  bg-white shadow-lg rounded-lg flex flex-col justify-between text-black;
    box-shadow: 0px 13px 19px 0px #00000012; 
 }
 
-.img-container{
+.home-img-container{
     @apply w-[72px];
 }
 
-.card-title {
+.home-card-title {
   @apply font-montserrat text-xxl font-bold leading-8 tracking-tight text-left  ;
 }
 
-.card-description {
+.home-card-description {
   @apply font-montserrat text-s font-bold leading-6 tracking-wide text-left text-gray;
 }
 

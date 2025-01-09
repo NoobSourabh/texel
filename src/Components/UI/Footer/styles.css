@@ -25,7 +25,7 @@
     @apply text-s text-gray;
 }
 
-.footer h3{
+.footer-h3{
         @apply text-l font-semibold;
 
 }

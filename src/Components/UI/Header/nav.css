@@ -22,7 +22,7 @@
   @apply w-[80px];
 }
 
-.navbar ul {
+.navbar-ul {
   @apply flex space-x-8 pr-10;
 }
 

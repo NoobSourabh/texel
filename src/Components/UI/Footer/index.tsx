@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
                 <div className='grid-2 '>
                     <div>
-                        <h3>Know Us</h3>
+                        <h3 className="footer-h3">Know Us</h3>
                     </div>
 
                     <div className='inner-grid-2'>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
                 <div className='grid-2'>
                     <div>
-                        <h3>Contact Us</h3>
+                        <h3 className="footer-h3">Contact Us</h3>
                     </div>
                     <div className='inner-grid-2'>
                         <a href=''>contact@mytexel.com</a>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                 <div className='grid-2'>
                     <div>
-                        <h3>Social</h3>
+                        <h3 className="footer-h3">Social</h3>
                     </div>
                     <div className='social'>
                         <a href=''>

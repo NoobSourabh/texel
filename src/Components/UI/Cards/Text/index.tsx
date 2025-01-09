@@ -5,8 +5,8 @@ import { TextCardProps } from '../../../../Types/PropTypes';
 const TextCard = ({ heading, paragraph }: TextCardProps) => {
     return (
         <div className="textcard">
-            <h1>{heading}</h1>
-            <p  dangerouslySetInnerHTML={{ __html: paragraph }} />
+            <h1 className='textcard-h1'>{heading}</h1>
+            <p className='textcard-p'  dangerouslySetInnerHTML={{ __html: paragraph }} />
         </div>
     );
 };

@@ -94,7 +94,7 @@ const ContactForm: React.FC = () => {
             </div>
 
             {/* Submit Button */}
-            <button type="submit">Submit</button>
+            <button className="form-button" type="submit">Submit</button>
         </form>
     );
 };

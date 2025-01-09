@@ -3,13 +3,13 @@
   background-image: url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736273015/image_l7j3me.svg'); /* Update with your image path */
 }
 
-h1{
+.last-section-h1{
     @apply text-black text-xxl;
 }
 .lst-flex{
     @apply flex flex-col gap-6 text-center w-[500px];
 }
-.lst-flex p{
+.lst-flex-p{
     @apply text-gray;
 }
 
@@ -17,9 +17,9 @@ h1{
     @apply flex flex-col pt-[250px] px-[8vw] gap-4;
 }
 
-.lst-lower-flex p{
+.lst-lower-flex-p{
     @apply w-[40vw];
 }
-.lst-lower-flex h2{
+.lst-lower-flex-h2{
     @apply w-[60vw] text-xxl italic font-bold;
 }

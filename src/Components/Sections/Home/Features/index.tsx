@@ -3,7 +3,7 @@ import './styles.css'
 const Features = () => {
     return (
         <div className="ftr-container">
-            <h1>FEATURES</h1>
+            <h1 className='ftr-h1'>FEATURES</h1>
             <div className="ftr-cards">
                 <FeatureCard iconUrl="https://res.cloudinary.com/dswwp9dju/image/upload/v1736230741/dee039ead5e4df247307897d969daddf_u3gr17.png"
                     heading="Attendance Tracking"

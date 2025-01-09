@@ -9,7 +9,7 @@ const Header = () => {
                 <h1 className='font-berlin'>TEXEL</h1>
             </div>
 
-            <ul>
+            <ul className='navbar-ul'>
                 <li><a href="/">Home</a></li>
                 <li><a href="/for-schools">For Schools</a></li>
                 <li><a href="/mission">Mission</a></li>

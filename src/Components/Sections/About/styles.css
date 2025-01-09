@@ -8,7 +8,7 @@
 .about-flex{
     @apply flex w-full items-center justify-between  pr-10;
 }
-.about-flex img{
+.about-flex-img{
     @apply w-[30vw] my-14;
 }
 
@@ -19,13 +19,13 @@
 .lower-flex{
     @apply flex px-16  ;
 }
-.lower-flex img{
+.lower-flex-img{
     @apply w-[40vw] ;
 }
 .lower-flex-para{
     @apply flex flex-col gap-10 px-4 ;
 }
-.lower-flex-para p{
+.lower-flex-p{
     @apply py-8 text-gray;
 }
 
