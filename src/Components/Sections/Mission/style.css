@@ -7,19 +7,19 @@
 }
   
   .left-part {
-    @apply w-1/2 h-[110vh] mr-[-5vw] flex justify-center;
+    @apply hidden md:block w-1/2 h-[110vh] mr-[-5vw]  justify-center;
   }
   
   .left-part-para{
-    @apply flex flex-col right-part ;
+    @apply w-full flex flex-col md:w-1/2 p-4 md:pl-8 content-center;
   }
    /* .left-part h1{
     @apply text-white text-3xl font-bold;
   } */
 
-  .right-part {
-    @apply w-1/2 flex justify-start pl-8;
-  }
+  /* .right-part {
+    @apply  ;
+  } */
 
   .right-heading {
     @apply font-montserrat font-bold text-[40px] leading-[50px] tracking-[0.2px];
@@ -28,7 +28,7 @@
 
   
 .core-values {
- @apply flex p-[8vw] flex-col;
+ @apply flex p-4 md:p-[8vw] flex-col;
 }
 
 .red-border-mission{
@@ -36,7 +36,7 @@
 }
 
 .mission-card-flex{
- @apply flex items-center gap-14 py-[10vh] ;
+ @apply flex flex-col md:flex-row items-center gap-14 py-7 md:py-[10vh] ;
 }
 
   @media (max-width: 640px) {
@@ -45,3 +45,19 @@
     }
   }
 
+
+.mobile-vector-mission{
+@apply md:hidden py-8;
+}
+
+
+
+.paragraph-section{
+  @apply   mt-4 mr-5 md:mr-10 ;
+}  
+.paragraph-wrapper{
+  @apply  text-[#737373] flex flex-col gap-6;
+}  
+.paragraph-wrapper-p{
+  @apply text-[#737373] text-[13px] md:text-m;
+}  

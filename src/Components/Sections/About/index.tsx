@@ -8,7 +8,8 @@ const About = () => {
                 <div className='px-8 pb-8'>
                     <RedHeading heading="ABOUT US" />
                 </div>
-                <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736359263/image-15_h9qvx7.svg' />
+                <img className='about-heading' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736359263/image-15_h9qvx7.svg' />
+                <img className='about-heading-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736494533/image-34_strl8l.svg' />
             </div>
             <div className='about-flex'>
                 <div className='about-para'>
@@ -16,11 +17,12 @@ const About = () => {
                     <p className='lower-flex-p'>Texel makes it <b>easy for parents to communicate</b> with their children since it keeps them informed, condensing school assignments, and improves the home atmosphere due to fewer reminders. With Texel, parents can enjoy updates on regular school alerts. </p>
                 </div>
                 <img className='about-flex-img' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736365099/image-18_zhrbgp.svg' />
+                <img className='about-flex-img-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736496127/image-35_ygdmdz.svg'/>
             </div>
 
             <div className='lower-flex'>
                 <img className='lower-flex-img' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736365096/image-19_osefol.svg' />
-
+                <img className='lower-flex-img-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736499181/image-36_bxdsmp.svg' />
                 <div className='lower-flex-para'>
                     <div className='vision-flex'>
                         <RedHeading heading="OUR VISION" />

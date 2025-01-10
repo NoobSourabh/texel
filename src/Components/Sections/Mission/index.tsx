@@ -12,6 +12,7 @@ const Mission = () => {
                 <div className="left-part-para">
                     <RedHeading heading='OUR MISSION' />
                     <Paragraph />
+                    <img className='mobile-vector-mission' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736493151/image-33_xv9hmi.svg' />
                 </div>
             </div>
             <div className='core-values'>
