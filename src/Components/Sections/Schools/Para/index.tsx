@@ -2,15 +2,18 @@ import SCard from "../SchoolCard";
 import { schoolCardPropData } from "../../../../data/data";
 const Para = () => {
     return (
-        <div>
+        <div className="">
             {schoolCardPropData.map((item, index) => (
-                <SCard
-                    key={index}
-                    heading={item.heading}
-                    paragraph={item.paragraph}
-                    imgUrl={item.imgUrl}
-                    position={item.position}
-                />
+                <div className="scard-position">
+
+                    <SCard
+                        key={index}
+                        heading={item.heading}
+                        paragraph={item.paragraph}
+                        imgUrl={item.imgUrl}
+                        position={item.position}
+                    />
+                </div>
             ))}
         </div>
     );

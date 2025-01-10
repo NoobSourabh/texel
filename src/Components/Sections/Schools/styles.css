@@ -1,11 +1,19 @@
 .sec-1{
-    @apply flex flex-col p-[8vh];
-}
-.sec-1-p{
-    @apply text-gray py-6;
+    @apply flex flex-col md:p-[8vh] p-2 w-full;
 }
 
+.sec-1-img-mob{
+    @apply md:hidden block;
+}
+.sec-1-img{
+    @apply md:block hidden w-full;
+}
+
+.sec-1-p{
+    @apply text-gray py-4 md:py-6 md:text-left text-center;
+}
 
 .sec-1-para{
-@apply container mx-auto w-[60vw] mt-14 text-center text-gray ;
+@apply container mx-auto px-2 w-full md:px-0 md:w-[60vw]  md:mt-14  text-gray ;
 }
+

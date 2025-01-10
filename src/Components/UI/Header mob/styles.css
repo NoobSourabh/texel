@@ -1,0 +1,3 @@
+.navbar-mob-ul{
+    @apply flex flex-col;
+}

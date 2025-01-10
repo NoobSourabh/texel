@@ -47,7 +47,7 @@ export const schoolCardPropData = [
   {
     heading: "4. Time-Saving Administration  ",
     paragraph: `With Texel, teachers and parents can be <i>relaxed and assured</i> that the data they are seeing is <strong>&nbsp;100% consistent</strong> and accurate since Texel helps eliminate all the manual work <strong/>helping reduce errors.</strong> With such a system teachers can truly focus on things that actually matter that is <strong>&nbsp;teaching and learning.</strong>`,
-    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736323793/image-8_r4t44u.svg",
+    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736323784/image-9_yis9na.svg",
     position: "para-right",
   },
   {

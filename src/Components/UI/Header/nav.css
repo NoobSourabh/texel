@@ -7,12 +7,9 @@
 }
 
 .navbar {
-  @apply flex justify-between items-center  pl-10 bg-white  top-0   z-50 w-full h-auto;
+  @apply flex  justify-between items-center  md:pl-10 pl-3 bg-white  top-0   z-50 w-full h-auto ;
 }
 
-.logo{
-  @apply flex items-center font-berlinSans;
-}
 
 .navbar .logo {
   @apply font-bold text-xl text-logoclr;
@@ -23,9 +20,40 @@
 }
 
 .navbar-ul {
-  @apply flex space-x-8 pr-10;
+  @apply hidden md:flex justify-around  w-[423px] h-[24px]  flex-shrink-0;
+}
+.navbar ul li a {
+  /* @apply text-s text-gray font-bold font-montserrat tracking-wider; */
+  @apply text-[color:var(--second-text-color,#737373)] text-center font-montserrat text-[14px] font-bold leading-[24px] ;
+  
 }
 
-.navbar ul li a {
-  @apply text-s text-gray font-bold font-montserrat tracking-wider;
+
+.logo{
+  @apply flex items-center;
+}
+
+
+.navigation-container {
+    @apply hidden md:flex flex-row-reverse items-end justify-around w-[423px] mr-[22px] ;
+}
+
+.nav-about-us {
+    @apply  flex items-center justify-end top-0 left-[230px] h-6 text-center text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.nav-for-schools {
+    @apply  text-center top-0 left-[62px] text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.nav-mission {
+    @apply  flex items-center justify-center top-0 left-[171px] px-1 text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.nav-contact-us {
+    @apply  text-center top-0 left-[334px] text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.nav-home {
+    @apply  flex items-center justify-center top-0 left-0 w-11 h-6 px-1 text-gray text-sm font-bold leading-6 tracking-wider;
 }
