@@ -24,11 +24,10 @@
     @apply md:h-[95vh] h-[100vw] md:mt-0 mt-[20vh] md:hidden;
 }
 
-
 .cards{
-  @apply  flex flex-col justify-center items-center z-10 gap-10 mt-[-10vh] pb-[10vh];
-  @apply  md:flex-row ; 
+  @apply w-[1440px] h-[100px] pt-[50px] pb-[270.40px] flex justify-center items-center ;
 }
+
 
 /* .right-card-div{
   @apply flex;
@@ -40,3 +39,53 @@
   @apply w-[50vw];
 }
 
+
+
+.inner-left-home-container {
+  @apply w-[531px] h-[321px] pr-[57.50px] justify-start items-center inline-flex overflow-hidden;
+}
+
+.inner-left-home-wrapper {
+  @apply w-[513px] h-[321.40px] relative;
+}
+
+.inner-left-home-header {
+  @apply w-[513px] h-[234px] left-0 top-0 absolute;
+}
+
+.inner-left-home-title {
+  @apply left-[41px] top-0 absolute;
+}
+
+.inner-left-home-main-text {
+  @apply text-[#7d5d48]/80 text-[16px] font-bold font-['Montserrat'] leading-normal tracking-tight;
+}
+
+.inner-left-home-sub-text {
+  @apply text-[#96bb7c] text-base font-bold font-['Montserrat'] leading-normal tracking-tight;
+}
+
+.inner-left-home-description {
+  /* @apply w-[450px] left-[41px] top-[174px] absolute text-[#2c221c]/80 text-xl font-normal font-['Montserrat'] leading-[30px] tracking-tight; */
+  @apply w-[450px] left-[41px] top-[174px] absolute text-[#2c221c]/80 text-xl font-normal font-['Montserrat'] leading-[30px] tracking-tight;
+}
+
+.inner-left-home-image {
+  @apply w-[332px] h-[171px] left-0 flex-shrink-0 pl-[40px] top-[12px] absolute;
+}
+
+.inner-left-home-button-container {
+  @apply h-[52px] left-[39.50px] top-[269.40px] absolute justify-start items-start gap-2.5 inline-flex;
+}
+
+.inner-left-home-button {
+  @apply px-10 py-[15px] rounded-[5px] border border-[#937663] justify-center items-center flex overflow-hidden;
+}
+
+.inner-left-home-button-text {
+  @apply text-center text-[#937663] text-sm font-bold font-['Montserrat'] leading-snug tracking-tight;
+}
+
+.gradient-background {
+  background: linear-gradient(250deg, rgba(125, 93, 72, 0.37) 17.73%, rgba(227, 169, 131, 0.37) 63.1%);
+}

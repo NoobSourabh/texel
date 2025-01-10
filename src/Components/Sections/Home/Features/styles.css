@@ -1,9 +1,10 @@
 .ftr-container{
-  @apply w-[100vw] flex flex-col items-center  bg-[#E9D7CA] py-[8vh] gap-8 ;
+  /* @apply px-[300px] pb-20 flex flex-col items-center  bg-[#e9d7ca] flex-col justify-center items-center inline-flex; */
+  @apply w-[100vw] flex flex-col items-center  bg-[#E9D7CA] py-[8vh] gap-6 ;
 }
 
 .ftr-h1{
-  @apply text-[36px] md:text-xxxxl font-bold text-brown;
+  @apply mt-[119px] text-[36px] md:text-xxxxl font-bold text-brown;
 }
 
 .ftr-cards{

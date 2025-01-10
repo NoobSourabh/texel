@@ -21,6 +21,20 @@ const FeatureCard = ({ iconUrl, heading, description }: cardProps) => {
                 </div>
             </div>
         </div>
+
+        // <div className="feature-card">
+        //     <div className="feature-card-content">
+        //         <div className="feature-card-icon">
+        //             <img src={iconUrl} alt="Feature Icon" className="feature-card-image" />
+        //         </div>
+        //         <div className="feature-card-details">
+        //             <h3 className="feature-card-title">{heading}</h3>
+        //             <p className="feature-card-text">{description}</p>
+        //         </div>
+        //     </div>
+        // </div>
+
+
     );
 };
 

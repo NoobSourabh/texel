@@ -98,3 +98,22 @@ export const testimonialData = [
     role: 'A Parent'
   }
 ];
+
+
+export const cardData = [
+  {
+    url: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736225069/b31997dbc83bc1743782e79d556364f5_iyauhx.png',
+    title: '7+ Cities',
+    description: 'Connecting educational communities across multiple cities for a united learning experience',
+  },
+  {
+    url: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736227819/f6401fbd87dbcda96c29cd8a720b2907_rpcff3.png',
+    title: '118+ Schools',
+    description: 'Fostering collaboration and growth in schools with state-of-the-art educational technology',
+  },
+  {
+    url: 'https://res.cloudinary.com/dswwp9dju/image/upload/v1736225068/8628da21ae0eded15a1d77d2f1659641_apiuhu.png',
+    title: '1.4Lakh+ Students',
+    description: 'Empowering students with seamless access to assignments, resources, and communication.',
+  },
+];

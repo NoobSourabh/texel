@@ -2,8 +2,10 @@ import FeatureCard from '../../../UI/Cards/Features'
 import './styles.css'
 const Features = () => {
     return (
-        <div className="ftr-container">
-            <h1 className='ftr-h1'>FEATURES</h1>
+        // <div className="ftr-container">
+        <div className="w-[100vw] h-[1024px] pb-20 bg-[#e9d7ca]  flex flex-col justify-center items-center inline-flex">
+
+            <div className="w-[518px] h-[103px] text-center text-[#8a6d59] text-5xl font-normal font-['Konkhmer Sleokchher'] leading-[48px]">FEATURES <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
             <div className="ftr-cards">
                 <FeatureCard iconUrl="https://res.cloudinary.com/dswwp9dju/image/upload/v1736230741/dee039ead5e4df247307897d969daddf_u3gr17.png"
                     heading="Attendance Tracking"
