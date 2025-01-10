@@ -1,3 +1,4 @@
+import LastSection from '../../Home/LastSection';
 import HomeCard from '../../UI/Cards/HomeCard';
 import Features from './Features';
 // import LastSection from './LastSection';
@@ -58,7 +59,7 @@ const Home = () => {
                         <div className="w-[415px] self-stretch pr-[415px] pb-[280px]" >
                         </div>
                     </div>
-                    <img className='w-[50vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
+                    <img className='w-[60vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
                 </div>
 
             </div>
@@ -81,6 +82,7 @@ const Home = () => {
 
             <Features />
             <ThirdSection />
+            <LastSection />
 
         </div>
 

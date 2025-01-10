@@ -9,6 +9,7 @@ module.exports = {
         arimo: ["Arimo", "sans-serif"],
         berlinSans: ["Berlin Sans FB Demi", "sans-serif"],
         msUIGothic: ["MS UI Gothic", "sans-serif"],
+        ptsans: ['"PT Sans Caption"', "sans-serif"],
       },
       fontSize: {
         xs: "12px",
@@ -23,7 +24,7 @@ module.exports = {
         largeHeading: "60px",
       },
       colors: {
-        brown:"#8A6D59",
+        brown: "#8A6D59",
         logoclr: "#252B42",
         gray: "#737373",
         secondary: "#F5E8DF", // Custom gray color

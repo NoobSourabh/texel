@@ -8,7 +8,7 @@
 }
 
 
-.background-image {
+.ladder-background-image {
   @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736273015/image_l7j3me.svg')] bg-cover bg-center rounded-2xl  w-full h-[120vh]   flex flex-col ;
 }
 

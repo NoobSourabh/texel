@@ -25,7 +25,7 @@
 }
 
 .cards{
-  @apply w-[1440px] h-[100px] pt-[50px] pb-[270.40px] flex justify-center items-center ;
+  @apply w-[1440px] h-[20px] mb-[-60px] pt-[50px] pb-[270.40px] flex justify-center items-center ;
 }
 
 

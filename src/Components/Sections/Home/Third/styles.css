@@ -8,7 +8,7 @@
 }
 
 .left-flex{
-@apply flex flex-col  items-start  pt-[20vh] gap-8 md:gap-14  ; 
+@apply flex flex-col  items-start pl-[50px] pt-[15vh] gap-8 md:gap-14  ; 
 }
 .trd-img{
     @apply w-[100vw] md:w-[50%];
@@ -22,7 +22,8 @@
 }
 
 .left-p{
-@apply w-[350px] md:text-xl text-gray md:text-left pr-[2vw] text-[15px] text-center mx-auto md:mx-0 leading-5; 
+/* @apply w-[350px] md:text-xl text-gray md:text-left pr-[2vw] text-[15px] text-center mx-auto md:mx-0 leading-5;  */
+@apply w-[401px] opacity-90 text-[#727272] text-2xl font-normal  leading-[29px] tracking-tight; 
 }
 
 .rt-vector{
