@@ -22,7 +22,7 @@
 }
 
 .left-p{
-@apply w-[350px] md:text-xl text-gray md:text-left pr-[2vw] text-[15px] text-center mx-auto md:mx-0; 
+@apply w-[350px] md:text-xl text-gray md:text-left pr-[2vw] text-[15px] text-center mx-auto md:mx-0 leading-5; 
 }
 
 .rt-vector{
