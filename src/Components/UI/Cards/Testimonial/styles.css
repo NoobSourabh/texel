@@ -1,5 +1,5 @@
 .testimonial-card{
-@apply  mt-12 mb-[-40px] flex flex-col flex-shrink-0 mx-8  max-w-[600px] p-8 rounded-3xl gap-4 text-left;
+@apply  mt-12 mb-[-40px] flex flex-col flex-shrink-0 mx-8  w-[45vw] h-[44vh] px-6 pt-2 mb-[-20px] rounded-3xl gap-3 text-left;
  box-shadow: 
         0px 0px 0px 0px rgba(0, 0, 0, 0.1),               /* light shadow */
         0px 21px 46px 0px rgba(0, 0, 0, 0.1),              /* subtle blur shadow */
@@ -10,7 +10,7 @@
 }
 
 .upper-flex{
-    @apply flex items-center justify-between;
+    @apply flex items-center justify-between ;
 }
 
 .inner-upper-flex{
@@ -18,13 +18,13 @@
 }
 
 .testimonial-heading{
-    @apply font-bold text-l;
+    @apply font-bold text-[16px];
 }
 .testimonial-test{
-    @apply  text-l;
+    @apply  text-[16px];
 }
 
 .test-role-p{
-    @apply text-gray text-[18px] mt-auto;
+    @apply text-gray text-[14px] mt-auto;
 }
 

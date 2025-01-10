@@ -3,7 +3,7 @@
 }
 
 .ftr-h1{
-  @apply text-xxxxl font-bold text-brown;
+  @apply text-[36px] md:text-xxxxl font-bold text-brown;
 }
 
 .ftr-cards{
