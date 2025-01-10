@@ -1,5 +1,5 @@
 import TestimonialCard from '../../../UI/Cards/Testimonial'
-import TestimonialMb from '../../../UI/Cards/Testimonial mobile'
+// import TestimonialMb from '../../../UI/Cards/Testimonial mobile'
 import './styles.css'
 
 const ThirdSection = () => {
