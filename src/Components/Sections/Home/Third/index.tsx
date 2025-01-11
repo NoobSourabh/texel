@@ -23,12 +23,9 @@ const ThirdSection = () => {
             </div>
 
             <div className='w-full auto-scroll flex justify-evenly gap-[40px] mt-[20px]'>
-               
-
                 {testimonial.map((testimonial, index) => (
                     <Review key={index} testimonial={testimonial} />
-                ))}
-               
+                ))}   
             </div>
 
         
