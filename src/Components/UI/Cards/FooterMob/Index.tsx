@@ -2,8 +2,8 @@ import TexelLogo from "../../../../assets/images/TexelLogo";
 
 const FooterMob = () => {
     return (
-        <footer className="flex flex-col px-6 py-8">
-            <div className="flex flex-col items-center gap-4">
+        <footer className="block md:hidden flex flex-col  py-2 border-t pt-[30px] mt-[50px]">
+            <div className="flex flex-col items-center gap-4 mb-6">
                 <TexelLogo />
                 <div className='social'>
                     <a href=''>
@@ -18,10 +18,8 @@ const FooterMob = () => {
                 </div>
             </div>
 
-            <div className="flex">
-                <div className="flex flex-col space-y-8">
                     {/* Know Us and Contact Sections in Row */}
-                    <div className="flex justify-between">
+                    <div className="flex justify-between px-[60px] mb-[40px] ">
                         {/* Know Us Section */}
                         <div>
                             <h3 className="text-slate-800 font-medium text-lg mb-4">Know Us</h3>
@@ -48,13 +46,11 @@ const FooterMob = () => {
                     </div>
 
                     {/* Copyright */}
-                    <div className="pt-4 border-t border-gray-200">
+                    <div className="pt-2 border-t border-gray-200">
                         <p className="text-gray-500 text-sm text-center">
                             © 2024 Texel Co. | All Rights Reserved
                         </p>
                     </div>
-                </div>
-            </div>
         </footer>
     );
 };

@@ -2,7 +2,7 @@ import TexelLogo from '../../../assets/images/TexelLogo'
 import './styles.css'
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer hidden md:block'>
         <div className='flex  mx-auto py-8'>
             <div className='footer-container'>
                 <div className='footer-logo-container'>
