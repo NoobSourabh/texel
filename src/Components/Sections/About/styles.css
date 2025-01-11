@@ -1,5 +1,5 @@
 .about-container{
-   @apply flex flex-col  py-[50px]; 
+   @apply flex flex-col  md:pt-[42px] md:pb-[233px]; 
 }
 
 .about-header{
@@ -30,20 +30,20 @@
 
 .lower-flex{
     /* @apply flex px-16 flex-col-reverse md:flex-row ; */
-    @apply md:py-0 py-8 md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 md:px-16 px-4 text-left;
+    @apply md:py-0 py-8 md:mx-[-20px]  flex md:flex-row flex-col-reverse w-full  items-center  justify-center md:justify-evenly md:pr-10 md:px-16 px-4 text-left;
 
 }
 .lower-flex-img{
-    @apply hidden md:block w-[40vw]   ;
+    @apply hidden md:block md:w-[35vw]   ;
 }
 .lower-flex-img-mob{
     @apply block md:hidden pt-11 mx-auto;
 }
 
 .lower-flex-para{
-    @apply flex flex-col gap-10 md:px-4 px-[2px] ;
+    @apply flex flex-col gap-[88px] md:px-4 px-[2px] ;
 }
 .lower-flex-p{
-    @apply py-2 md:py-8 text-gray text-left;
+    @apply pt-2 md:pt-0 text-gray text-left;
 }
 

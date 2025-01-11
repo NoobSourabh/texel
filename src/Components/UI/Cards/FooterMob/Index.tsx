@@ -2,7 +2,7 @@ import TexelLogo from "../../../../assets/images/TexelLogo";
 
 const FooterMob = () => {
     return (
-        <footer className="block md:hidden flex flex-col  py-2 border-t pt-[30px] mt-[50px]">
+        <footer className="block md:hidden  flex-col  py-2 border-t pt-[30px] mt-[50px]">
             <div className="flex flex-col items-center gap-4 mb-6">
                 <TexelLogo />
                 <div className='social'>

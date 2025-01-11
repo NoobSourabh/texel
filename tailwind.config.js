@@ -13,6 +13,8 @@ module.exports = {
         freeman: ["Freeman", "sans-serif"],
         konkhmer: ["Konkhmer Sleokchher", "serif"],
         crimsontext: ["Crimson Text", "serif"],
+        inter: ["Inter", "serif"],
+        afacad: ["Afacad", "serif"],
       },
       fontSize: {
         xs: "12px",

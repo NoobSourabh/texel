@@ -28,7 +28,7 @@
 
 /* Description */
 .feature-description {
-  @apply  text-[14px] font-normal leading-[22px] text-center text-[#6E7485];
+  @apply  text-[14px] font-normal font-inter leading-[22px] text-center text-[#6E7485];
 }
 
 

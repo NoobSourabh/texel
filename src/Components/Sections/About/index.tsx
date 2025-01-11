@@ -3,7 +3,7 @@ import './styles.css'
 
 const About = () => {
     return (
-        <div className='about-container'>
+        <div className='about-container '>
             <div className='about-header'>
                 <div className='px-8 pb-8'>
                     <RedHeadingMob heading="ABOUT US" />
@@ -21,13 +21,13 @@ const About = () => {
             </div>
 
             <div className='lower-flex'>
-                <img className='lower-flex-img' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736365096/image-19_osefol.svg' />
+                <img className='lower-flex-img md:pr-[-10px]' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736365096/image-19_osefol.svg' />
                 <img className='lower-flex-img-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736499181/image-36_bxdsmp.svg' />
                 <div className='lower-flex-para'>
                     <div className='vision-flex'>
                         <RedHeadingMob heading="OUR VISION" />
                         {/* <div className=''> */}
-                            <p className='lower-flex-p lg:w-[725px]  md:w-[400px] w-full'>
+                            <p className='lower-flex-p md:w-[725px]  md:pr-[97px]  w-full'>
                                 At Texel, we believe that <b>education is the foundation of a bright future. </b>
                                 We see ourselves as a company that empowers teachers, engages students,
                                 and supports parents by offering tools that make administrative work easier and
@@ -44,7 +44,7 @@ const About = () => {
 
                     <div className='commit-flex'>
                         <RedHeadingMob heading="OUR COMMITMENT " />
-                        <p className='lower-flex-p lg:w-[725px]  md:w-[400px]  w-full'>We are dedicated to <b>continuous improvement</b> and <b>innovation.</b> Our team is
+                        <p className='lower-flex-p lg:w-[725px]  md:w-[400px] md:pr-[97px]   w-full '>We are dedicated to <b>continuous improvement</b> and <b>innovation.</b> Our team is
                             constantly working to enhance the platform based on user feedback, ensuring that we
                             meet the evolving needs of the educational community. At Texel, we're more than just
                             a technology provider—we're a partner in education, committed to helping schools overcome

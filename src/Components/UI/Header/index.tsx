@@ -8,7 +8,7 @@ const Header = () => {
                 <img className='texel-text' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736533529/image-43_whicv9.svg' />
             </div>
 
-            <div className="navigation-container">
+            <div className="navigation-container font-montserrat">
                 <a href="/" className="nav-home">
                     Home
                 </a>

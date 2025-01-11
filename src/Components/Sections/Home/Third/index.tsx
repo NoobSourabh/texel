@@ -1,4 +1,5 @@
-import TestimonialCard from '../../../UI/Cards/Testimonial'
+import Review from '../../../UI/Cards/Testimonials new'
+import { testimonial } from '../../../UI/Cards/Testimonials new/reviews'
 // import TestimonialMb from '../../../UI/Cards/Testimonial mobile'
 import './styles.css'
 
@@ -21,8 +22,25 @@ const ThirdSection = () => {
                 <p className='left-p'>Imagine a bustling classroom where children are not just passive recipients of knowledge but active participants in their educational journey. Now, imagine parents stepping into that vibrant world, empowered and informed, ready to support their child every step of the way. </p>
             </div>
 
-            <div className=' auto-scroll hidden md:flex'>
-                <TestimonialCard
+            <div className='w-full auto-scroll flex justify-evenly gap-[40px] mt-[20px]'>
+               
+
+                {testimonial.map((testimonial, index) => (
+                    <Review key={index} testimonial={testimonial} />
+                ))}
+               
+            </div>
+
+        
+
+        </div>
+    )
+}
+export default ThirdSection
+
+
+
+{/* <TestimonialCard
                     img='https://res.cloudinary.com/dswwp9dju/image/upload/v1736416392/image-21_w35ugb.svg'
                     name='Ananya R.'
                     rating={5}
@@ -51,9 +69,12 @@ const ThirdSection = () => {
                     testimonial="Texel is a lifesaver! I don't have to nag about homework to my child. The app tells me everything I need to know, so I can help my child better. It's been a game-changer for us."
                     // testimonial=""
                     role="A Parent"
-                />
-            </div>
-            {/* <div className=' auto-scroll hidden md:flex'>
+                /> */}
+
+
+
+
+{/* <div className=' auto-scroll hidden md:flex'>
                 <TestimonialMb
                     img='https://res.cloudinary.com/dswwp9dju/image/upload/v1736416392/image-21_w35ugb.svg'
                     name='Ananya R.'
@@ -81,8 +102,3 @@ const ThirdSection = () => {
                     role="A Parent"
                 />
             </div> */}
-
-        </div>
-    )
-}
-export default ThirdSection
