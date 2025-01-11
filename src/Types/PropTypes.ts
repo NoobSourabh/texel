@@ -8,5 +8,5 @@ export type SchoolCard = TextCardProps & {
 }
 
 export type RedHeadingProp = {
-    heading: string
+    heading: string,
 }

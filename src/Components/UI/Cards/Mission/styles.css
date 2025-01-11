@@ -1,17 +1,36 @@
 .mission-card{
     @apply  flex flex-col 
     w-[328px] h-[378px]  py-[35px] 
-     pl-[40px] pr-[10px] gap-[20px] rounded-[10px]  bg-[#9BCAC71A] shadow-lg ;
+     px-[40px] pr-[10px] gap-[20px] rounded-[10px]  bg-[#9BCAC71A] shadow-lg ;
 }
 
 
 .mission-card-title{
-    @apply text-xxl font-semibold; 
+    @apply text-[#252b42] text-2xl font-bold font-montserrat leading-loose tracking-tight; 
 
 }
 .red-border{
     @apply w-[50px] h-[2px] bg-[#E74040]; 
 }
 .mission-card-content{
-    @apply text-left text-s text-gray font-semibold; 
+    @apply  w-[273px] text-left text-sm text-gray font-semibold font-montserrat leading-tight tracking-tight; 
+}
+
+
+
+
+
+
+.centered-container {
+    @apply flex  flex-col my-[52px]  px-6 gap-[40px];
+    text-align: center;
+}
+
+.custom-text {
+    @apply text-[#727272] text-[26px] font-normal font-msUIGothic leading-[29px] tracking-tight;
+    margin-bottom: 1rem;
+}
+
+.highlighted-text {
+    @apply text-black/60 text-[22.40px] font-bold font-ptsans leading-[29px] tracking-tight;
 }

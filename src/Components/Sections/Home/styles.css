@@ -1,5 +1,5 @@
 .home-bg{
-   @apply h-[48vh] md:bg-custom-gradient w-[100vw] md:h-[80vh] overflow-visible ;
+   @apply h-[681px] md:bg-custom-gradient w-[100vw] md:h-[80vh] overflow-visible ;
   }
   .home-bg-vector{
       @apply bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736451635/image-25_ghktac.svg')] bg-cover bg-no-repeat md:bg-custom-gradient;

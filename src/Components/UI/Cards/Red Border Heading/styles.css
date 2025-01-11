@@ -1,7 +1,16 @@
 .red-border-heading{
-    @apply w-[90px] h-[8px] mb-5 bg-[#E74040]; 
+    /* @apply w-[90px] h-[8px] mb-5 bg-[#E74040];  */
+    /* @apply w-[90px] h-[8px] mb-5 bg-[#E74040];  */
+ @apply w-[94px] h-[7px] bg-[#e64040] mb-4;
 }
 
 .red-heading{
-    @apply inline-flex font-montserrat font-bold text-[36px] leading-[50px] tracking-[0.2px];
+    /* @apply inline-flex font-montserrat font-bold text-[36px] leading-[50px] tracking-[0.2px]; */
+  @apply  h-[49px] text-[#252b42]  text-[40px] font-bold font-montserrat leading-[50px] tracking-tight;
+
+}
+.red-heading-mob{
+    /* @apply inline-flex font-montserrat font-bold text-[36px] leading-[50px] tracking-[0.2px]; */
+  @apply  h-[49px] text-[#252b42] text-[34px] lg:text-[40px] font-bold font-montserrat leading-[50px] tracking-tight;
+
 }

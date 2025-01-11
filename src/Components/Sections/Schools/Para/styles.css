@@ -1,3 +1,32 @@
 /* .scard-position{
     @apply mb-10;
 } */
+
+.para-left{
+    /* @apply  flex md:flex-row  flex-col-reverse items-center md:py-[5vh] justify-between; */
+}
+.para-right{
+    /* @apply flex md:flex-row-reverse flex-col-reverse items-center md:py-[5vh] justify-between ; */
+}
+
+.schoolcard-img{
+    @apply md:w-[40vw] w-full;
+}
+
+
+
+.textcard-container {
+    @apply flex flex-col items-center justify-center text-center p-6 space-y-6 ;
+}
+
+.textcard {
+    @apply w-full max-w-xl flex flex-col gap-[38px];
+}
+
+.textcard-heading {
+    @apply w-[100vw] md:w-[full] md:text-left text-center   text-[#263238] text-[40px] font-normal font-freeman  md:leading-[29px] leading-10 tracking-tight mr-auto;
+}
+ 
+.textcard-paragraph {
+    @apply   text-[#727272] md:text-[26px] text-[15px]  font-normal font-msUIGothic leading-7 tracking-tight  text-left;
+}

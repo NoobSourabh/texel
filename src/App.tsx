@@ -8,6 +8,8 @@ import Footer from './Components/UI/Footer';
 import About from './Components/Sections/About';
 import ContactUs from './Components/Sections/Contact Us';
 import HeaderMob from './Components/UI/Header mob';
+import NavMob from './Components/UI/NavMob';
+import FooterMob from './Components/UI/Cards/FooterMob/Index';
 
 const App = () => {
   return (
@@ -15,7 +17,7 @@ const App = () => {
       <div className='overflow-x-hidden'>
         <Routes>
           {/* Route for HeaderMob without Header and Footer */}
-          <Route path="/header" element={<HeaderMob />} />
+          <Route path="/header" element={<NavMob />} />
 
           {/* Routes with Header and Footer */}
           <Route
@@ -30,7 +32,8 @@ const App = () => {
                   <Route path="/about" element={<About />} />
                   <Route path="/contact" element={<ContactUs />} />
                 </Routes>
-                <Footer />
+                {/* <Footer /> */}
+                <FooterMob />
               </div>
             }
           />

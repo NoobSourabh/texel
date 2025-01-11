@@ -1,5 +1,5 @@
 .mission{
-  @apply flex flex-col pt-8 mx-auto   ;
+  @apply flex flex-col  mx-auto   ;
 }
 
 .mission-bg {
@@ -7,11 +7,11 @@
 }
   
   .left-part {
-    @apply hidden md:block w-1/2 h-[110vh] mr-[-5vw]  justify-center;
+    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-5vw]  md:mr-[-50px] justify-center;
   }
   
   .left-part-para{
-    @apply w-full flex flex-col md:w-1/2 p-4 md:pl-8 content-center;
+    @apply w-full flex flex-col md:w-1/2 p-4 md:pl-8 content-center pt-0;
   }
    /* .left-part h1{
     @apply text-white text-3xl font-bold;
@@ -28,7 +28,7 @@
 
   
 .core-values {
- @apply flex p-4 md:p-[8vw] flex-col;
+ @apply flex lg:ml-[138px] md:ml-[40px] mr-[40px] md:mr-0 md:py-[8vw] flex-col gap-[6px] ;
 }
 
 .red-border-mission{
@@ -36,7 +36,7 @@
 }
 
 .mission-card-flex{
- @apply flex flex-col md:flex-row items-center gap-14 py-7 md:py-[10vh] ;
+ @apply w-[1046px] h-[476px] relative flex flex-col md:flex-row items-center lg:gap-[98px] md:gap-[36px]  ;
 }
 
   @media (max-width: 640px) {
@@ -61,3 +61,27 @@
 .paragraph-wrapper-p{
   @apply text-[#737373] text-[13px] md:text-m;
 }  
+
+
+/*  new css */
+
+
+.education-text-container {
+  @apply w-[641px] opacity-90 mr-[-40px];
+}
+
+.education-text {
+  @apply text-xl font-normal leading-[29px] tracking-tight;
+}
+
+.description {
+  @apply text-[#727272] font-msUIGothic;
+}
+
+.highlight {
+  @apply text-black/60 text-[17px] font-bold font-ptsans;
+}
+
+.education-text p {
+  @apply mb-4;
+}

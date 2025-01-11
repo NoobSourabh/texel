@@ -64,7 +64,8 @@ const Home = () => {
 
             </div>
             <div className='cards'>
-                <div className='flex gap-[30px] mr-[140px]'>
+                {/* <div className='flex gap-[30px] mr-[140px]'> */}
+                <div className="h-[296px] flex  gap-[30px]" >
                     <HomeCard
                         url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736225069/b31997dbc83bc1743782e79d556364f5_iyauhx.png'
                         title="7+ Cities"

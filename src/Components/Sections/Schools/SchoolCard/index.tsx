@@ -14,4 +14,5 @@ const SCard = ({ heading, paragraph, imgUrl, position }: cardProp) => {
   )
 }
 
+
 export default SCard

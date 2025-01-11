@@ -7,7 +7,7 @@
 }
 
 .navbar {
-  @apply flex  justify-between items-center  md:pl-10 pl-3 bg-white  top-0   z-50 w-full h-auto ;
+  @apply  flex  justify-between items-center  md:pl-10 pl-3 bg-white  top-0   z-50 w-full h-auto ;
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 .navigation-container {
-    @apply hidden md:flex  items-end justify-around w-[423px] mr-[22px] ;
+    @apply hidden md:flex  items-end justify-around w-[423px] mr-[22px] mt-[8px];
 }
 
 .nav-about-us {

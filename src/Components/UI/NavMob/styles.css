@@ -1,0 +1,29 @@
+
+.mob-navigation-container {
+    @apply hidden md:flex  items-end justify-around w-[423px] mr-[22px] mt-[8px];
+}
+
+.mob-nav-about-us {
+    @apply  flex items-center justify-end top-0 left-[230px] h-6 text-center text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.mob-nav-for-schools {
+    @apply  text-center top-0 left-[62px] text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.mob-nav-mission {
+    @apply  flex items-center justify-center top-0 left-[171px] px-1 text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.mob-nav-contact-us {
+    @apply  text-center top-0 left-[334px] text-gray text-sm font-bold leading-6 tracking-wider;
+}
+
+.mob-nav-home {
+    @apply  flex items-center justify-center top-0 left-0 w-11 h-6 px-1 text-gray text-sm font-bold leading-6 tracking-wider;
+} 
+
+
+.mob-nav-h{
+   @apply w-[91px] h-[21px] text-[#553e31] text-[32px] font-normal font-crimsontext leading-[17px];
+}

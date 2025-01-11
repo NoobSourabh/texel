@@ -1,5 +1,5 @@
 .sec-1{
-    @apply flex flex-col md:p-[8vh] p-2 w-full;
+    @apply flex flex-col md:py-[8vh] py-2 md:px-4 w-full;
 }
 
 .sec-1-img-mob{
@@ -17,3 +17,29 @@
 @apply container mx-auto px-2 w-full md:px-0 md:w-[60vw]  md:mt-14  text-gray ;
 }
 
+
+.mission-statement {
+  @apply w-[80vh] h-fit opacity-90 flex justify-center text-center ;
+}
+
+.text-muted {
+  @apply text-[#727272] md:text-[26px] text-[15px] font-normal font-msUIGothic leading-[29px] tracking-tight;
+}
+
+.highlighted-text {
+  @apply text-black/60 text-[22.40px] font-bold font-ptsans leading-[29px] tracking-tight;
+}
+
+.centered-container {
+    @apply  flex items-center justify-center  p-6;
+    text-align: center;
+}
+
+.custom-text {
+    @apply w-[1149px] text-[#727272] md:text-[26px] text-[15px]  font-normal font-msUIGothic leading-[29px] tracking-tight;
+    margin-bottom: 1rem;
+}
+
+.highlighted-text {
+    @apply text-black/60 md:text-[22.40px] text-[13px] font-bold font-ptsans leading-[29px] tracking-tight;
+}

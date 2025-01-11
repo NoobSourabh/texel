@@ -8,8 +8,11 @@ module.exports = {
         abhayaLibre: ["Abhaya Libre", "serif"],
         arimo: ["Arimo", "sans-serif"],
         berlinSans: ["Berlin Sans FB Demi", "sans-serif"],
-        msUIGothic: ["MS UI Gothic", "sans-serif"],
-        ptsans: ['"PT Sans Caption"', "sans-serif"],
+        msUIGothic: ["MS UI Gothic", "serif"],
+        ptsans: ["PT Sans Caption", "sans-serif"],
+        freeman: ["Freeman", "sans-serif"],
+        konkhmer: ["Konkhmer Sleokchher", "serif"],
+        crimsontext: ["Crimson Text", "serif"],
       },
       fontSize: {
         xs: "12px",

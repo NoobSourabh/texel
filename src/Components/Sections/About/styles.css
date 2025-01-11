@@ -14,7 +14,8 @@
 } 
 
 .about-flex{
-    @apply md:py-0 py-8 md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 ;
+    /* @apply md:py-0 py-8 md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 ; */
+    @apply w-[606px] md:py-0 mt-[40px] md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 ;
 }
 .about-flex-img{
     @apply  hidden md:block md:w-[30vw] md:my-14 w-full;
@@ -24,25 +25,25 @@
 }
 
 .about-para{
-    @apply flex flex-col w-full md:w-[60vw] gap-2 md:gap-8 text-m text-gray px-8 md:px-[12vw];
+    @apply flex flex-col w-full md:w-[60vw] gap-2 md:gap-0 text-m text-gray px-8 md:px-[12vw];
 }
 
 .lower-flex{
     /* @apply flex px-16 flex-col-reverse md:flex-row ; */
-    @apply md:py-0 py-8 md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 md:px-16 px-4 text-justify;
+    @apply md:py-0 py-8 md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 md:px-16 px-4 text-left;
 
 }
 .lower-flex-img{
     @apply hidden md:block w-[40vw]   ;
 }
 .lower-flex-img-mob{
-    @apply block md:hidden pt-11;
+    @apply block md:hidden pt-11 mx-auto;
 }
 
 .lower-flex-para{
-    @apply flex flex-col gap-10 px-4 ;
+    @apply flex flex-col gap-10 md:px-4 px-[2px] ;
 }
 .lower-flex-p{
-    @apply py-2 md:py-8 text-gray text-justify;
+    @apply py-2 md:py-8 text-gray text-left;
 }
 

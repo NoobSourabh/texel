@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'MS UI Gothic';
-  src: url('assets/fonts/msgothic.ttc') format('truetype-collection');
+  src: url('assets/fonts/MS UI Gothic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,3 +18,4 @@
   font-weight: normal;
   font-style: normal;
 }
+

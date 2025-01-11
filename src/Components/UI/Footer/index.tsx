@@ -4,10 +4,7 @@ const Footer = () => {
     return (
         <div className='footer'>
         <div className='flex  mx-auto py-8'>
-
-
             <div className='footer-container'>
-                
                 <div className='footer-logo-container'>
                     <TexelLogo />
                 </div>
@@ -15,14 +12,12 @@ const Footer = () => {
                     <div>
                         <h3 className="footer-h3">Know Us</h3>
                     </div>
-
                     <div className='inner-grid-2'>
                         <a href=''>Home</a>
                         <a href=''>Features</a>
                         <a href=''>Mission</a>
                         <a href=''>About Us</a>
                     </div>
-
                 </div>
                 <div className='grid-2'>
                     <div>
@@ -49,7 +44,6 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-                
             </div>
             </div>
             <div className='lowest'>

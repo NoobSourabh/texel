@@ -7,3 +7,22 @@
 .textcard-p{
     @apply text-m md:text-xl md:ml-14 md:pr-6 md:ml-[14px] px-4 py-2 text-center md:text-left tracking-wider text-gray  ;
 }
+
+
+
+.textcard-container {
+    @apply flex flex-col items-center justify-center text-center p-6 space-y-6;
+}
+
+.textcard {
+    @apply w-full max-w-xl flex flex-col gap-[38px];
+}
+
+.textcard-heading {
+    @apply w-[full] text-left text-[#263238] text-[40px] font-normal font-freeman  leading-[29px] tracking-tight mr-auto;
+}
+ 
+.textcard-paragraph {
+    @apply pl-8 text-[#727272] 
+      font-normal font-msUIGothic leading-7 tracking-tight  text-left;
+}

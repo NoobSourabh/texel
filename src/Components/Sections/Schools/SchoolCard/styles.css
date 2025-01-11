@@ -5,10 +5,10 @@
     @apply flex md:flex-row-reverse flex-col-reverse items-center md:py-[5vh] my-20 ;
 } */
 .para-left{
-    @apply  flex md:flex-row  flex-col-reverse items-center md:py-[5vh] justify-between;
+    @apply  flex md:flex-row  flex-col-reverse items-center md:py-[5vh] justify-around;
 }
 .para-right{
-    @apply flex md:flex-row-reverse flex-col-reverse items-center md:py-[5vh] justify-between ;
+    @apply flex md:flex-row-reverse flex-col-reverse items-center md:py-[5vh] justify-evenly ;
 }
 
 .schoolcard-img{

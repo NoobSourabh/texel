@@ -1,12 +1,13 @@
 .contact-container{
     /* @apply flex flex-col md:flex-row w-[100vw]  md:px-14 py-14 gap-12 items-center justify-center; */
-    @apply flex flex-col md:flex-row w-[100vw]  md:px-14 py-14 gap-12 ;
+    @apply flex flex-col md:flex-row w-[100vw]  md:px-14 py-14 gap-[114px] ;
 }
 .left-contact{
-    @apply flex flex-col md:w-[40vw] md:px-0 w-full px-8;
+    @apply flex flex-col md:w-[555px] md:px-0 w-full px-8;
 }
 .left-contact-p{
-    @apply text-s text-gray py-5 mb-4 text-justify;
+    @apply text-[15px] text-gray my-[-20px] mb-4 font-normal leading-tight
+tracking-tight;
 }
 
 .about-img{
@@ -16,17 +17,17 @@
 .right-contact{
     /* @apply my-auto mx-auto items-center; *
     /* @apply content-center mx-auto; */
-    @apply  flex flex-col  mx-auto justify-center md:w-auto w-full;
+    @apply  flex flex-col  mx-auto justify-center md:w-auto w-full gap-[20px];
 }
 
 .right-contact-div{
     /* @apply my-auto mx-auto items-center; *
     /* @apply content-center mx-auto; */
-    @apply  flex  flex-col items-center w-full;
+    @apply  flex  flex-col gap-[20px] items-center w-full;
 }
 
 .form{
-    @apply flex flex-col gap-6 items-center pt-4 w-full;
+    @apply flex flex-col gap-[20px] items-center pt-4 w-full;
 }
 
 label{
@@ -50,5 +51,6 @@ input {
 }
 
 .contact-heading{
-    @apply mb-6 text-[#6A4F3F] font-bold md:text-[24px] text-[32px];
+    @apply  text-[#6A4F3F]  md:text-[20px] text-xl font-semibold;
+
 }
