@@ -4,10 +4,10 @@ import Home from './Components/Sections/Home';
 import Mission from './Components/Sections/Mission';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import School from './Components/Sections/Schools';
-import Footer from './Components/UI/Footer';
+// import Footer from './Components/UI/Footer';
 import About from './Components/Sections/About';
 import ContactUs from './Components/Sections/Contact Us';
-import HeaderMob from './Components/UI/Header mob';
+// import HeaderMob from './Components/UI/Header mob';
 import NavMob from './Components/UI/NavMob';
 import FooterMob from './Components/UI/Cards/FooterMob/Index';
 
