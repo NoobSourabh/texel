@@ -1,5 +1,5 @@
 .footer{
-    @apply bottom-0 w-[100vw]  mx-auto border-t-[3px] border-[#3F5652D6]  flex-col;
+    @apply bottom-0 w-[100vw]  mx-auto border-t-[3px] border-[#3f5652]  flex-col font-abhayaLibre text-[#3f5652];
 }
 .footer-container{
     @apply flex gap-[12vw] mx-auto justify-between;
@@ -32,8 +32,10 @@
 
 
 .lowest{
-   @apply w-full flex justify-center border-t-[1px] py-[20px] text-s text-gray;
+   @apply w-full flex justify-center border-t-[3px] border-[#3F56521A]/10 py-[16px] text-sm text-[#3f5652];
 }
+
+
 
 
 

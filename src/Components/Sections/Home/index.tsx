@@ -26,14 +26,13 @@ const Home = () => {
                                     </div>
                                     <div className="inner-left-home-button-container">
                                         <div className="inner-left-home-button">
-                                            <div className="inner-left-home-button-text">Learn More</div>
+                                            <a href='/about' className="inner-left-home-button-text">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[415px] self-stretch pr-[415px] pb-[280px]" >
-                        </div>
+
                     </div>
                     <img className='w-[60vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
                 </div>
@@ -43,6 +42,7 @@ const Home = () => {
             </div>
 
 
+            {/* MOBILE HOME TOP SECTION */}
 
             <div className='md:hidden flex h-[389px] w-[100vw] justify-between  gradient-background '>
                 {/* <div className='md:hidden flex h-[389px] w-full bg-[url(https://res.cloudinary.com/dswwp9dju/image/upload/v1736840436/image-62_led8ga.svg)] bg-no-repeat '> */}
@@ -60,6 +60,8 @@ const Home = () => {
                 </div>
                 <img className=' ml-auto' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736839922/image-61_pfaqdn.svg' />
             </div>
+
+            {/* MOBILE HOME TOP SECTION */}
 
 
 

@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='lowest'>
+            <div className='lowest font-abhayaLibre opacity-80'>
                 <p>© 2024 Texel Co. | All Rights Reserved</p>
             </div>
         </div>

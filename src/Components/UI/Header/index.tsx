@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import './nav.css'; // Importing the external Tailwind CSS file
+import './nav.css'; 
 
 const Header = () => {
     const location = useLocation();
