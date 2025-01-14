@@ -55,7 +55,7 @@ const Home = () => {
                         <div className="w-[155px] text-[#2c221c]/80 text-[9px] font-normal font-montserrat leading-3 tracking-tight">Switch to paperless work and more consistent results</div>
                     </div>
                     <div className="w-14 h-[17px] px-1.5 rounded-[5px] border border-[#937663] justify-center items-center inline-flex overflow-hidden ">
-                        <div className="w-11 text-center text-[#937663] text-[7px] font-bold font-montserrat leading-snug tracking-tight">Learn More</div>
+                        <a href='/about' className="w-11 text-center text-[#937663] text-[7px] font-bold font-montserrat leading-snug tracking-tight">Learn More</a>
                     </div>
                 </div>
                 <img className=' ml-auto' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736839922/image-61_pfaqdn.svg' />
