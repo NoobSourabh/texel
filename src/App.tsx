@@ -12,32 +12,52 @@ import NavMob from './Components/UI/NavMob';
 import FooterMob from './Components/UI/Cards/FooterMob/Index';
 
 const App = () => {
+  const hideFooterRoutes = ['/header'];
+
   return (
+    // <Router>
+    //   <div className='overflow-x-hidden'>
+    //     <Routes>
+    //       {/* Route for HeaderMob without Header and Footer */}
+    //       <Route path="/header" element={<NavMob />} />
+
+    //       {/* Routes with Header and Footer */}
+    //       <Route
+    //         path="*"
+    //         element={
+    //           <div className="overflow-x-hidden ">
+    //             <Header />
+    //             <Routes>
+    //               <Route path="/" element={<Home />} />
+    //               <Route path="/mission" element={<Mission />} />
+    //               <Route path="/for-schools" element={<School />} />
+    //               <Route path="/about" element={<About />} />
+    //               <Route path="/contact" element={<ContactUs />} />
+    //             </Routes>
+    //             <Footer />
+    //             <FooterMob />
+    //           </div>
+    //         }
+    //       />
+    //     </Routes>
+    //   </div>
+    // </Router>
     <Router>
       <div className='overflow-x-hidden'>
+        <Header />
         <Routes>
-          {/* Route for HeaderMob without Header and Footer */}
-          <Route path="/header" element={<NavMob />} />
 
-          {/* Routes with Header and Footer */}
-          <Route
-            path="*"
-            element={
-              <div className="overflow-x-hidden ">
-                <Header />
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route path="/mission" element={<Mission />} />
-                  <Route path="/for-schools" element={<School />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/contact" element={<ContactUs />} />
-                </Routes>
-                <Footer />
-                <FooterMob />
-              </div>
-            }
-          />
+          <Route path="/" element={<Home />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/for-schools" element={<School />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/header" element={<NavMob />} />
         </Routes>
+        {!hideFooterRoutes.includes(location.pathname) && <Footer />}
+        {!hideFooterRoutes.includes(location.pathname) && <FooterMob />}
+
+
       </div>
     </Router>
   )
