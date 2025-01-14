@@ -27,10 +27,9 @@ const ThirdSection = () => {
                     <Review key={index} testimonial={testimonial} />
                 ))}   
             </div> */}
-            <TestimonialScroll testimonials={testimonial} />
-
-
-
+            <div className='md:flex hidden'>
+                <TestimonialScroll testimonials={testimonial} />
+            </div>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 .trd-container{
-    @apply  px-[3vh] md:px-[8vh];
+    @apply   px-[34px] md:px-[8vh] md:flex flex-col items-center justify-center md:gap-0  ; 
 }
 
 .trd-upper{
@@ -8,14 +8,14 @@
 }
 
 .left-flex{
-@apply flex flex-col  items-start pl-[50px] pt-[15vh] gap-8 md:gap-14  ; 
+@apply flex flex-col  items-start md:pl-[50px] pt-[15vh] gap-8 md:gap-14  ; 
 }
 .trd-img{
     @apply w-[100vw] md:w-[50%];
 }
 
 .left-h{
-@apply hidden md:block w-[400px] mb-8 mt-[5vh]; 
+@apply hidden md:block md:w-[400px]   mb-8 mt-[5vh]; 
 }
 .left-h-mb{
 @apply block md:hidden w-[600px] pt-[-200px] ; 
@@ -23,16 +23,16 @@
 
 .left-p{
 /* @apply w-[350px] md:text-xl text-gray md:text-left pr-[2vw] text-[15px] text-center mx-auto md:mx-0 leading-5;  */
-@apply w-[401px] opacity-90 text-[#727272] text-2xl font-normal  leading-[29px] tracking-tight; 
+@apply md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal  leading-[29px] tracking-tight md:text-left text-center; 
 }
 
 .rt-vector{
-    @apply mb-[-10vh] md:w-[50%] md:h-[50%] md:mb-0 ;
+    @apply mb-[-10vh] md:w-[50%] md:h-[50%] md:mb-0 w-[100vw] ;
 }
 
 
 .trd-row{
-    @apply flex flex-col md:flex-row gap-[20vw] justify-center items-center gap-[10vw] mt-8 md:mt-[20vh];
+    @apply  flex flex-col md:flex-row   md:gap-[20vw] justify-center items-center gap-[10vw] mt-8 md:mt-[20vh] md:mb-0 mb-10; 
 }
 
 

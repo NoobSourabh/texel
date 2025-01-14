@@ -17,13 +17,13 @@ const HomeCard = ({ url, title, description }: propType) => {
     // </div >
     // <div className="h-[296px] justify-start items-center gap-[30px] inline-flex">
 
-      <div className="home-card">
-        <div className="home-card-header">
-          <img className="home-card-image" src={url} />
-        </div>
-        <h3 className="home-card-title">{title}</h3>
+    <div className="mob-home-card md:home-card">
+      <div className="md:home-card-header mob-home-card-header ">
+        <img className="mob-home-card-image  md:home-card-image" src={url} />
+      </div>
+      <h3 className="mob-home-card-title md:home-card-title">{title}</h3>
         <div className="home-card-divider"></div>
-        <p className="home-card-description">{description}</p>
+      <p className="mob-home-card-description md:home-card-description">{description}</p>
       </div>
   )
 }

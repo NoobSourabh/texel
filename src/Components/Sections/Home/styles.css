@@ -25,7 +25,7 @@
 }
 
 .cards{
-  @apply w-[1440px] h-[20px] mb-[-60px] pt-[50px] pb-[270.40px] flex justify-center items-center ;
+  @apply w-[100vw] md:h-[20px] md:mb-[-60px] md:pt-[50px] md:pb-[270.40px] md:mt-0 mt-[-151px] flex justify-center items-center ;
 }
 
 
@@ -58,7 +58,7 @@
 }
 
 .inner-left-home-main-text {
-  @apply text-[#7d5d48]/80 text-[16px] font-bold font-['Montserrat'] leading-normal tracking-tight;
+  @apply text-[#7d5d48]/80 md:text-[16px] text-[11px] font-bold font-['Montserrat'] leading-normal tracking-tight;
 }
 
 .inner-left-home-sub-text {
@@ -66,7 +66,6 @@
 }
 
 .inner-left-home-description {
-  /* @apply w-[450px] left-[41px] top-[174px] absolute text-[#2c221c]/80 text-xl font-normal font-['Montserrat'] leading-[30px] tracking-tight; */
   @apply w-[450px] left-[41px] top-[174px] absolute text-[#2c221c]/80 text-xl font-normal font-['Montserrat'] leading-[30px] tracking-tight;
 }
 
@@ -89,3 +88,4 @@
 .gradient-background {
   background: linear-gradient(250deg, rgba(125, 93, 72, 0.37) 17.73%, rgba(227, 169, 131, 0.37) 63.1%);
 }
+

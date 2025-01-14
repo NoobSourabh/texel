@@ -1,10 +1,10 @@
 /* Header.css */
-@font-face {
+/* @font-face {
   font-family: 'Berlin Sans FB Demi';
   src: url('assets/fonts/berlin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 .navbar {
   @apply  flex  justify-between items-center  md:pl-10 pl-3 bg-white  top-0   z-50 w-full h-auto ;

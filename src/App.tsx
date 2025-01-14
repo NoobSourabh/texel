@@ -23,7 +23,7 @@ const App = () => {
           <Route
             path="*"
             element={
-              <div className="overflow-x-hidden">
+              <div className="overflow-x-hidden ">
                 <Header />
                 <Routes>
                   <Route path="/" element={<Home />} />

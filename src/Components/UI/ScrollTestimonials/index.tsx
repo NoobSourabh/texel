@@ -34,7 +34,7 @@ const TestimonialScroll: React.FC<TestimonialScrollProps> = ({ testimonials }) =
     }, []);
 
     return (
-        <div className="relative overflow-hidden w-full">
+        <div className="relative overflow-hidden md:w-[90vw] w-[100vw]">
             <div
                 ref={scrollContainerRef}
                 className="flex space-x-4 scrollbar-hidden overflow-auto w-full scroll-container"
