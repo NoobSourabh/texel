@@ -1,6 +1,6 @@
-import Review from '../../../UI/Cards/Testimonials new'
+
 import { testimonial } from '../../../UI/Cards/Testimonials new/reviews'
-// import TestimonialMb from '../../../UI/Cards/Testimonial mobile'
+import TestimonialScroll from '../../../UI/ScrollTestimonials'
 import './styles.css'
 
 const ThirdSection = () => {
@@ -22,13 +22,14 @@ const ThirdSection = () => {
                 <p className='left-p'>Imagine a bustling classroom where children are not just passive recipients of knowledge but active participants in their educational journey. Now, imagine parents stepping into that vibrant world, empowered and informed, ready to support their child every step of the way. </p>
             </div>
 
-            <div className='w-full auto-scroll flex justify-evenly gap-[40px] mt-[20px]'>
+            {/* <div className='w-full auto-scroll flex justify-evenly gap-[40px] mt-[20px]'>
                 {testimonial.map((testimonial, index) => (
                     <Review key={index} testimonial={testimonial} />
                 ))}   
-            </div>
+            </div> */}
+            <TestimonialScroll testimonials={testimonial} />
 
-        
+
 
         </div>
     )

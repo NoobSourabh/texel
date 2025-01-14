@@ -24,7 +24,7 @@ export const testimonial = [
         userName: "Ravi P."
     },
     {
-        bookmarkIcon: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736545194/image-45_ptbgnj.svg",
+        bookmarkIcon: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736630498/image-59_hytzar.svg",
         role: "Parent",
         testimonialText: "Texel has been a fantastic tool for my family. It's so easy to keep track of my child's assignments and school events. The real-time updates and us being able to communicate with teachers have made a big difference in our involvement with his education.",
         userName: "Anita R."

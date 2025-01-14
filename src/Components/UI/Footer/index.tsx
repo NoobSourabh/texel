@@ -5,9 +5,9 @@ const Footer = () => {
         <div className='footer hidden md:block'>
         <div className='flex  mx-auto py-8'>
             <div className='footer-container'>
-                <div className='footer-logo-container'>
+                <a href='/' className='footer-logo-container'>
                     <TexelLogo />
-                </div>
+                </a>
                 <div className='grid-2 '>
                     <div>
                         <h3 className="footer-h3">Know Us</h3>
