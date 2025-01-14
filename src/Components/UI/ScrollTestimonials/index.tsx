@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Review from '../Cards/Testimonials new';
-import './styles.css'
- // Assuming the Review component is in the same folder
+import './styles.css';
 
 interface Testimonial {
     bookmarkIcon: string;
@@ -22,13 +21,6 @@ const TestimonialScroll: React.FC<TestimonialScrollProps> = ({ testimonials }) =
         const scrollContainer = scrollContainerRef.current;
 
         if (scrollContainer) {
-            const handleScroll = () => {
-                if (scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth - 1) {
-                    // When the scroll reaches the end, move the scroll position back to the start
-                    scrollContainer.scrollLeft = 0;
-                }
-            };
-
             // Set interval to auto-scroll
             const intervalId = setInterval(() => {
                 if (scrollContainer) {
