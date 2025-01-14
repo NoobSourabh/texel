@@ -5,7 +5,7 @@
     @apply text-[32px] md:text-[40px] text-center md:text-left  tracking-tight md:px-0 px-[-10px];
 }
 .textcard-p{
-    @apply text-m md:text-xl md:ml-14 md:pr-6 md:ml-[14px] px-4 py-2 text-center md:text-left tracking-wider text-gray  ;
+    @apply   md:ml-14 md:pr-6  px-4 py-2 text-center md:text-left tracking-wider text-gray  ;
 }
 
 
@@ -23,11 +23,11 @@
 }
  
 .textcard-paragraph {
-    @apply pl-8  text-[#727272] 
-      font-normal font-msUIGothic leading-7 tracking-tight  text-left;
+    @apply pl-8  text-[#727272] md:text-[26px] text-[16px]
+      font-normal font-msUIGothic md:leading-[29px] tracking-tight  text-left;
 }
 
 .textcardpara-mob{
-    @apply text-center px-3 text-[#727272] 
-      font-normal font-msUIGothic leading-7 tracking-tight  text-left;
+    @apply text-center px-3 text-[#727272]  text-[16px]
+      font-normal font-msUIGothic leading-7 tracking-tight ;
 }

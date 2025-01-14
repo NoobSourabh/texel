@@ -2,23 +2,23 @@ import MissionCard from '../../UI/Cards/Mission'
 import Paragraph from './paragraph'
 import './style.css'
 import { missionData } from '../../../data/data'
-import RedHeading from '../../UI/Cards/Red Border Heading'
+import RedHeadingMob from '../../UI/Cards/Red Border Heading/ReadHeadingMob'
 const Mission = () => {
 
     return (
         <div className='mission' >
             <div className="mission-bg ">
                 <img className='left-part' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736349938/image-13_rrdsor.svg' />
-                <div className="left-part-para mr-20">
-                    <RedHeading heading='OUR MISSION' />
+                <div className="left-part-para md:mr-20">
+                    <RedHeadingMob heading='OUR MISSION' />
                     <Paragraph />
                     <img className='mobile-vector-mission' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736493151/image-33_xv9hmi.svg' />
                 </div>
             </div>
-            <div className='f'>
+            <div className='flex items-center'>
             <div className='core-values'>
                 <div className=''>
-                    <RedHeading heading='OUR CORE VALUES' />
+                    <RedHeadingMob heading='OUR CORE VALUES' />
                 </div>
                 <div className='mission-card-flex'>
                     {missionData.map((item, index) => (
