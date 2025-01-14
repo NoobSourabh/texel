@@ -1,6 +1,8 @@
+import { useLocation } from 'react-router-dom';
 import './nav.css'; // Importing the external Tailwind CSS file
 
 const Header = () => {
+    const location = useLocation();
     return (
         <nav className="navbar md:pt-0 md:pb-0 pt-[32px] pb-[37px] ">
             <a href='/' className="logo">
@@ -26,9 +28,18 @@ const Header = () => {
                 </a>
             </div>
 
-            <a href='/header' className='block md:hidden pr-6'>
-                <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736522166/image-38_qerqqb.svg' />
-            </a>
+            {location.pathname === "/header" ? (
+                // Render different anchor image and href when path is '/header'
+                <a href='/' className='block md:hidden pr-6'>
+                    <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736605534/image-56_kv8wff.svg' alt='New Link' />
+                </a>
+            ) : (
+                // Default image when path is not '/header'
+                <a href='/header' className='block md:hidden pr-6'>
+                    <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736522166/image-38_qerqqb.svg' alt='Header Link' />
+                </a>
+            )}
+        
         </nav>
     );
 }
