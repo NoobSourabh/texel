@@ -13,7 +13,7 @@ const TextCard = ({ heading, paragraph }: TextCardProps) => {
             <div className="textcard">
                 <h1 className="textcard-heading">{heading}</h1>
                 <p
-                    className="textcard-paragraph"
+                    className="md:textcard-paragraph textcardpara-mob"
                     dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
             </div>

@@ -23,6 +23,11 @@
 }
  
 .textcard-paragraph {
-    @apply pl-8 text-[#727272] 
+    @apply pl-8  text-[#727272] 
+      font-normal font-msUIGothic leading-7 tracking-tight  text-left;
+}
+
+.textcardpara-mob{
+    @apply text-center px-3 text-[#727272] 
       font-normal font-msUIGothic leading-7 tracking-tight  text-left;
 }

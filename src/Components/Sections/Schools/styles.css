@@ -1,5 +1,5 @@
 .sec-1{
-    @apply flex flex-col md:py-[8vh] py-2 md:px-4 w-full;
+    @apply flex flex-col md:py-[8vh] py-2 px-4 w-full md:items-center justify-center;
 }
 
 .sec-1-img-mob{
@@ -31,15 +31,15 @@
 }
 
 .centered-container {
-    @apply  flex items-center justify-center  p-6;
+    @apply  mx-auto  flex items-center justify-center  p-6 ;
     text-align: center;
 }
 
 .custom-text {
-    @apply w-[1149px] text-[#727272] md:text-[26px] text-[15px]  font-normal font-msUIGothic leading-[29px] tracking-tight;
+    @apply md:w-[78vw] w-full  text-[#727272] md:text-[26px] text-[15px]  font-normal font-msUIGothic md:leading-[29px] leading-6 tracking-tight md:text-left text-center;
     margin-bottom: 1rem;
 }
 
 .highlighted-text {
-    @apply text-black/60 md:text-[22.40px] text-[13px] font-bold font-ptsans leading-[29px] tracking-tight;
+    @apply text-black/60 md:text-[22.40px] text-[13px] font-bold font-ptsans md:leading-[29px] leading-snug  tracking-tight;
 }
