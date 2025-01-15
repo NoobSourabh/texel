@@ -5,7 +5,7 @@ const NavMob = () => {
         <div>
 
 
-            <nav className=" fixed bottom-[66px] px-[15px] left-0 right-0 bg-white w-full text-[#553e31] font-crimsontext z-10 ">
+            <nav className=" fixed bottom-[66px] px-[15px] left-0 right-0 bg-white w-full text-[#553e31] font-crimsontext text-[32px] ">
                 <div className="flex flex-col w-full">
                     {[
                         { href: '/', text: 'Home' },
@@ -17,9 +17,9 @@ const NavMob = () => {
                         <a
                             key={link.href}
                             href={link.href}
-                            className="flex items-center justify-between px-4 py-3 text-gray-700 text-lg border-b border-[#553e31]"
+                            className="flex items-center justify-between px-4 pt-[66px] text-gray-700 text-lg border-b border-[#553e31]"
                         >
-                            <span className="italic mob-nav-h">{link.text}</span>
+                            <span className="italic mob-nav-h text-[32px] pb-2  ">{link.text}</span>
                             <span className="">&gt;&gt;</span>
                         </a>
                     ))}

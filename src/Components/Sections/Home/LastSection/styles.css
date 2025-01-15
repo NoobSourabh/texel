@@ -1,15 +1,15 @@
 
 .lst-container{
-    @apply md:mt-[20vh] md:mt-[46px] mb-[60px] ;
+    @apply mt-[20vh] md:mt-[46px]  ;
 }
 
 .inner-lst-container{
-    @apply flex flex-col items-center;
+    @apply flex flex-col items-center ;
 }
 
 
 .ladder-background-image {
-  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')] bg-cover bg-center rounded-2xl  w-full h-[120vh]   flex flex-col ;
+  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]  bg-auto bg-no-repeat bg-center   w-[100vw] h-[125vh] flex flex-col;
 }
 
 
@@ -19,15 +19,15 @@
     @apply  flex content-center;
 }
 .lst-flex{
-    @apply flex flex-col gap-6 text-center items-center w-full md:w-[500px];
+    @apply flex flex-col gap-6 text-center items-center w-full md:w-[680px] left-[61px];
 }
 .lst-flex-p{
-    @apply   text-gray text-[15px] md:text-l px-8 leading-5;
+    @apply   text-gray text-[15px] md:text-l px-8 leading-[29px] tracking-tight;
 
 }
 
 .lst-lower-flex{
-    @apply flex  flex-col md:pt-[250px] px-[8vw] gap-4 items-center md:items-start 
+    @apply flex  flex-col md:pt-[300px] md:pl-[59px] md:pr-0 pl-[8vw] pr-[8vw]  gap-8 items-center md:items-start 
 }
 
 .lst-lower-flex-p{

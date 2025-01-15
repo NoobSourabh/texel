@@ -6,11 +6,11 @@ const School = () => {
             <img className='sec-1-img' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736554062/image-47_lj46zq.svg' />
             <img className='sec-1-img-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736554392/image-49_uywwcd.svg' />
 
-            <div className="md:centered-container">
+            <div className="centered-container">
                 <p className="custom-text">
                     Inside every school lies a very precious resource – the <strong className="highlighted-text">eager students</strong> with a <strong className="highlighted-text">passion</strong> for learning, <strong className="highlighted-text">dedicated teachers</strong> who share knowledge and promote growth, and <strong className="highlighted-text">caring parents</strong> who are deeply invested in their children’s success. However, this great potential within everyone is suppressed due to many reasons such as <strong className="highlighted-text">complicated</strong>, <strong className="highlighted-text">outdated</strong>, and <strong className="highlighted-text">messy systems</strong>. Fortunately, Texel has now entered to change the game and transform educational technology for the better.
                 </p>
-                <p className="custom-text">
+                <p className="custom-text-2">
                     Texel is started with a very <strong className="highlighted-text">clear purpose</strong> in mind that is to provide actually <strong className="highlighted-text">helpful</strong> and <strong className="highlighted-text">meaningful</strong> support to schools in their journeys in such a way that it prioritizes new ideas and <strong className="highlighted-text">innovative concepts</strong>.
                 </p>
             </div>

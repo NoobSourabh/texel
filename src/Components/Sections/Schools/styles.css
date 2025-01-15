@@ -1,5 +1,5 @@
 .sec-1{
-    @apply flex flex-col md:py-[8vh] py-2 px-4 w-full md:items-center justify-center;
+    @apply flex flex-col md:py-[8vh] py-2 px-4 w-full md:items-center justify-center ;
 }
 
 .sec-1-img-mob{
@@ -31,13 +31,23 @@
 }
 
 .centered-container {
-    @apply  mx-auto  flex items-center justify-center  p-6 ;
+    @apply mx-auto  flex items-center  justify-center text-center md:pt-[52px] mt-0  pt-[10px]  md:pb-0;
     text-align: center;
+
+    /* Make sure the container has enough padding for mobile */
+     /* Adjust padding if needed to give space at the bottom */
 }
 
 .custom-text {
-    @apply md:w-[78vw] w-full  text-[#727272] md:text-[26px] text-[15px]  font-normal font-msUIGothic md:leading-[29px] leading-6 tracking-tight md:text-left text-center;
-    margin-bottom: 1rem;
+    @apply md:w-[78vw] w-full text-[#727272] md:text-[26px] text-[15px] font-normal font-msUIGothic md:leading-[29px] leading-6 tracking-tight md:text-center md:mb-[69px] mb-[-14px];
+    
+}
+
+.custom-text-2{
+    @apply md:w-[78vw] w-full text-[#727272] md:text-[26px] text-[15px] font-normal font-msUIGothic md:leading-[29px] leading-6 tracking-tight md:text-center md:mt-0 md:mt-[-34px] ;
+
+    /* Add margin to the bottom for mobile */
+     /* This will space out the paragraphs */
 }
 
 .highlighted-text {

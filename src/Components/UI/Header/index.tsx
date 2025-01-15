@@ -4,7 +4,7 @@ import './nav.css';
 const Header = () => {
     const location = useLocation();
     return (
-        <nav className="navbar md:pt-0 md:pb-0 pt-[32px] pb-[37px] ">
+        <nav className="navbar md:pt-0 md:pb-0 pt-[32px]  ">
             <a href='/' className="logo">
                 <img className='texel-logo' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736533482/image-42_wrox1g.svg' />
                 <img className='texel-text' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736533529/image-43_whicv9.svg' />
