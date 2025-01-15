@@ -1,6 +1,6 @@
 
 .lst-container{
-    @apply mt-[20vh] md:mt-[46px] mb-8 ;
+    @apply mt-[20vh] md:mt-[46px] mb-8 mt-[24px] ;
 }
 
 .inner-lst-container{
@@ -9,7 +9,7 @@
 
 
 .ladder-background-image {
-  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]  bg-auto bg-no-repeat bg-center   w-[100vw] h-[125vh] flex flex-col ;
+  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]  bg-auto bg-no-repeat bg-center   md:w-[100vw] md:h-[125vh] flex flex-col ;
 }
 
 

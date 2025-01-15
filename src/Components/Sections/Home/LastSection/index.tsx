@@ -4,11 +4,10 @@ const LastSection = () => {
     return (
         <div className='lst-container'>
             <div className="ladder-background-image ">
-                <div className="w-[100vw] text-center text-[#252b42] md:text-[32px] text-[26px] font-bold font-arimo italic md:pb-0">“ Quality comes without your permission “</div>                        {/* <img className='hidden md:block' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736437192/image-22_qllmxs.svg' /> */}
+                <div className="w-[100vw] text-center text-[#252b42] md:text-[32px] text-[26px] font-bold font-arimo italic md:pb-0">“ Quality comes without your permission “</div>                      
                 <div className='inner-lst-container pt-8'>
                     <div className='lst-flex'>
-                        {/* <h1 className='last-section-h1'>" Quality comes without your permission "</h1> */}
-                        {/* <img className='last-section-h1' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736487739/image-30_d9nbhb.svg' /> */}
+
                         <p className='lst-flex-p'>At Texel, we believe that education thrives when it's a
                             shared responsibility. Our innovative application dismantles
                             the barriers that keep parents in the dark, providing them

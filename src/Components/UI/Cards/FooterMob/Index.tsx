@@ -11,7 +11,7 @@ const FooterMob = () => {
                     <a href=''>
                         <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736311304/image-2_gr2ued.svg' />
                     </a>
-                    <a href=''>
+                    <a href='https://www.instagram.com/texel.social/'>
                         <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736311297/image-3_dfs7e4.svg' />
                     </a>
                     <a href=''>
@@ -27,7 +27,7 @@ const FooterMob = () => {
                     <h3 className="font-medium text-lg mb-4 font-abhayaLibre">Know Us</h3>
                     <div className="flex flex-col space-y-2 text-sm  ">
                         <a href="/" className="text-gray-600">Home</a>
-                        <a href="/features" className="text-gray-600">Features</a>
+                        <a href="/for-schools" className="text-gray-600">Features</a>
                         <a href="/mission" className="text-gray-600">Mission</a>
                         <a href="/about" className="text-gray-600">About Us</a>
                     </div>
