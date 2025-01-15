@@ -1,11 +1,11 @@
 import SCard from "../SchoolCard";
-import { schoolCardPropData } from "../../../../data/data";
+import { schoolCardPropData1 } from "../../../../data/data";
 import './styles.css'
 const Para = () => {
     return (
         // <div className="w-[1200px] flex flex-col mx-auto justify-between">
-        <div>
-            {schoolCardPropData.map((item, index) => (
+        <div className="md:w-full">
+            {schoolCardPropData1.map((item, index) => (
                 <div className="scard-position">
 
                     <SCard

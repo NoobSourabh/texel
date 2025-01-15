@@ -3,9 +3,9 @@ import './styles.css'
 const Features = () => {
     return (
         // <div className="ftr-container">
-        <div className="w-[100vw] lg:h-[1024px] md:h-[1200px] h-[2040px] pb-20 bg-[#e9d7ca]  flex flex-col justify-center items-center inline-flex">
+        <div className="w-[100vw] lg:h-[1024px] md:h-[1200px] h-[2040px] pb-20 bg-[#e9d7ca]  flex flex-col justify-center items-center ">
 
-            <div className="w-[518px] h-[103px] text-center text-[#8a6d59] text-5xl font-normal font-konkhmer leading-[48px]">FEATURES <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
+            <div className="w-[518px] h-[103px] text-center text-[#8a6d59] md:text-5xl  text-4xl font-normal font-konkhmer md:pt-0 pt-[30px]">FEATURES <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
             <div className="ftr-cards">
                 <FeatureCard iconUrl="https://res.cloudinary.com/dswwp9dju/image/upload/v1736921729/image-66_jzwq2x.svg"
                     heading="Attendance Tracking"

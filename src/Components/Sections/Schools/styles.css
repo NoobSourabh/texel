@@ -1,12 +1,12 @@
 .sec-1{
-    @apply flex flex-col md:py-[8vh] py-2 px-4 w-full md:items-center justify-center ;
+    @apply flex flex-col md:py-[8vh] py-2  w-full md:items-center justify-center ;
 }
 
 .sec-1-img-mob{
-    @apply md:hidden block;
+    @apply md:hidden block px-4;
 }
 .sec-1-img{
-    @apply md:block hidden w-full;
+    @apply md:block hidden w-full px-4;
 }
 
 .sec-1-p{

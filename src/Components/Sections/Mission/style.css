@@ -3,7 +3,7 @@
 }
 
 .mission-bg {
-    @apply w-[100vw]  flex pt-4;
+    @apply w-[100vw]  flex md:pt-[56px] pt-4;
 }
   
   .left-part {
@@ -37,7 +37,7 @@
 }
 
 .mission-card-flex{
- @apply w-[72vw]   flex flex-col md:flex-row items-center  md:gap-[80px] gap-[25px] mx-auto; 
+ @apply w-[72vw]   flex flex-col md:flex-row items-center  md:gap-[5vw] gap-[25px] mx-auto; 
 }
 
   @media (max-width: 640px) {

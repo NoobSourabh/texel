@@ -21,7 +21,7 @@ const Mission = () => {
                     <img className='mobile-vector-mission' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736493151/image-33_xv9hmi.svg' />
                 </div>
             </div>
-            <div className='flex items-center'>
+            <div className='md:w-[83vw] mx-auto md:mt-[107px]'>
                 <div className='core-values'>
                     <div className='hidden md:block'>
                         <RedHeading heading='OUR CORE VALUES' />

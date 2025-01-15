@@ -1,7 +1,7 @@
 .red-border-heading{
     /* @apply w-[90px] h-[8px] mb-5 bg-[#E74040];  */
     /* @apply w-[90px] h-[8px] mb-5 bg-[#E74040];  */
- @apply w-[94px] h-[7px] bg-[#e64040] mb-4;
+ @apply w-[94px] h-[7px] bg-[#e64040] md:mb-4 mb-[6px];
 }
 
 .red-heading{
