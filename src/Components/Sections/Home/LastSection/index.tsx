@@ -22,7 +22,8 @@ const LastSection = () => {
                     {/* <h2 className='lst-lower-flex-h2'>“Join us in our mission to cultivate a future where education is a collaborative adventure, and together, let’s illuminate the path to academic excellence, one child at a time.“</h2> */}
                     {/* <img className='hidden md:block w-[60vw]' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736439048/image-23_ide1hk.svg' /> */}
                     {/* <img className='lst-lower-quote' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736490346/image-32_nghyib.svg' /> */}
-                    <div className="w-full md:text-left text-center   md:w-[65vw]  md:text-[#252b42]  md:text-[32px] text-[19px] font-bold font-arimo italic  md:leading-[43.52px]">“Join us in our mission to cultivate a future where education is a collaborative adventure, and together, let’s illuminate the path to academic excellence, one child at a time.“</div>
+                    <div className="w-full md:text-left text-center   md:w-[65vw]  md:text-[#252b42]  md:text-[32px] text-[19px] font-bold font-arimo italic  md:leading-[43.52px]">
+                        “Join us in our mission to cultivate a future where education is a collaborative adventure, and together, let’s illuminate the path to academic excellence, one child at a time.“</div>
                 </div>
 
             </div>

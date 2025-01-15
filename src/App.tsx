@@ -24,7 +24,7 @@ const App = () => {
   }, []);
 
   const toggleNavMob = () => {
-    setIsNavMobOpen((prev) => !prev); 
+    setIsNavMobOpen((prev) => !prev);
   };
 
   return (
@@ -34,7 +34,7 @@ const App = () => {
 
         {isMobile && isNavMobOpen && (
           <div className="fixed inset-0 z-50 bg-white">
-            <NavMob />
+            <NavMob onToggleNav={toggleNavMob} />
           </div>
         )}
 

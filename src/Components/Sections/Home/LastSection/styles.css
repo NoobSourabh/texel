@@ -1,6 +1,8 @@
 
 .lst-container{
     @apply mt-[20vh] md:mt-[46px]  ;
+   
+        
 }
 
 .inner-lst-container{
@@ -9,13 +11,12 @@
 
 
 .ladder-background-image {
-  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]  bg-auto bg-no-repeat bg-center   w-[100vw] h-[125vh] flex flex-col;
+  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]  bg-auto bg-no-repeat bg-center   w-[100vw] h-[125vh] flex flex-col ;
 }
 
 
 
 .last-section-h1{
-    /* @apply text-black text-xxl; */
     @apply  flex content-center;
 }
 .lst-flex{
@@ -27,7 +28,7 @@
 }
 
 .lst-lower-flex{
-    @apply flex  flex-col md:pt-[300px] md:pl-[59px] md:pr-0 pl-[8vw] pr-[8vw]  gap-8 items-center md:items-start 
+    @apply flex  flex-col md:pt-[300px] md:pl-[59px] md:pr-0 pl-[8vw] pr-[8vw]  gap-8 items-center md:items-start ;
 }
 
 .lst-lower-flex-p{
