@@ -1,60 +1,54 @@
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/UI/Header';
+import NavMob from './Components/UI/NavMob';
 import Home from './Components/Sections/Home';
 import Mission from './Components/Sections/Mission';
-import { BrowserRouter as Router, Route, Routes, useNavigate, useLocation } from 'react-router-dom';
 import School from './Components/Sections/Schools';
-import Footer from './Components/UI/Footer';
 import About from './Components/Sections/About';
 import ContactUs from './Components/Sections/Contact Us';
-import NavMob from './Components/UI/NavMob';
+import Footer from './Components/UI/Footer';
 import FooterMob from './Components/UI/Cards/FooterMob/Index';
-import { useEffect, useState } from 'react';
 
-const AppContent = () => {
+const App = () => {
   const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth < 768);
-  const location = useLocation();
-  const navigate = useNavigate();
+  const [isNavMobOpen, setIsNavMobOpen] = useState<boolean>(false);
 
-  // Update screen size on resize
   useEffect(() => {
     const handleResize = () => {
-      const isNowMobile = window.innerWidth < 768;
-      setIsMobile(isNowMobile);
-
-      // Redirect to home if on `/header` and screen size changes to non-mobile
-      if (!isNowMobile && location.pathname === '/header') {
-        navigate('/');
-      }
+      setIsMobile(window.innerWidth < 768);
     };
 
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
-  }, [location, navigate]);
+  }, []);
 
-  const hideFooterRoutes = ['/header'];
+  const toggleNavMob = () => {
+    setIsNavMobOpen((prev) => !prev); 
+  };
 
-  return (
-    <div className="overflow-x-hidden">
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/mission" element={<Mission />} />
-        <Route path="/for-schools" element={<School />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/header" element={isMobile ? <NavMob /> : <Home />} />
-      </Routes>
-      {!hideFooterRoutes.includes(location.pathname) && <Footer />}
-      {!hideFooterRoutes.includes(location.pathname) && <FooterMob />}
-    </div>
-  );
-};
-
-const App = () => {
   return (
     <Router>
-      <AppContent />
+      <div className="overflow-x-hidden">
+        <Header onToggleNav={toggleNavMob} />
+
+        {isMobile && isNavMobOpen && (
+          <div className="fixed inset-0 z-50 bg-white">
+            <NavMob />
+          </div>
+        )}
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mission" element={<Mission />} />
+          <Route path="/for-schools" element={<School />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
+
+        <Footer />
+        <FooterMob />
+      </div>
     </Router>
   );
 };
