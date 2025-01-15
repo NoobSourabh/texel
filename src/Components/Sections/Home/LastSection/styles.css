@@ -1,8 +1,6 @@
 
 .lst-container{
-    @apply mt-[20vh] md:mt-[46px]  ;
-   
-        
+    @apply mt-[20vh] md:mt-[46px] mb-8 ;
 }
 
 .inner-lst-container{
@@ -28,11 +26,11 @@
 }
 
 .lst-lower-flex{
-    @apply flex  flex-col md:pt-[300px] md:pl-[59px] md:pr-0 pl-[8vw] pr-[8vw]  gap-8 items-center md:items-start ;
+    @apply flex w-full  flex-col md:pt-[300px] md:pl-[59px] md:pr-0 pl-[20px] pr-[20px] md:gap-2 gap-0 items-center md:items-start md:pb-0  ;
 }
 
 .lst-lower-flex-p{
-    @apply md:w-[40vw] text-[11px] md:text-l py-2 md:text-left text-center text-gray font-bold; 
+    @apply md:w-[40vw] text-[11px] md:text-l py-2 md:text-left text-center text-gray font-bold md:leading-[29px] leading-tight tracking-tight; 
 }
 .lst-lower-flex-h2{
     @apply w-[60vw] text-xxl italic font-bold;

@@ -5,7 +5,6 @@ import { missionData } from '../../../data/data'
 import RedHeadingMob from '../../UI/Cards/Red Border Heading/ReadHeadingMob'
 import RedHeading from '../../UI/Cards/Red Border Heading'
 const Mission = () => {
-
     return (
         <div className='mission' >
             <div className="mission-bg ">
@@ -42,8 +41,6 @@ const Mission = () => {
                 </div>
             </div>
         </div>
-
-
     )
 }
 
