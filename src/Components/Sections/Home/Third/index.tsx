@@ -9,7 +9,7 @@ const ThirdSection = () => {
             <div className='trd-upper'>
                 <div className='left-flex'>
                     <img className='left-h' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736269170/Group_54_1_lllhxc.png' />
-                    <img className='left-h-mb' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736917804/image-64_etcikx.svg' />
+                    <img className='left-h-mb' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736457037/image-28_xgqqqa.svg' />
                     <p className='left-p'>In a world where education often feels like a puzzle with missing pieces, Texel emerged as the bridge that connects parents, teachers, and schools, transforming the way we engage with learning.</p>
                     <p className='left-p'>By seamlessly integrating into daily routines, Texel ensures parents are always in the loop with real-time updates on assignments and progress. This empowers them to support and celebrate their child's academic journey effectively, creating a cohesive educational ecosystem.</p>
                 </div>
