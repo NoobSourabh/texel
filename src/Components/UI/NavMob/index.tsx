@@ -3,10 +3,10 @@ import HeaderMob from "../Header mob"
 
 const NavMob = ({ onToggleNav }: { onToggleNav: () => void }) => {
     return (
-        <div>
+        <div className="">
 
             <HeaderMob onToggleNav={onToggleNav} />
-            <nav className=" fixed bottom-[66px] px-[15px] left-0 right-0 bg-white w-full text-[#553e31] font-crimsontext text-[32px] ">
+            <nav className=" fixed bottom-[66px] px-[15px] left-0 right-0 bg-white w-full text-[#553e31] font-crimsontext text-[32px] overflow-hidden ">
                 <div className="flex flex-col w-full">
                     {[
                         { href: '/', text: 'Home' },

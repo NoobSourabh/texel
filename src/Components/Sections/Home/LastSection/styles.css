@@ -9,7 +9,8 @@
 
 
 .ladder-background-image {
-  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]  bg-auto bg-no-repeat bg-center   md:w-[100vw] md:h-[125vh] flex flex-col ;
+  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]   bg-no-repeat    md:w-[100vw] md:h-[125vh]  flex flex-col ;
+background-size: 100vw;
 }
 
 
@@ -18,19 +19,19 @@
     @apply  flex content-center;
 }
 .lst-flex{
-    @apply flex flex-col gap-6 text-center items-center w-full md:w-[680px] left-[61px];
+    @apply flex flex-col gap-6 text-center items-center w-full md:w-[602px] left-[61px];
 }
 .lst-flex-p{
-    @apply   text-gray text-[15px] md:text-l px-8 leading-[29px] tracking-tight;
+    @apply   text-gray text-[15px] md:text-2xl px-4 leading-[29px] tracking-tight;
 
 }
 
 .lst-lower-flex{
-    @apply flex w-full  flex-col md:pt-[300px] md:pl-[59px] md:pr-0 pl-[20px] pr-[20px] md:gap-2 gap-0 items-center md:items-start md:pb-0  ;
+    @apply flex w-full  flex-col lg:pt-[31vh] md:pt-[12vh]  md:pl-[59px] md:pr-0 pl-[20px] pr-[20px] md:gap-2 gap-0 items-center md:items-start md:pb-0  ;
 }
 
 .lst-lower-flex-p{
-    @apply md:w-[40vw] text-[11px] md:text-l py-2 md:text-left text-center text-gray font-bold md:leading-[29px] leading-tight tracking-tight; 
+    @apply md:w-[40vw] text-[11px] md:text-[22px] py-2 md:text-left text-center text-gray font-bold md:leading-[29px] leading-tight tracking-tight; 
 }
 .lst-lower-flex-h2{
     @apply w-[60vw] text-xxl italic font-bold;

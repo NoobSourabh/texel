@@ -11,9 +11,9 @@ const Home = () => {
 
         <div className='flex flex-col'>
             <div className='hidden md:block h-[681px] gradient-background  flex-col'>
-                <div className='flex justify-between ml-[-50px]'>
-                    <div className="z-10 h-[508px] pr-[52px] py-[114px] pl-[95.5px] justify-start items-center gap-[30px] inline-flex overflow-hidden">
-                        <div className="w-[531px] h-[280px] z-10" >
+                <div className='flex justify-between ml-[-3.47vw] '>
+                    <div className="z-10 h-[508px] pr-[3.6vw] py-[114px] pl-[6.5vw] justify-start items-center gap-[2.08vw] inline-flex overflow-hidden">
+                        <div className="w-[38.8vw] h-[280px] z-10" >
                             <div className="inner-left-home-container">
                                 <div className="inner-left-home-wrapper">
                                     <div className="inner-left-home-header">
@@ -34,7 +34,7 @@ const Home = () => {
                         </div>
 
                     </div>
-                    <img className='w-[60vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
+                    <img className='w-[50vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
                 </div>
                 <div>
                 </div>
@@ -65,9 +65,9 @@ const Home = () => {
 
 
 
-            <div className='cards'>
+            <div className='cards  '>
                 {/* <div className='flex gap-[30px] mr-[140px]'> */}
-                <div className="md:h-[296px] h-fit flex md:flex-row flex-col gap-[30px] md:pb-0 pb-[33px]" >
+                <div className="md:h-[296px] h-fit flex md:flex-row flex-col gap-[2.08vw] md:pb-0 pb-[33px]" >
                     <HomeCard
                         url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736225069/b31997dbc83bc1743782e79d556364f5_iyauhx.png'
                         title="7+ Cities"

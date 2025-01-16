@@ -1,6 +1,6 @@
 .contact-container{
     /* @apply flex flex-col md:flex-row w-[100vw]  md:px-14 py-14 gap-12 items-center justify-center; */
-    @apply flex flex-col md:flex-row w-[100vw]  md:px-14 py-14 md:gap-[114px] ;
+    @apply flex flex-col md:flex-row w-[100vw]  md:px-14 md:py-14 py-0 md:gap-[114px] ;
 }
 .left-contact{
     @apply flex flex-col md:w-[555px] md:px-0 w-full px-6;

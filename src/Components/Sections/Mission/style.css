@@ -7,7 +7,7 @@
 }
   
   .left-part {
-    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-5vw]  md:mr-[-50px] mr-0 justify-center;
+    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-5vw]  md:mr-[-50px] justify-center;
   }
   
   .left-part-para{
