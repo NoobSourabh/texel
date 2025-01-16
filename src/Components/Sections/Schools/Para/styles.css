@@ -24,7 +24,7 @@
 }
 
 .textcard-heading {
-    @apply w-[100vw] md:w-[full] md:text-left text-center   text-[#263238] text-[40px] font-normal font-freeman  md:leading-[29px] leading-10 tracking-tight ;
+    @apply w-[100vw] md:w-full md:text-left text-center   text-[#263238] text-[40px] font-normal font-freeman  md:leading-[29px] leading-10 tracking-tight ;
 }
  
 .textcard-paragraph {

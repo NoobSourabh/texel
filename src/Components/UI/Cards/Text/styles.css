@@ -19,7 +19,8 @@
 }
 
 .textcard-heading {
-    @apply w-[full] text-left text-[#263238] text-[40px] font-normal font-freeman  leading-[29px] tracking-tight mr-auto;
+    @apply font-ptsans;
+    /* @apply w-full text-left text-[#263238] text-[40px] font-normal font-freeman  leading-[29px] tracking-tight mr-auto; */
 }
  
 .textcard-paragraph {

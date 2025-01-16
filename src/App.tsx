@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="overflow-x-hidden">
+      <div className="">
         <Header onToggleNav={toggleNavMob} />
 
         {isMobile && isNavMobOpen && (
