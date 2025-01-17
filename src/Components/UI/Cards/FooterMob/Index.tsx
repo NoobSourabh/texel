@@ -21,7 +21,7 @@ const FooterMob = () => {
             </div>
 
             {/* Know Us and Contact Sections in Row */}
-            <div className="flex gap-10 pl-[44px]  mb-[40px] text-[#3f5652] ">
+            <div className="w-full flex justify-evenly   mb-[40px] text-[#3f5652] ">
                 {/* Know Us Section */}
                 <div>
                     <h3 className="font-medium text-lg mb-4 font-abhayaLibre">Know Us</h3>
