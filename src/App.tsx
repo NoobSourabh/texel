@@ -19,17 +19,35 @@ const App = () => {
       setIsMobile(window.innerWidth < 768);
     };
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Function to toggle NavMob visibility
   const toggleNavMob = () => {
-    setIsNavMobOpen((prev) => !prev);
+    setIsNavMobOpen((prev) => {
+      if (!prev) {
+        // Open NavMob: Disable body scrolling
+        document.body.style.overflow = "hidden";
+      } else {
+        // Close NavMob: Enable body scrolling
+        document.body.style.overflow = "auto";
+      }
+      return !prev;
+    });
   };
+
+  // Cleanup when component unmounts
+  useEffect(() => {
+    return () => {
+      document.body.style.overflow = "auto"; // Reset overflow on unmount
+    };
+  }, []);
+
 
   return (
     <Router>
-      <div className="">
+      <div className="overflow-x-hidden">
         <Header onToggleNav={toggleNavMob} />
 
         {isMobile && isNavMobOpen && (

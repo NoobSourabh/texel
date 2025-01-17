@@ -1,5 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import '/texel/src/Components/styles/_fonts.css'

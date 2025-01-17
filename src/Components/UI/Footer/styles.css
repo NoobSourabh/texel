@@ -1,12 +1,12 @@
 .footer{
-    @apply bottom-0 w-[100vw]  mx-auto border-t-[3px] border-[#3f5652]  flex-col font-abhayaLibre text-[#3f5652];
+    @apply bottom-0 w-[100vw]  mx-auto border-t-[3px] border-[#3f5652]  flex-col font-abhayaLibre text-[#3f5652] overflow-x-scroll;
 }
 .footer-container{
     @apply flex gap-[12vw] mx-auto justify-between;
 }
 
 .footer-logo-container{
-    @apply mx-[-4vw] w-[280px] overflow-hidden my-auto;
+    @apply mx-[-4vw] w-[19.5vw] overflow-hidden my-auto;
 }
 
 .grid-2{

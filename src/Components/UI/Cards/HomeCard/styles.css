@@ -30,11 +30,11 @@
   }
 
   .home-card-header {
-    @apply h-[66px] pr-[7px] justify-start items-center inline-flex overflow-hidden;
+    @apply h-[67px] pr-[7px] justify-start items-center inline-flex overflow-hidden;
   }
 
   .home-card-image {
-    @apply w-[65px] h-[67px];
+    @apply w-[65px] h-[65px];
   }
 
   .home-card-title {

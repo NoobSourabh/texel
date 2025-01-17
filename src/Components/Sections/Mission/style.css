@@ -7,11 +7,11 @@
 }
   
   .left-part {
-    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-5vw]  md:mr-[-50px] justify-center;
+    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-5vw]  md:mr-[-50px] lg:mt-0 md:mt-[-70px];
   }
   
   .left-part-para{
-    @apply w-full flex flex-col md:w-1/2 p-4 md:pl-8 content-center pt-0;
+    @apply w-full flex flex-col md:w-1/2 md:pl-8 pl-0 content-center pt-0;
   }
    /* .left-part h1{
     @apply text-white text-3xl font-bold;
@@ -29,7 +29,7 @@
   
 .core-values {
  /* @apply flex lg:ml-[138px] md:ml-[40px] mr-[40px] md:mr-0 md:py-[8vw] flex-col gap-[6px] ; */
- @apply flex flex-col mx-auto h-auto pb-0  md:pb-[161px];
+ @apply flex flex-col mx-auto h-auto pb-0   md:pb-[161px];
 }
 
 .red-border-mission{
@@ -37,7 +37,7 @@
 }
 
 .mission-card-flex{
- @apply w-[72vw]   flex flex-col md:flex-row items-center  md:gap-[5vw] gap-[25px] mx-auto; 
+ @apply w-[72vw]   flex flex-col lg:flex-row items-center  md:gap-[5vw] gap-[25px]  mx-auto; 
 }
 
   @media (max-width: 640px) {
@@ -68,7 +68,7 @@
 
 
 .education-text-container {
-  @apply  w-full text-left md:px-0 px-[18px] md:w-[44.5vw]  opacity-90 md:mx-0 md:py-0 py-[-26px] ;
+  @apply  w-full text-left md:px-0 px-[27px] md:w-[44.5vw]  opacity-90 md:mx-0 md:py-0 py-[-26px] ;
 }
 
 .education-text {

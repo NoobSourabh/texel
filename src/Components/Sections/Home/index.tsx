@@ -32,7 +32,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <img className='w-[50vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
                 </div>

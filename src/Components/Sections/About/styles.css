@@ -17,6 +17,7 @@
     /* @apply md:py-0 py-8 md:mx-[-20px] mx-auto flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 ; */
     @apply md:py-0  mt-[40px]  flex md:flex-row flex-col-reverse w-full  items-center md:items-stretch justify-center md:justify-between md:pr-10 md:mx-[-20px] mx-auto ;
 }
+
 .about-flex-img{
     @apply  hidden md:block md:w-[30vw] md:my-14 w-full;
 }

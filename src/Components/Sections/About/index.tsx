@@ -7,8 +7,10 @@ const About = () => {
         <div className='about-container '>
             <div className='about-header'>
                 <div className='px-8 md:md-[-40px] '>
-                    <RedHeadingMob heading="ABOUT US" />
                     <RedHeading heading="ABOUT US" />
+                </div>
+                <div className='md:hidden flex pl-[27px] pb-[6px]'>
+                    <RedHeadingMob heading="ABOUT US" />
                 </div>
                 <img className='about-heading' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736359263/image-15_h9qvx7.svg' />
                 <img className='about-heading-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736494533/image-34_strl8l.svg' />
@@ -28,7 +30,7 @@ const About = () => {
                 <img className='lower-flex-img-mob' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736499181/image-36_bxdsmp.svg' />
                 <div className='lower-flex-para'>
                     <div className='vision-flex '>
-                        <div className='md:pb-0 pb-[18px]'>
+                        <div className='md:pb-0 py-[18px]'>
                             <RedHeadingMob heading="OUR VISION" />
                         </div>
 

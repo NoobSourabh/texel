@@ -9,8 +9,8 @@
 
 
 .ladder-background-image {
-  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]   bg-no-repeat    md:w-[100vw] md:h-[125vh]  flex flex-col ;
-background-size: 100vw;
+  @apply  md:bg-[url('https://res.cloudinary.com/dswwp9dju/image/upload/v1736546539/image-46_ii49xl.svg')]   bg-no-repeat lg:bg-center  md:bg-[50%_20%] md:w-[100vw] md:h-[125vh]  flex flex-col ;
+    background-size: 100vw;
 }
 
 

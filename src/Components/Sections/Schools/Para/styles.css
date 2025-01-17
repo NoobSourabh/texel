@@ -2,12 +2,7 @@
     @apply mb-10;
 } */
 
-.para-left{
-    /* @apply  flex md:flex-row  flex-col-reverse items-center md:py-[5vh] justify-between; */
-}
-.para-right{
-    /* @apply flex md:flex-row-reverse flex-col-reverse items-center md:py-[5vh] justify-between ; */
-}
+
 
 .schoolcard-img{
     @apply md:w-[40vw] w-full;

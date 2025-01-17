@@ -10,24 +10,24 @@ const Mission = () => {
         <div className='mission' >
             <div className="mission-bg ">
                 <img className='left-part' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736349938/image-13_rrdsor.svg' />
-                <div className="left-part-para md:mr-20">
+                <div className="left-part-para ">
                     <div className='hidden md:block'>
                         <RedHeading heading='OUR MISSION' />
                     </div>
-                    <div className='md:hidden block'>
+                    <div className='md:hidden block pl-[27px] pb-[25px]'>
                         <RedHeadingMob heading='OUR MISSION' />
                     </div>
                     <Paragraph />
                     <img className='mobile-vector-mission' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736493151/image-33_xv9hmi.svg' />
                 </div>
             </div>
-            <div className='md:w-[83vw] mx-auto md:mt-[107px]'>
+            <div className='md:w-[83vw] lg:pl-[9.5vw] md:pl-[5vw] pl-0 md:mx-0 md:mt-[107px]'>
                 <div className='core-values'>
-                    <div className='hidden md:block'>
+                    <div className='hidden md:block md:pb-4 lg:pb-0'>
                         <RedHeading heading='OUR CORE VALUES' />
                     </div>
 
-                    <div className='md:hidden block'>
+                    <div className='md:hidden block pl-[28px] pb-[25px]'>
                         <RedHeadingMob heading='OUR CORE VALUES' />
                     </div>
                     <div className='mission-card-flex'>
