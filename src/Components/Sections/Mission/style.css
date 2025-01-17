@@ -3,15 +3,15 @@
 }
 
 .mission-bg {
-    @apply w-[100vw]  flex md:pt-[56px] pt-4;
+    @apply w-[100vw]   flex md:pt-[56px] pt-4; 
 }
   
   .left-part {
-    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-5vw]  md:mr-[-50px] lg:mt-0 md:mt-[-70px];
+    @apply hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-10vw]  md:mr-[-50px] lg:mt-0 md:mt-[-70px];
   }
   
   .left-part-para{
-    @apply w-full flex flex-col md:w-1/2 md:pl-8 pl-0 content-center pt-0;
+    @apply w-full flex flex-col md:w-1/2 md:pl-8 pl-0 content-center text-wrap pt-0;
   }
    /* .left-part h1{
     @apply text-white text-3xl font-bold;
@@ -37,7 +37,7 @@
 }
 
 .mission-card-flex{
- @apply w-[72vw]   flex flex-col lg:flex-row items-center  md:gap-[5vw] gap-[25px]  mx-auto; 
+ @apply w-[72vw]   flex flex-col lg:flex-row items-center  md:gap-[5vw] gap-[25px]  mx-auto;  
 }
 
   @media (max-width: 640px) {
