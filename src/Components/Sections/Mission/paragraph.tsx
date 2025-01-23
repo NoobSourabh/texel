@@ -1,3 +1,4 @@
+import './style.css'
 const Paragraph = () => {
   return (
 
@@ -6,7 +7,7 @@ const Paragraph = () => {
       <p className="education-text description">
         Imagine a world where parents are doing exactly what teachers do—actively participating in their child's education. This application helps bridge that gap.
 
-        <b className="text-black/60"> Education is a shared responsibility between parents and institutions. </b> 
+        <b className="text-black/60"> Education is a shared responsibility between parents and institutions. </b>
         Teachers involve children, but parents are usually kept in the dark and are generally uninformed about their child's school schedule.</p>
       <br />
       <p className="education-text description">
