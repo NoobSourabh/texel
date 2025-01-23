@@ -18,7 +18,7 @@ const LastSection = () => {
                 </div>
                 <div className='lst-lower-flex'>
                     <p className='lst-lower-flex-p'>By harnessing the power of technology, we empower schools with essential tools that monitor engagement and highlight student achievements. Imagine a community where teachers can focus on inspiring young minds, while parents celebrate milestones and tackle challenges together. With Texel, we’re not just managing education; we’re enriching it, creating a vibrant ecosystem where every user—teachers, students, and parents—feels inspired and informed.</p>
-                    <div className="w-full md:text-left text-center   lg:w-[65vw]   md:text-[#252b42]  md:text-[32px] text-[19px] font-bold font-arimo italic  md:leading-[43.52px] leading-relaxed">
+                    <div className="w-full md:text-left text-center  lg:w-[65vw]   md:text-[#252b42]  lg:text-[32px]  md:text-[28px] text-[19px] font-bold font-arimo italic  md:leading-[43.52px] leading-relaxed">
                         “Join us in our mission to cultivate a future where education is a collaborative adventure, and together, let’s illuminate the path to academic excellence, one child at a time.“</div>
                 </div>
 
