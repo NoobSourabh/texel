@@ -2,8 +2,8 @@
 import './styles.css'
 const LastSection = () => {
     return (
-        <div className='lst-container'>
-                <div className="w-[100vw] text-center text-[#252b42] md:text-[32px] text-[26px] font-bold font-arimo italic md:pb-0 ">“ Quality comes without your permission “</div>                      
+        <div className='lst-container '>
+            <div className="w-[100vw] text-center text-[#252b42] md:text-[32px] text-[26px] font-bold font-arimo italic md:pb-0 ">“ Quality comes without your permission “</div>
             <div className="ladder-background-image ">
                 <div className='inner-lst-container py-8'>
                     <div className='lst-flex'>

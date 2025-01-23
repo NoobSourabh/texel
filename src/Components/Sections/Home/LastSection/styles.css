@@ -1,6 +1,6 @@
 
 .lst-container{
-    @apply mt-[20vh] md:mt-[46px] mb-8 mt-[24px] ;
+    @apply  md:mt-[46px] mt-[24px]  [@media(max-height:750px)]:min-h-[1000px] ;
 }
 
 .inner-lst-container{
