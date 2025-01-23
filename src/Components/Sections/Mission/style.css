@@ -66,10 +66,10 @@
 
 /*  new css */
 
-
+/* 
 .education-text-container {
   @apply  w-full text-left md:px-0 px-[27px] md:w-[44.5vw]  opacity-90 md:mx-0 md:py-0 py-[-26px] ;
-}
+} */
 
 .education-text {
   @apply md:text-xl text-[13px] font-normal text-[#727272] font-ptsans leading-[29px] tracking-tight;
