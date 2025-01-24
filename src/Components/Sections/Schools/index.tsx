@@ -33,13 +33,13 @@ const School = () => {
             <Para />
             <div className="w-[85vw] md:h-28 md:mb-0 mb-[130px] opacity-90 text-center mx-auto">
                 <span className="text-[#727272] md:text-[32px] text-[15px] font-normal font-msUIGothic md:leading-[29px] leading-snug tracking-tight">
-                    Join us in our journey to help
+                    Join us in our journey to help&nbsp;
                 </span>
                 <span className="text-black/60 md:text-[27.20px] text-[13px] font-bold font-ptsans md:leading-[29px] leading-snug tracking-tight">
                     boost your school success
                 </span>
                 <span className="text-[#727272] md:text-[32px] text-[15px] font-normal font-msUIGothic md:leading-[29px] leading-snug tracking-tight">
-                    and showing the true potential of every single child.
+                    &nbsp;and showing the true potential of every single child.
                 </span>
                 <span className="text-black/60 md:text-[27.20px] text-[13px] font-bold font-ptsans md:leading-[29px] leading-snug tracking-tight">
                     With Texel in charge, the future of learning is bright, promising and brilliantly simple in concept
