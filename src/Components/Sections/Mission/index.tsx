@@ -31,15 +31,15 @@ const Mission = () => {
             </div>
 
             {/* Core Values Section */}
-            <div className="md:w-[83vw] lg:pl-[9.5vw] md:pl-[5vw] pl-0 md:mx-0 md:mt-[107px]">
-                <div className="flex flex-col mx-auto h-auto pb-0 md:pb-[161px]">
+            <div className="md:mx-auto md:mt-[107px]">
+                <div className="flex flex-col  h-auto pb-0 md:pb-[161px]">
                     <div className="hidden md:block md:pb-4 lg:pb-0">
                         <RedHeading heading="OUR CORE VALUES" />
                     </div>
                     <div className="md:hidden block pl-[28px] pb-[25px]">
                         <RedHeadingMob heading="OUR CORE VALUES" />
                     </div>
-                    <div className="w-[72vw] flex flex-col lg:flex-row items-center md:gap-[5vw] gap-[25px] mx-auto">
+                    <div className="flex flex-col lg:flex-row items-center gap-[5vw]  mx-auto">
                         {missionData.map((item, index) => (
                             <MissionCard
                                 key={index}
