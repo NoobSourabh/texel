@@ -3,7 +3,7 @@ import TestimonialScroll from '../../../UI/ScrollTestimonials';
 
 const ThirdSection = () => {
     return (
-        <div className="px-[34px] md:px-[8vh] md:flex flex-col items-center justify-center md:gap-0">
+        <div className="px-[34px] md:px-[8vh] md:flex flex-col items-center justify-center md:gap-0 ">
             {/* Upper Section */}
             <div className="flex justify-between md:flex-row flex-col-reverse">
                 <div className="flex flex-col items-start md:pl-[50px] pt-[15vh] gap-8 md:gap-14">
@@ -55,7 +55,7 @@ const ThirdSection = () => {
             </div>
 
             {/* Testimonials Section */}
-            <div className="hidden md:flex my-[4vw]">
+            <div className="hidden md:flex my-[4vw] ">
                 <TestimonialScroll testimonials={testimonial} />
             </div>
         </div>
