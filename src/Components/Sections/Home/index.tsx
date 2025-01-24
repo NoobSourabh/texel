@@ -10,10 +10,10 @@ const Home = () => {
         <div className="flex flex-col">
             {/* Desktop Home Top Section */}
             <div className="hidden md:flex h-[681px] flex-col gradient-background" style={{ background: 'linear-gradient(250deg, rgba(125, 93, 72, 0.37) 17.73%, rgba(227, 169, 131, 0.37) 63.1%)' }}>
-                <div className="flex justify-between ml-[-3.47vw]">
-                    <div className="z-10 h-[508px] pr-[3.6vw] py-[114px] pl-[6.5vw] inline-flex justify-start items-center gap-[2.08vw] overflow-hidden">
+                <div className="flex justify-between lg:ml-[-3.47vw] md:ml-[-8vw]">
+                    <div className="z-10 h-[508px] pr-[3.6vw] py-[114px] pl-[6.5vw] inline-flex justify-start items-center gap-[2.08vw] ">
                         <div className="w-[38.8vw] h-[280px] z-10">
-                            <div className="w-[531px] h-[321px] pr-[57.50px] inline-flex justify-start items-center overflow-hidden">
+                            <div className="w-[531px] h-[321px] pr-[57.50px] inline-flex justify-start items-center ">
                                 <div className="w-[513px] h-[321.40px] relative">
                                     <div className="w-[513px] h-[234px] absolute">
                                         <div className="absolute left-[41px]">
