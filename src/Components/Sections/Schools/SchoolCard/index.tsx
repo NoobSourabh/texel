@@ -9,7 +9,7 @@ const SCard = ({ heading, paragraph, imgUrl, position }: cardProp) => {
   return (
     <div className={position}>
       <TextCard heading={heading} paragraph={paragraph} />
-      <img className="schoolcard-img" src={imgUrl} />
+      <img className="md:w-[40vw] w-full" src={imgUrl} />
     </div>
   )
 }

@@ -21,26 +21,26 @@ const FooterMob = () => {
             </div>
 
             {/* Know Us and Contact Sections in Row */}
-            <div className="w-full flex justify-evenly   mb-[40px] text-[#3f5652] ">
+            <div className="w-full flex pl-12  mb-[40px] text-[#3f5652]  font-abhayaLibre">
                 {/* Know Us Section */}
-                <div>
-                    <h3 className="font-medium text-lg mb-4 font-abhayaLibre">Know Us</h3>
+                <div className="w-[111px]">
+                    <h3 className="font-extrabold text-lg mb-4 text">Know Us</h3>
                     <div className="flex flex-col space-y-2 text-sm  ">
-                        <a href="/" className="text-gray-600">Home</a>
-                        <a href="/for-schools" className="text-gray-600">Features</a>
-                        <a href="/mission" className="text-gray-600">Mission</a>
-                        <a href="/about" className="text-gray-600">About Us</a>
+                        <a href="/" className="font-normal">Home</a>
+                        <a href="/for-schools" className="font-normal">Features</a>
+                        <a href="/mission" className="font-normal">Mission</a>
+                        <a href="/about" className="font-normal">About Us</a>
                     </div>
                 </div>
 
                 {/* Contact Section */}
-                <div >
-                    <h3 className=" font-medium text-lg mb-4 font-abhayaLibre">Contact</h3>
+                <div className="w-[111px]">
+                    <h3 className=" font-extrabold text-lg mb-4 font-abhayaLibre">Contact</h3>
                     <div className="flex flex-col space-y-2 text-sm  ">
-                        <a href="mailto:contact@mytexel.com" className="text-gray-600">
+                        <a href="mailto:contact@mytexel.com" className="font-normal">
                             contact@mytexel.com
                         </a>
-                        <a href="https://api.whatsapp.com/send?phone=919125355841" className="text-gray-600">
+                        <a href="https://api.whatsapp.com/send?phone=919125355841" className="font-normal">
                             +91-91255-55841
                         </a>
                     </div>
@@ -48,8 +48,8 @@ const FooterMob = () => {
             </div>
 
             {/* Copyright */}
-            <div className="w-full flex justify-center border-t-[3px] border-[#3F56521A]/10 pt-2  text-[#3f5652]">
-                <p className="text-gray-500 text-sm text-center">
+            <div className="w-full flex justify-center border-t-[3px] border-[#3F56521A]/10 pt-2  ">
+                <p className="text-[#3f6562] text-semibold text-sm text-center">
                     © 2024 Texel Co. | All Rights Reserved
                 </p>
             </div>

@@ -1,125 +1,121 @@
+import HomeCard from '../../UI/Cards/HomeCard';
+import { testimonial } from '../../UI/Cards/Testimonials new/reviews';
+import TestimonialScroll from '../../UI/ScrollTestimonials';
+import Features from './Features';
+import LastSection from './LastSection';
+import ThirdSection from './Third';
 
-import HomeCard from '../../UI/Cards/HomeCard'
-import { testimonial } from '../../UI/Cards/Testimonials new/reviews'
-import TestimonialScroll from '../../UI/ScrollTestimonials'
-import Features from './Features'
-import LastSection from './LastSection'
-import './styles.css'
-import ThirdSection from './Third'
 const Home = () => {
     return (
-
-        <div className='flex flex-col'>
-            <div className='hidden md:block h-[681px] gradient-background  flex-col'>
-                <div className='flex justify-between ml-[-3.47vw] '>
-                    <div className="z-10 h-[508px] pr-[3.6vw] py-[114px] pl-[6.5vw] justify-start items-center gap-[2.08vw] inline-flex overflow-hidden">
-                        <div className="w-[38.8vw] h-[280px] z-10" >
-                            <div className="inner-left-home-container">
-                                <div className="inner-left-home-wrapper">
-                                    <div className="inner-left-home-header">
-                                        <div className="inner-left-home-title">
-                                            <span className="inner-left-home-main-text">Empowering Education Through Seamless Connections</span>
-                                            <span className="inner-left-home-sub-text"> </span>
+        <div className="flex flex-col">
+            {/* Desktop Home Top Section */}
+            <div className="hidden md:flex h-[681px] flex-col gradient-background" style={{ background: 'linear-gradient(250deg, rgba(125, 93, 72, 0.37) 17.73%, rgba(227, 169, 131, 0.37) 63.1%)' }}>
+                <div className="flex justify-between ml-[-3.47vw]">
+                    <div className="z-10 h-[508px] pr-[3.6vw] py-[114px] pl-[6.5vw] inline-flex justify-start items-center gap-[2.08vw] overflow-hidden">
+                        <div className="w-[38.8vw] h-[280px] z-10">
+                            <div className="w-[531px] h-[321px] pr-[57.50px] inline-flex justify-start items-center overflow-hidden">
+                                <div className="w-[513px] h-[321.40px] relative">
+                                    <div className="w-[513px] h-[234px] absolute">
+                                        <div className="absolute left-[41px]">
+                                            <span className="text-[#7d5d48]/80 md:text-[16px] text-[11px] font-bold font-['Montserrat'] leading-normal tracking-tight">
+                                                Empowering Education Through Seamless Connections
+                                            </span>
                                         </div>
-                                        <div className="inner-left-home-description">Switch to paperless work and more consistent results</div>
-                                        <img className="inner-left-home-image" src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736535815/image-40_h0spiw.svg" />
+                                        <div className="absolute w-[450px] left-[41px] top-[174px] text-[#2c221c]/80 text-xl font-normal font-['Montserrat'] leading-[30px] tracking-tight">
+                                            Switch to paperless work and more consistent results
+                                        </div>
+                                        <img
+                                            className="absolute w-[332px] h-[171px] left-0 pl-[40px] top-[12px]"
+                                            src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736535815/image-40_h0spiw.svg"
+                                            alt="Illustration"
+                                        />
                                     </div>
-                                    <div className="inner-left-home-button-container">
-                                        <div className="inner-left-home-button">
-                                            <a href='/about' className="inner-left-home-button-text">Learn More</a>
+                                    <div className="absolute left-[39.50px] top-[269.40px] flex justify-start items-start gap-2.5">
+                                        <div className="px-10 py-[15px] rounded-[5px] border border-[#937663] flex justify-center items-center overflow-hidden">
+                                            <a
+                                                href="/about"
+                                                className="text-center text-[#937663] text-sm font-bold font-['Montserrat'] leading-snug tracking-tight"
+                                            >
+                                                Learn More
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img className='w-[50vw] right-0 ' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg' />
+                    <img
+                        className="w-[50vw] right-0"
+                        src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg"
+                        alt="Background Vector"
+                    />
                 </div>
-                <div>
-                </div>
-
             </div>
 
-
-            {/* MOBILE HOME TOP SECTION */}
-
-            <div className='md:hidden flex h-[389px] w-[100vw] justify-between  gradient-background '>
-                {/* <div className='md:hidden flex h-[389px] w-full bg-[url(https://res.cloudinary.com/dswwp9dju/image/upload/v1736840436/image-62_led8ga.svg)] bg-no-repeat '> */}
+            {/* Mobile Home Top Section */}
+            <div className="md:hidden flex h-[389px] w-[100vw] justify-between" style={{ background: 'linear-gradient(250deg, rgba(125, 93, 72, 0.37) 17.73%, rgba(227, 169, 131, 0.37) 63.1%)' }}>
                 <div className="mt-[51px] ml-[24px] absolute z-10">
-                    <div className="">
+                    <div>
                         <div className="w-[220px]">
-                            <p className=" text-[#7d5d48]/80 text-[11px] font-bold font-montserrat  tracking-tight">Empowering Education Through Seamless Connections</p>
+                            <p className="text-[#7d5d48]/80 text-[11px] font-bold font-['Montserrat'] tracking-tight">
+                                Empowering Education Through Seamless Connections
+                            </p>
                         </div>
-                        <img className="w-[124px]" src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736535815/image-40_h0spiw.svg" />
-                        <div className="w-[155px] text-[#2c221c]/80 text-[9px] font-normal font-montserrat leading-3 tracking-tight">Switch to paperless work and more consistent results</div>
+                        <img
+                            className="w-[124px]"
+                            src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736535815/image-40_h0spiw.svg"
+                            alt="Mobile Illustration"
+                        />
+                        <div className="w-[155px] text-[#2c221c]/80 text-[9px] font-normal font-['Montserrat'] leading-3 tracking-tight">
+                            Switch to paperless work and more consistent results
+                        </div>
                     </div>
-                    <div className="w-14 h-[17px] px-1.5 rounded-[5px] border border-[#937663] justify-center items-center inline-flex overflow-hidden ">
-                        <a href='/about' className="w-11 text-center text-[#937663] text-[7px] font-bold font-montserrat leading-snug tracking-tight">Learn More</a>
+                    <div className="w-14 h-[17px] px-1.5 rounded-[5px] border border-[#937663] flex justify-center items-center overflow-hidden">
+                        <a
+                            href="/about"
+                            className="w-11 text-center text-[#937663] text-[7px] font-bold font-['Montserrat'] leading-snug tracking-tight"
+                        >
+                            Learn More
+                        </a>
                     </div>
                 </div>
-                <img className=' ml-auto' src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736839922/image-61_pfaqdn.svg' />
+                <img
+                    className="ml-auto"
+                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736839922/image-61_pfaqdn.svg"
+                    alt="Background Vector"
+                />
             </div>
 
-            {/* MOBILE HOME TOP SECTION */}
-
-
-
-            <div className='cards  '>
-                {/* <div className='flex gap-[30px] mr-[140px]'> */}
-                <div className="md:h-[296px] h-fit flex md:flex-row flex-col gap-[2.08vw] md:pb-0 pb-[33px]" >
+            {/* Cards Section */}
+            <div className="w-[100vw] md:h-[20px] md:mb-[-60px] md:pt-[50px] md:pb-[270.40px] md:mt-0 mt-[-151px] flex justify-center items-center">
+                <div className="md:h-[296px] h-fit flex md:flex-row flex-col gap-[2.08vw] md:pb-0 pb-[33px]">
                     <HomeCard
-                        url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736225069/b31997dbc83bc1743782e79d556364f5_iyauhx.png'
+                        url="https://res.cloudinary.com/dswwp9dju/image/upload/v1736225069/b31997dbc83bc1743782e79d556364f5_iyauhx.png"
                         title="7+ Cities"
-                        description='Connecting educational communities across multiple cities for a united learning experience' />
+                        description="Connecting educational communities across multiple cities for a united learning experience"
+                    />
                     <HomeCard
-                        url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736227819/f6401fbd87dbcda96c29cd8a720b2907_rpcff3.png'
+                        url="https://res.cloudinary.com/dswwp9dju/image/upload/v1736227819/f6401fbd87dbcda96c29cd8a720b2907_rpcff3.png"
                         title="118+  Schools"
-                        description='Fostering collaboration and growth in schools with state-of-the-art educational technology' />
+                        description="Fostering collaboration and growth in schools with state-of-the-art educational technology"
+                    />
                     <HomeCard
-                        url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736225068/8628da21ae0eded15a1d77d2f1659641_apiuhu.png'
-                        title="1.4Lakh+  Students	"
-                        description='Empowering students with seamless access to assignments, resources, and communication.' />
+                        url="https://res.cloudinary.com/dswwp9dju/image/upload/v1736225068/8628da21ae0eded15a1d77d2f1659641_apiuhu.png"
+                        title="1.4Lakh+  Students"
+                        description="Empowering students with seamless access to assignments, resources, and communication."
+                    />
                 </div>
-
-
             </div>
 
+            {/* Other Sections */}
             <Features />
             <ThirdSection />
-            <div className='md:hidden flex'>
+            <div className="md:hidden flex">
                 <TestimonialScroll testimonials={testimonial} />
             </div>
             <LastSection />
         </div>
+    );
+};
 
-    )
-}
-
-export default Home
-
-
-
-// <div className=' flex flex-col'>
-//     <div className="home-bg home-bg-vector flex justify-between ">
-//         <LeftCard className='left-card-div ' />
-//         <RightCard className='right-card-div' />
-//     </div>
-
-//     <div className='cards'>
-//         <HomeCard
-//             url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736225069/b31997dbc83bc1743782e79d556364f5_iyauhx.png'
-//             title="7+ Cities"
-//             description='Connecting educational communities across multiple cities for a united learning experience' />
-//         <HomeCard
-//             url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736227819/f6401fbd87dbcda96c29cd8a720b2907_rpcff3.png'
-//             title="118+  Schools"
-//             description='Fostering collaboration and growth in schools with state-of-the-art educational technology' />
-//         <HomeCard
-//             url='https://res.cloudinary.com/dswwp9dju/image/upload/v1736225068/8628da21ae0eded15a1d77d2f1659641_apiuhu.png'
-//             title="1.4Lakh+  Students	"
-//             description='Empowering students with seamless access to assignments, resources, and communication.' />
-//     </div>
-//     <Features />
-//     <ThirdSection />
-//     <LastSection />
-// </div>
+export default Home;

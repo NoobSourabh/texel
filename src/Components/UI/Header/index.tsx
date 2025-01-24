@@ -1,27 +1,35 @@
-import './nav.css';
-
 const Header = ({ onToggleNav }: { onToggleNav: () => void }) => {
     return (
-        <nav className="navbar md:pt-0 md:pb-0 pt-[32px]">
-            <a href="/" className="logo">
+        <nav className="flex justify-between items-center md:pl-10 bg-white top-0 w-full h-auto pt-[32px] md:pt-0 md:pb-0 pr-4">
+            <a href="/" className="flex items-center">
                 <img
-                    className="texel-logo"
+                    className="mb-[-6px] overflow-hidden"
                     src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736533482/image-42_wrox1g.svg"
                     alt="Texel Logo"
                 />
                 <img
-                    className="texel-text"
+                    className="pt-[6px]"
                     src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736533529/image-43_whicv9.svg"
                     alt="Texel Text"
                 />
             </a>
 
-            <div className="navigation-container font-montserrat hidden md:flex">
-                <a href="/" className="nav-home">Home</a>
-                <a href="/for-schools" className="nav-for-schools">For Schools</a>
-                <a href="/mission" className="nav-mission">Mission</a>
-                <a href="/about" className="nav-about-us">About Us</a>
-                <a href="/contact" className="nav-contact-us">Contact Us</a>
+            <div className="hidden md:flex items-end justify-between w-[423px] mr-[22px] mt-[8px] tracking-wider ">
+                <a href="/" className="text-[color:var(--second-text-color,#737373)] text-center font-montserrat text-[14px] font-bold leading-[24px]">
+                    Home
+                </a>
+                <a href="/for-schools" className="text-[color:var(--second-text-color,#737373)] text-center font-montserrat text-[14px] font-bold leading-[24px]">
+                    For Schools
+                </a>
+                <a href="/mission" className="text-[color:var(--second-text-color,#737373)] text-center font-montserrat text-[14px] font-bold leading-[24px]">
+                    Mission
+                </a>
+                <a href="/about" className="text-[color:var(--second-text-color,#737373)] text-center font-montserrat text-[14px] font-bold leading-[24px]">
+                    About Us
+                </a>
+                <a href="/contact" className="text-[color:var(--second-text-color,#737373)] text-center font-montserrat text-[14px] font-bold leading-[24px]">
+                    Contact Us
+                </a>
             </div>
 
             <button

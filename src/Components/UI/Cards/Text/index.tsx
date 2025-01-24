@@ -1,25 +1,18 @@
-import './styles.css';
-
 import { TextCardProps } from '../../../../Types/PropTypes';
 
 const TextCard = ({ heading, paragraph }: TextCardProps) => {
     return (
-        // <div className="textcard">
-        //     <h1 className='textcard-h1'>{heading}</h1>
-        //     <p className='textcard-p'  dangerouslySetInnerHTML={{ __html: paragraph }} />
-        // </div>
-
-        <div className="textcard-container">
-            <div className="textcard">
-                <h1 className="textcard-heading">{heading}</h1>
+        <div className="flex flex-col items-center justify-center text-center p-6 space-y-6">
+            <div className="w-full max-w-xl flex flex-col gap-[38px]">
+                <h1 className="w-[100vw] md:w-full md:text-left text-center text-[#263238] text-[40px] font-normal font-freeman md:leading-[29px] leading-10 tracking-tight">
+                    {heading}
+                </h1>
                 <p
-                    className="textcard-paragraph "
+                    className="text-[#727272] md:text-[26px] text-[15px] font-normal font-msUIGothic leading-7 tracking-tight md:text-left text-center pr-[16px]"
                     dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
             </div>
-
         </div>
-
     );
 };
 

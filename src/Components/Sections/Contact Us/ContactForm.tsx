@@ -5,7 +5,7 @@ type FormData = {
     email: string;
     mobile: string;
     message: string;
-}
+};
 
 const ContactForm: React.FC = () => {
     const [formData, setFormData] = useState<FormData>({
@@ -29,11 +29,18 @@ const ContactForm: React.FC = () => {
     };
 
     return (
-        <form className="form" onSubmit={handleSubmit}>
+        <form
+            className="flex flex-col gap-[20px] items-center pt-4 w-full"
+            onSubmit={handleSubmit}
+        >
             {/* Name Input */}
-            <div className="input-div">
-
-                <label htmlFor="name">Your Name</label>
+            <div className="flex flex-col gap-2 w-[80vw] md:w-[40vw] items-center md:items-stretch text-xs">
+                <label
+                    htmlFor="name"
+                    className="text-xs font-semibold text-[#666666] mr-auto"
+                >
+                    Your Name
+                </label>
                 <input
                     type="text"
                     id="name"
@@ -42,13 +49,18 @@ const ContactForm: React.FC = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
+                    className="w-[80vw] md:w-[40vw] h-[56px] p-4 rounded-[8px] border border-[#cccccc]  text-[#666666] text-[16px] leading-[24px]"
                 />
             </div>
 
-            <div className="input-div">
-
-                {/* Email Input */}
-                <label htmlFor="email">Your Email Address</label>
+            {/* Email Input */}
+            <div className="flex flex-col gap-2 w-[80vw] md:w-[40vw] items-center md:items-stretch text-xs">
+                <label
+                    htmlFor="email"
+                    className="text-xs font-semibold text-[#666666] mr-auto"
+                >
+                    Your Email Address
+                </label>
                 <input
                     type="email"
                     id="email"
@@ -57,13 +69,18 @@ const ContactForm: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
+                    className="w-[80vw] md:w-[40vw] h-[56px] p-4 rounded-[8px] border border-solid border-[#cccccc] text-[#666666] text-[16px] leading-[24px]"
                 />
             </div>
 
             {/* Mobile Number Input */}
-            <div className="input-div">
-
-                <label htmlFor="mobile">Your Mobile Number</label>
+            <div className="flex flex-col gap-2 w-[80vw] md:w-[40vw] items-center md:items-stretch text-xs">
+                <label
+                    htmlFor="mobile"
+                    className="text-xs font-semibold text-[#666666] mr-auto"
+                >
+                    Your Mobile Number
+                </label>
                 <input
                     type="tel"
                     id="mobile"
@@ -74,15 +91,19 @@ const ContactForm: React.FC = () => {
                     value={formData.mobile}
                     onChange={handleChange}
                     required
+                    className="w-[80vw] md:w-[40vw] h-[56px] p-4 rounded-[8px] border border-solid border-[#cccccc] text-[#666666] text-[16px] leading-[24px]"
                 />
             </div>
 
             {/* Message Input */}
-            <div className="input-div ">
-
-                <label htmlFor="message">Your Message</label>
+            <div className="flex flex-col gap-2 w-[80vw] md:w-[40vw] items-center md:items-stretch text-xs">
+                <label
+                    htmlFor="message"
+                    className="text-xs font-semibold text-[#666666] mr-auto"
+                >
+                    Your Message
+                </label>
                 <textarea
-                    className="textarea"
                     id="message"
                     name="message"
                     placeholder="Enter your message here..."
@@ -90,11 +111,17 @@ const ContactForm: React.FC = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
+                    className="w-full md:w-[40vw] h-[100px] p-4 rounded-[8px] border border-solid border-[#cccccc] text-[#666666] text-[16px] leading-[24px]"
                 ></textarea>
             </div>
 
             {/* Submit Button */}
-            <button className="form-button" type="submit">Submit</button>
+            <button
+                type="submit"
+                className="bg-[#79B4B5] w-1/3 px-6 py-3 md:px-5 md:py-4 rounded-md text-white text-[16px]"
+            >
+                Submit
+            </button>
         </form>
     );
 };
