@@ -10,7 +10,7 @@ const Mission = () => {
             {/* Mission Background Section */}
             <div className="w-[100vw] flex md:pt-[56px] pt-4">
                 <img
-                    className="hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-10vw] md:mr-[-50px] lg:mt-0 md:mt-[-70px]"
+                    className="hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-10vw] md:mr-[-50px] lg:mt-0 md:mt-[-55px]"
                     src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736349938/image-13_rrdsor.svg"
                     alt="Mission Background"
                 />

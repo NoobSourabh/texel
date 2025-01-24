@@ -17,25 +17,27 @@
 .textcard {
     @apply w-full max-w-xl flex flex-col gap-[38px];
 }
-
 .textcard-heading {
     @apply font-ptsans;
     /* @apply w-full text-left text-[#263238] text-[40px] font-normal font-freeman  leading-[29px] tracking-tight mr-auto; */
 }
- 
+
 .textcard-paragraph {
     /* @apply pl-8  text-[#727272] md:text-[26px] text-[16px]
-      font-normal font-msUIGothic md:leading-[29px] tracking-tight  text-left; */
-      @apply text-[#727272]
-text-[26px]
-font-normal
-font-ptsans
-leading-[29px]
-tracking-tight;
-
+    font-normal font-msUIGothic md:leading-[29px] tracking-tight  text-left; */
+    @apply text-[#727272]
+    text-[26px]
+    font-normal
+    font-ptsans
+    leading-[29px]
+    tracking-tight;
+    
 }
 
 .textcardpara-mob{
     @apply text-center px-3 text-[#727272]  text-[16px]
-      font-normal font-msUIGothic leading-7 tracking-tight ;
+    font-normal font-msUIGothic leading-7 tracking-tight ;
 }
+
+/* //https://github.com/NoobSourabh/texel.git
+// Developed by Sourabh Chouhan | GitHub: https://github.com/NoobSourabh */
