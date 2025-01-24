@@ -43,7 +43,7 @@ const Mission = () => {
                         {missionData.map((item, index) => (
                             <MissionCard
                                 key={index}
-                                title={`${index + 1}.  ${item.title}`} // Combine index and title with double spaces
+                                title={`${index + 1}.  ${item.title}`} 
                                 content={item.content}
                             />
                         ))}
