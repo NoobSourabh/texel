@@ -31,32 +31,32 @@ export const schoolCardPropData1 = [
         <strong>&nbsp;encrypted format rather than raw </strong>
         assuring that there will be
         <strong>&nbsp; no breach of data.</strong> </div>`,
-    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736556690/image-50_oahfdt.svg",
+    imgUrl: "/assets-public/images/svgs/school-security.svg",
     position: "para-left",
   },
   {
     heading: "2. Our Presence ",
     paragraph: ` <div class="text-center md:text-left px-3 text-[#727272] text-[16px] font-normal font-ptsans leading-7 tracking-tight md:text-[26px] md:font-ptsans  md:leading-[29px] md:tracking-tight">Texel is currently present in <strong>&nbsp;13 schools.</strong>  After careful research and observation we have found out certain patterns among students, teachers and parents and only after careful analyzation of these patterns
          <strong>&nbsp;we add only the useful features with no nonsense.</strong> Currently we have more than <strong>&nbsp;118 schools</strong> that have joined hand with Texel and these numbers are just <i>increasing day by day.</i></div> ` ,
-    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736556713/image-51_e5eq47.svg",
+    imgUrl: "/assets-public/images/svgs/school-presence.svg",
     position: "para-right",
   },
   {
     heading: "3. Impressive Growth ",
     paragraph: ` <div class="text-center md:text-left px-3 text-[#727272] text-[16px] font-normal font-ptsans leading-7 tracking-tight md:text-[26px] md:font-ptsans  md:leading-[29px] md:tracking-tight"> The schools that have started using Texel reported that they have seen an <strong>&nbsp;increase of 57% in student admissions.</strong> This remarkable achievement just goes to show how Texel has the <i>ability to lead to successes</i> in educational institutions.</div>`,
-    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736556811/image-52_ftfxbo.svg",
+    imgUrl: '/assets-public/images/svgs/school-growth.svg',
     position: "para-left",
   },
   {
     heading: "4. Time-Saving Administration  ",
     paragraph: ` <div class="text-center md:text-left px-3 text-[#727272] text-[16px] font-normal font-ptsans leading-7 tracking-tight md:text-[26px] md:font-ptsans  md:leading-[29px] md:tracking-tight"> With Texel, teachers and parents can be <i>relaxed and assured</i> that the data they are seeing is <strong>&nbsp;100% consistent</strong> and accurate since Texel helps eliminate all the manual work <strong/>helping reduce errors.</strong> With such a system teachers can truly focus on things that actually matter that is <strong>&nbsp;teaching and learning.</strong></div>`,
-    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736556838/image-53_bu8dxt.svg",
+    imgUrl: '/assets-public/images/svgs/school-time.svg',
     position: "para-right",
   },
   {
     heading: "5. User - Friendly Interface",
     paragraph: ` <div class="text-center md:text-left px-3 text-[#727272] text-[16px] font-normal font-ptsans leading-7 tracking-tight md:text-[26px] md:font-ptsans  md:leading-[29px] md:tracking-tight">  After reviewing many schools we have found out that ERP systems <i>do exist</i> in these schools but due to their <strong>&nbsp;poor user interface and interaction,</strong> the teachers have given up on them and do not use them. But Texel recognized this problem and hired <i>experienced UI/UX developers</i> to ensure a <strong>&nbsp;seamless and easy to use platform.</strong> </div>`,
-    imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736556930/image-55_jveggz.svg",
+    imgUrl: '/assets-public/images/svgs/school-user.svg',
     position: "para-left",
   },
   {
@@ -64,7 +64,7 @@ export const schoolCardPropData1 = [
     paragraph: `<div class="text-center md:text-left px-3 text-[#727272] text-[16px] font-normal font-ptsans leading-7 tracking-tight md:text-[26px] md:font-ptsans  md:leading-[29px] md:tracking-tight">   After talking with the administration of schools where Texel is being used, we were informed that the 
         teachers have seen a <strong>&nbsp;major increase in student homework completion</strong> because of the <i>involvement of parents</i> in knowing their
          child’s homework and providing a sense of responsibility to parents making a <strong>&nbsp;win-win situation for everyone.</strong> </div>`,
-        imgUrl: "https://res.cloudinary.com/dswwp9dju/image/upload/v1736556875/image-54_jggxz1.svg",
+    imgUrl: '/assets-public/images/svgs/school-homework.svg',
     position: "para-right",
   },
 ]

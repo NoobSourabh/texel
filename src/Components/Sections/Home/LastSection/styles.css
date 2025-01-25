@@ -39,3 +39,10 @@
 .lst-lower-quote{
     @apply md:hidden w-[100vw]  ;
 }
+
+
+
+
+.bg-vector {
+    background-image: url('../../../../assets/images/svgs/lastsection-bg.svg');
+};

@@ -3,15 +3,16 @@ import Paragraph from './paragraph';
 import { missionData } from '../../../data/data';
 import RedHeadingMob from '../../UI/Cards/Red Border Heading/ReadHeadingMob';
 import RedHeading from '../../UI/Cards/Red Border Heading';
-
+import MissionVector from '../../../assets/images/svgs/mission-vector.svg'
+import MissionVectorMob from '../../../assets/images/svgs/mission-vector-mob.svg'
 const Mission = () => {
     return (
         <div className="flex flex-col mx-auto md:pt-0 pt-[16px]">
             {/* Mission Background Section */}
-            <div className="w-[100vw] flex md:pt-[56px] pt-4">
+            <div className="w-[100vw] flex justify-around px-auto pt-[32px]">
                 <img
-                    className="hidden md:block lg:w-[784px] md:w-[500px] h-[110vh] lg:mr-[-10vw] md:mr-[-50px] lg:mt-0 md:mt-[-55px]"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736349938/image-13_rrdsor.svg"
+                    className="hidden md:block lg:w-[784px] md:w-[500px] h-fit lg:mr-[-5vw] md:mr-[-12vw]  lg:mt-0 "
+                    src={MissionVector}
                     alt="Mission Background"
                 />
                 <div className="w-full flex flex-col md:w-1/2 md:pl-8 pl-0 content-center text-wrap pt-0">
@@ -24,7 +25,7 @@ const Mission = () => {
                     <Paragraph />
                     <img
                         className="md:hidden py-8"
-                        src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736493151/image-33_xv9hmi.svg"
+                        src={MissionVectorMob}
                         alt="Mission Mobile Vector"
                     />
                 </div>
@@ -43,7 +44,7 @@ const Mission = () => {
                         {missionData.map((item, index) => (
                             <MissionCard
                                 key={index}
-                                title={`${index + 1}.  ${item.title}`} 
+                                title={`${index + 1}.  ${item.title}`}
                                 content={item.content}
                             />
                         ))}

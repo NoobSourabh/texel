@@ -1,6 +1,5 @@
 import RedHeading from '../../UI/Cards/Red Border Heading';
 import RedHeadingMob from '../../UI/Cards/Red Border Heading/ReadHeadingMob';
-
 const About = () => {
     return (
         <div className="flex flex-col md:pt-[42px] pt-[26px] md:pb-[233px]">
@@ -13,11 +12,11 @@ const About = () => {
                 </div>
                 <img
                     className="hidden md:block"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736359263/image-15_h9qvx7.svg"
+                    src='/assets-public/images/svgs/about-quote.svg'
                 />
                 <img
                     className="md:hidden mx-auto"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736494533/image-34_strl8l.svg"
+                    src='/assets-public/images/svgs/about-quote-mob.svg'
                 />
             </div>
             <div className="md:py-0 mt-[40px] flex md:flex-row flex-col-reverse w-full items-center md:items-stretch justify-center md:justify-between md:pr-10 md:mx-[-20px] mx-auto">
@@ -36,22 +35,22 @@ const About = () => {
                 </div>
                 <img
                     className="hidden md:block md:w-[30vw] md:my-14 w-full"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736365099/image-18_zhrbgp.svg"
+                    src='/assets-public/images/svgs/about-image1.svg'
                 />
                 <img
                     className="md:hidden block w-full p-8"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736496127/image-35_ygdmdz.svg"
+                    src='/assets-public/images/svgs/about-image1-mob.svg'
                 />
             </div>
 
             <div className="md:py-0 py-8 md:mx-[-20px] flex md:flex-row flex-col-reverse w-full items-center justify-center md:justify-evenly md:pr-10 md:px-16 text-left">
                 <img
                     className="hidden md:block md:w-[35vw]"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736365096/image-19_osefol.svg"
+                    src='/assets-public/images/svgs/about-image2.svg'
                 />
                 <img
                     className="block md:hidden pt-11 mx-auto"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736499181/image-36_bxdsmp.svg"
+                    src='/assets-public/images/svgs/about-image2-mob.svg'
                 />
                 <div className="flex flex-col gap-[88px] text-[15px] md:text-xl px-0 md:pl-[4px] md:pr-[4px] pl-[29px] pr-[6px]">
                     <div className="flex flex-col">

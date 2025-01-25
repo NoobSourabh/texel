@@ -2,6 +2,8 @@ import RedHeading from '../../UI/Cards/Red Border Heading';
 import RedHeadingMob from '../../UI/Cards/Red Border Heading/ReadHeadingMob';
 import ContactForm from './ContactForm';
 
+
+
 const ContactUs = () => {
     return (
         <div className="flex flex-col md:flex-row w-full md:px-14 md:py-14 py-[6px] lg:gap-[114px] md:gap-[6vw]  ">
@@ -24,11 +26,10 @@ const ContactUs = () => {
                 </p>
                 <img
                     className="md:p-8"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736408851/image-20_smihgd.svg"
+                    src='/assets-public/images/svgs/contact-image.svg'
                     alt="About Us"
                 />
             </div>
-
             {/* Right Section */}
             <div className="flex flex-col mx-auto justify-center md:w-auto w-full gap-[20px] md:pt-0 pt-[37px]">
                 <div className="flex flex-col gap-[20px] items-center w-full">

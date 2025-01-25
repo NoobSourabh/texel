@@ -4,12 +4,12 @@ const Header = ({ onToggleNav }: { onToggleNav: () => void }) => {
             <a href="/" className="flex items-center">
                 <img
                     className="mb-[-6px] overflow-hidden"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736533482/image-42_wrox1g.svg"
+                    src='/assets-public/images/svgs/header-logo.svg'
                     alt="Texel Logo"
                 />
                 <img
                     className="pt-[6px]"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736533529/image-43_whicv9.svg"
+                    src='/assets-public/images/svgs/header-logo-text.svg'
                     alt="Texel Text"
                 />
             </a>
@@ -38,7 +38,7 @@ const Header = ({ onToggleNav }: { onToggleNav: () => void }) => {
                 aria-label="Toggle Navigation"
             >
                 <img
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736522166/image-38_qerqqb.svg"
+                    src='/assets-public/images/svgs/header-menu.svg'
                     alt="Menu Icon"
                 />
             </button>

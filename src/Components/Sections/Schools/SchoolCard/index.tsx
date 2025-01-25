@@ -1,6 +1,7 @@
 import TextCard from "../../../UI/Cards/Text"
 import { SchoolCard } from "../../../../Types/PropTypes"
 import './styles.css'
+
 type cardProp = SchoolCard & {
   position: string,
 }

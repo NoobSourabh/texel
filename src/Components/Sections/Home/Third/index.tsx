@@ -1,18 +1,18 @@
 
 const ThirdSection = () => {
     return (
-        <div className="px-[34px] md:px-[8vh] md:flex flex-col items-center justify-center md:gap-0 ">
+        <div className="px-[34px] md:px-auto md:flex flex-col items-center justify-center md:gap-0 ">
             {/* Upper Section */}
-            <div className="flex justify-between md:flex-row flex-col-reverse">
-                <div className="flex flex-col items-start md:pl-[50px] pt-[15vh] gap-8 md:gap-14">
+            <div className="flex  md:flex-row flex-col-reverse justify-around gap-0">
+                <div className="flex flex-col items-start md:pl-[50px] pt-[15vh] ">
                     <img
                         className="hidden md:block md:w-[400px] mb-8 mt-[5vh]"
-                        src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736269170/Group_54_1_lllhxc.png"
+                        src='/assets-public/images/svgs/home-third-heading.svg'
                         alt="Texel Banner"
                     />
                     <img
                         className="block md:hidden w-[600px]"
-                        src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736917804/image-64_etcikx.svg"
+                        src='/assets-public/images/svgs/home-third-heading-mob.svg'
                         alt="Texel Mobile Banner"
                     />
                     <p className="md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
@@ -27,13 +27,13 @@ const ThirdSection = () => {
                     </p>
                 </div>
                 <img
-                    className="mb-[-10vh] md:w-[50%] md:h-[50%] md:mb-0 w-[100vw] hidden md:inline-block lg:hidden"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1737107236/image-72_co93nw.svg"
+                    className=" mb-[-10vh] md:w-[50%] md:h-[50%] md:mb-0 w-[100vw] hidden md:inline-block lg:hidden"
+                    src='/assets-public/images/svgs/home-vector3-long.svg'
                     alt="Right Vector"
-                />
+                    />
                 <img
                     className="mb-[-10vh] md:w-[50%] md:h-[50%] md:mb-0 w-[100vw] inline-block lg:inline-block md:hidden sm:inline-block"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736264263/f3cfc659-2a93-47db-a66a-5814dd815297.png"
+                    src='/assets-public/images/svgs/home-vector3.svg'
                     alt="Right Vector"
                 />
             </div>

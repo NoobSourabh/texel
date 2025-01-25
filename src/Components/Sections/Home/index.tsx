@@ -4,6 +4,7 @@ import TestimonialScroll from '../../UI/ScrollTestimonials';
 import Features from './Features';
 import LastSection from './LastSection';
 import ThirdSection from './Third';
+import  Homevector from '../../../assets/images/svgs/home1.svg'
 
 const Home = () => {
     return (
@@ -46,7 +47,7 @@ const Home = () => {
                     </div>
                     <img
                         className="w-[50vw] right-0"
-                        src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736537082/image-44_fm8y6u.svg"
+                        src={Homevector}
                         alt="Background Vector"
                     />
                 </div>
@@ -111,7 +112,7 @@ const Home = () => {
             <Features />
             <ThirdSection />
             <div className='flex mx-auto'>
-            <TestimonialScroll testimonials={testimonial} />
+                <TestimonialScroll testimonials={testimonial} />
             </div>
             <LastSection />
         </div>
