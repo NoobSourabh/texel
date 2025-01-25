@@ -46,7 +46,7 @@ const Review: React.FC<ReviewProps> = ({ testimonial }) => {
 
             {/* Testimonial Text */}
             <div className="px-[17px] pt-[20px]">
-                <div className="w-[259.24px] h-[175.38px] text-black text-sm font-[500] font-inter leading-[18.20px]">
+                <div className="w-[259.24px] h-[175.38px] text-black text-sm font-[500] font-inter leading-[18.20px] text-wrap" >
                     {testimonial.testimonialText}
                 </div>
             </div>

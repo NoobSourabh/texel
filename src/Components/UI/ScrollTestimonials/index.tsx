@@ -37,7 +37,7 @@ const TestimonialScroll: React.FC<TestimonialScrollProps> = ({ testimonials }) =
         <div className="relative overflow-hidden  w-[100vw]">
             <div
                 ref={scrollContainerRef}
-                className="flex space-x-4 scrollbar-hidden overflow-auto w-full scroll-container"
+                className="flex space-x-4   w-full scroll-container"
                 onScroll={(e) => {
                     const container = e.target as HTMLDivElement;
                     if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 10) {

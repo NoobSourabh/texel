@@ -110,7 +110,9 @@ const Home = () => {
             {/* Other Sections */}
             <Features />
             <ThirdSection />
+            <div className='flex mx-auto'>
             <TestimonialScroll testimonials={testimonial} />
+            </div>
             <LastSection />
         </div>
     );

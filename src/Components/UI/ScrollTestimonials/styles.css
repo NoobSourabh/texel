@@ -2,17 +2,20 @@
 
 /* Hide the scrollbar but allow horizontal scrolling */
 .scroll-container {
-    -ms-overflow-style: none;  /* for Internet Explorer 10+ */
-    scrollbar-width: none;      /* for Firefox */
-    overflow-x: scroll;           /* Allow horizontal scrolling */
-    overflow-y: hidden;         /* Hide vertical scrollbar */
+    display: flex;
+    white-space: nowrap; /* Prevent wrapping */
+    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+    overflow-x: auto; /* Horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    min-width: 200%; /* Ensure the container is wide enough */
 }
 
 .scroll-container::-webkit-scrollbar {
-    display: none;  /* for Chrome, Safari, and Opera */
+    display: none; /* Chrome, Safari, Opera */
 }
 
-/* Optional: Add some padding or margin to the testimonial cards */
 .review-card {
-    min-width: 294px; /* Set a minimum width for each card */
+    flex: 0 0 auto; /* Prevent shrinking or wrapping */
+    min-width: 294px; /* Consistent card width */
 }
