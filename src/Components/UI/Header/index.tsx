@@ -1,6 +1,6 @@
 const Header = ({ onToggleNav }: { onToggleNav: () => void }) => {
     return (
-        <nav className="flex justify-between items-center md:pl-10 bg-white top-0 w-full h-auto pt-[32px] md:pt-0 md:pb-0 md:pr-4 pr-0">
+        <nav className="flex justify-between items-center md:pl-10 bg-white top-0 w-full h-auto pt-[22px] md:pt-0 md:pb-0 md:pr-4 pr-0">
             <a href="/" className="flex items-center">
                 <img
                     className="mb-[-6px] overflow-hidden"
