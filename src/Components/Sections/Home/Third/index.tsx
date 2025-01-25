@@ -1,5 +1,3 @@
-import { testimonial } from '../../../UI/Cards/Testimonials new/reviews';
-import TestimonialScroll from '../../../UI/ScrollTestimonials';
 
 const ThirdSection = () => {
     return (
