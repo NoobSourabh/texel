@@ -54,10 +54,6 @@ const ThirdSection = () => {
                 </p>
             </div>
 
-            {/* Testimonials Section */}
-            <div className="hidden md:flex my-[4vw] ">
-                <TestimonialScroll testimonials={testimonial} />
-            </div>
         </div>
     );
 };

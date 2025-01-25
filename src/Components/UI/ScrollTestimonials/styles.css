@@ -4,7 +4,7 @@
 .scroll-container {
     -ms-overflow-style: none;  /* for Internet Explorer 10+ */
     scrollbar-width: none;      /* for Firefox */
-    overflow-x: auto;           /* Allow horizontal scrolling */
+    overflow-x: scroll;           /* Allow horizontal scrolling */
     overflow-y: hidden;         /* Hide vertical scrollbar */
 }
 

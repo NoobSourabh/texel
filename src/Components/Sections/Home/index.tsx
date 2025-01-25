@@ -33,7 +33,7 @@ const Home = () => {
                                     <a href="/about" className="absolute left-[39.50px] top-[269.40px] flex justify-start items-start gap-2.5 ">
                                         <div className="px-10 py-[15px] rounded-[5px] border border-[#937663] flex justify-center items-center overflow-hidden">
                                             <span
-                                              
+
                                                 className="text-center text-[#937663] text-sm font-bold font-['Montserrat'] leading-snug tracking-tight"
                                             >
                                                 Learn More
@@ -72,7 +72,7 @@ const Home = () => {
                     </div>
                     <a href="/about" className="w-14 h-[17px] px-1.5 rounded-[5px] mt-[11px] border border-[#937663] flex justify-center items-center overflow-hidden">
                         <p
-                           
+
                             className="w-11 text-center text-[#937663] text-[7px] font-bold font-['Montserrat']  tracking-tight"
                         >
                             Learn More
@@ -110,9 +110,7 @@ const Home = () => {
             {/* Other Sections */}
             <Features />
             <ThirdSection />
-            <div className="md:hidden flex">
-                <TestimonialScroll testimonials={testimonial} />
-            </div>
+            <TestimonialScroll testimonials={testimonial} />
             <LastSection />
         </div>
     );
