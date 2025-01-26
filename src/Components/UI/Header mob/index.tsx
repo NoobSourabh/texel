@@ -3,7 +3,7 @@
 const HeaderMob = ({ onToggleNav }: { onToggleNav: () => void }) => {
     return (
         <nav className="flex  justify-between items-center  bg-white w-full  top-0  pt-[22px]">
-            <a href="/" className="flex items-center">
+            <a href="/" className="flex items-center pl-2">
                 <img className='mb-[-6px] overflow-hidden' src='/assets-public/images/svgs/header-logo.svg'
                 />
                 <img className='pt-[6px]' src='/assets-public/images/svgs/header-logo-text.svg'
