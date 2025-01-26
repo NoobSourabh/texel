@@ -96,7 +96,7 @@ export default LastSection;
 
 
 
-// import BgVector from '../../../../assets/images/svgs/lastsection-bg.svg'
+// import BgVector from '/assets-public/images/svgs/lastsection-bg.svg'
 
 // const LastSection = () => {
 //     // Define a custom CSS class dynamically in the component

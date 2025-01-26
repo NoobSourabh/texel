@@ -1,11 +1,11 @@
 import FeatureCard from '../../../UI/Cards/Features'
 import './styles.css'
-import Attendence from '../../../../assets/images/svgs/feature-attendence.svg'
-import Timetable from '../../../../assets/images/svgs/feature-timetable.svg'
-import Progress from '../../../../assets/images/svgs/feature-progress.svg'
-import Homework from '../../../../assets/images/svgs/feature-homework.svg'
-import Notice from '../../../../assets/images/svgs/feature-notice.svg'
-import GPS from '../../../../assets/images/svgs/feature-gps.svg'
+import Attendence from '/assets-public/images/svgs/feature-attendence.svg'
+import Timetable from '/assets-public/images/svgs/feature-timetable.svg'
+import Progress from '/assets-public/images/svgs/feature-progress.svg'
+import Homework from '/assets-public/images/svgs/feature-homework.svg'
+import Notice from '/assets-public/images/svgs/feature-notice.svg'
+import GPS from '/assets-public/images/svgs/feature-gps.svg'
 
 
 const Features = () => {

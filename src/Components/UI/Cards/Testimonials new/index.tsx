@@ -1,9 +1,9 @@
 
-import Quote from '../../../../assets/images/svgs/testimonial-quote.svg'
-import Parent from '../../../../assets/images/svgs/testimonial-parent.svg'
-import Teacher from '../../../../assets/images/svgs/testimonial-teacher.svg'
-import Principal from '../../../../assets/images/svgs/testimonial-principal.svg'
-import Avatar from '../../../../assets/images/svgs/testimonial-avatar.svg'
+import Quote from '/assets-public/images/svgs/testimonial-quote.svg'
+import Parent from '/assets-public/images/svgs/testimonial-parent.svg'
+import Teacher from '/assets-public/images/svgs/testimonial-teacher.svg'
+import Principal from '/assets-public/images/svgs/testimonial-principal.svg'
+import Avatar from '/assets-public/images/svgs/testimonial-avatar.svg'
 
 // Defining the type for the props that will be passed to the Review component
 interface Testimonial {
@@ -25,7 +25,7 @@ const getBookmarkIconUrl = (role: string): string => {
         case "Principal":
             return Principal; // Replace with the actual URL for Principal
         default:
-            return "https://res.cloudinary.com/dswwp9dju/image/upload/v1736545194/image-45_ptbgnj.svg"; // Optional: A fallback URL
+            return Parent; // Optional: A fallback URL
     }
 };
 
