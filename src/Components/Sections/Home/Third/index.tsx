@@ -42,7 +42,7 @@ const ThirdSection = () => {
             <div className="flex flex-col md:flex-row md:gap-[20vw] justify-center items-center gap-[10vw] mt-8 md:mt-[20vh] md:mb-0 mb-10">
                 <img
                     className="w-[100vw] md:w-[50%]"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736265826/04c58275-8f99-46cb-b4ea-808f2140a51a.png"
+                    src='/assets-public/images/svgs/home-vector4.svg'
                     alt="Texel Classroom"
                 />
                 <p className="font-publicsans  md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">

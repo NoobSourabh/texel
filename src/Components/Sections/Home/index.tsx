@@ -4,7 +4,7 @@ import TestimonialScroll from '../../UI/ScrollTestimonials';
 import Features from './Features';
 import LastSection from './LastSection';
 import ThirdSection from './Third';
-import  Homevector from '../../../assets/images/svgs/home1.svg'
+import  Homevector from '/assets-public/images/svgs/home1.svg'
 
 const Home = () => {
     return (
