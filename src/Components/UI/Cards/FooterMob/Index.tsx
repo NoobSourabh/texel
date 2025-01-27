@@ -8,14 +8,16 @@ const FooterMob = () => {
                     <TexelLogo />
                 </a>
                 <div className='w-[98px] flex justify-between items-center'>
-                    <a href=''>
-                        <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736311304/image-2_gr2ued.svg' />
+                    <a href="">
+                        <img src='/assets-public/images/svgs/footer-fb.svg'
+                            alt="Social Icon" />
                     </a>
-                    <a href='https://www.instagram.com/texel.social/'>
-                        <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736311297/image-3_dfs7e4.svg' />
+                    <a href="https://www.instagram.com/texel.social/">
+                        <img src='/assets-public/images/svgs/footer-insta.svg' alt="Instagram" />
                     </a>
-                    <a href=''>
-                        <img src='https://res.cloudinary.com/dswwp9dju/image/upload/v1736311289/image-4_m39zo3.svg' />
+                    <a href="">
+                        <img src='/assets-public/images/svgs/footer-twitter.svg'
+                            alt="Social Icon" />
                     </a>
                 </div>
             </div>

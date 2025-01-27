@@ -4,7 +4,7 @@ import TestimonialScroll from '../../UI/ScrollTestimonials';
 import Features from './Features';
 import LastSection from './LastSection';
 import ThirdSection from './Third';
-import  Homevector from '/assets-public/images/svgs/home1.svg'
+import Homevector from '/assets-public/images/svgs/home1.svg'
 
 const Home = () => {
     return (
@@ -73,16 +73,14 @@ const Home = () => {
                     </div>
                     <a href="/about" className="w-14 h-[17px] px-1.5 rounded-[5px] mt-[11px] border border-[#937663] flex justify-center items-center overflow-hidden">
                         <p
-
-                            className="w-11 text-center text-[#937663] text-[7px] font-bold font-['Montserrat']  tracking-tight"
-                        >
+                            className="w-11 text-center text-[#937663] text-[7px] font-bold font-['Montserrat']  tracking-tight">
                             Learn More
                         </p>
                     </a>
                 </div>
                 <img
-                    className="ml-auto"
-                    src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736839922/image-61_pfaqdn.svg"
+                    className="ml-auto w-[60vw] mb-auto"
+                    src={Homevector}
                     alt="Background Vector"
                 />
             </div>
@@ -111,7 +109,7 @@ const Home = () => {
             {/* Other Sections */}
             <Features />
             <ThirdSection />
-            <div className='flex mx-auto'>
+            <div className='flex mx-auto mt-[50px]'>
                 <TestimonialScroll testimonials={testimonial} />
             </div>
             <LastSection />
