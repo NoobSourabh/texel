@@ -15,12 +15,12 @@ const ThirdSection = () => {
                         src='/assets-public/images/svgs/home-third-heading-mob.svg'
                         alt="Texel Mobile Banner"
                     />
-                    <p className="md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
+                    <p className="font-publicsans md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
                         In a world where education often feels like a puzzle with missing pieces, Texel emerged as the
                         bridge that connects parents, teachers, and schools, transforming the way we engage with
                         learning.
                     </p>
-                    <p className="md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
+                    <p className="font-publicsans  md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
                         By seamlessly integrating into daily routines, Texel ensures parents are always in the loop with
                         real-time updates on assignments and progress. This empowers them to support and celebrate
                         their child's academic journey effectively, creating a cohesive educational ecosystem.
@@ -45,7 +45,7 @@ const ThirdSection = () => {
                     src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736265826/04c58275-8f99-46cb-b4ea-808f2140a51a.png"
                     alt="Texel Classroom"
                 />
-                <p className="md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
+                <p className="font-publicsans  md:w-[401px] opacity-90 text-[#727272] md:text-2xl text-[15px] font-normal leading-[29px] tracking-tight md:text-left text-center">
                     Imagine a bustling classroom where children are not just passive recipients of knowledge but active
                     participants in their educational journey. Now, imagine parents stepping into that vibrant world,
                     empowered and informed, ready to support their child every step of the way.

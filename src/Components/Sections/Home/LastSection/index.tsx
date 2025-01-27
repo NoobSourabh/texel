@@ -10,7 +10,7 @@ const LastSection = () => {
             >
                 <div className="flex flex-col justify-between items-center py-8 mb-10">
                     <div className="flex flex-col gap-6 text-center items-center w-full md:w-[602px] left-[61px] ">
-                        <p className="text-gray text-[15px] md:text-2xl px-4 leading-[29px] tracking-tight">
+                        <p className="font-publicsans  text-gray text-[15px] md:text-2xl px-4 leading-[29px] tracking-tight">
                             At Texel, we believe that education thrives when it's a shared responsibility. Our
                             innovative application dismantles the barriers that keep parents in the dark, providing them
                             with clear insights into homework assignments, covered topics, and areas where their

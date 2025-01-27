@@ -15,6 +15,8 @@ module.exports = {
         crimsontext: ["Crimson Text", "serif"],
         inter: ["Inter", "serif"],
         afacad: ["Afacad", "serif"],
+        worksans: ['"work-sans"', "sans-serif"],
+        publicsans: ['"Public Sans"', "serif"],
       },
       fontSize: {
         xs: "12px",

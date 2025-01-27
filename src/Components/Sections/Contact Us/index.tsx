@@ -13,7 +13,7 @@ const ContactUs = () => {
                 <div className="md:hidden block pt-[24px] pb-[26px] ">
                     <RedHeadingMob heading="CONTACT US" />
                 </div>
-                <p className="text-[15px] text-[#727272] my-[-20px] mb-4 font-normal leading-tight font-ptsans md:tracking-wider tracking-tight">
+                <p className="font-publicsans  text-[15px] text-[#727272] my-[-20px] mb-4 font-normal leading-tight   md:tracking-wider tracking-tight">
                     We are dedicated to continuous improvement and innovation. Our team is constantly working to
                     enhance the platform based on user feedback, ensuring that we meet the evolving needs of the
                     educational community. At Texel, we're more than just a technology provider—we're a partner in

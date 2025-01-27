@@ -20,7 +20,7 @@ const About = () => {
                 />
             </div>
             <div className="md:py-0 mt-[40px] flex md:flex-row flex-col-reverse w-full items-center md:items-stretch justify-center md:justify-between md:pr-10 md:mx-[-20px] mx-auto">
-                <div className="flex flex-col w-full md:w-[60vw] gap-2 md:gap-0 text-[15px] md:text-xl text-gray px-0 md:pl-[12vw] md:pr-[12vw] pl-[29px] pr-[6px] my-auto">
+                <div className="font-publicsans flex flex-col w-full md:w-[60vw] gap-2 md:gap-0 text-[15px] md:text-xl text-gray px-0 md:pl-[12vw] md:pr-[12vw] pl-[29px] pr-[6px] my-auto">
                     <p className="pt-2 md:pt-0 text-gray text-left md:pr-0 pr-1">
                         Texel helps <b>busy parents</b> juggle work and home responsibilities together. A grateful mother
                         wrote that she has reduced a lot of stress since she started using Texel as she receives
@@ -58,7 +58,7 @@ const About = () => {
                             <RedHeadingMob heading="OUR VISION" />
                         </div>
                         <RedHeading heading="OUR VISION" />
-                        <p className="pt-2 md:pt-0 text-gray text-left md:w-[725px] md:pr-[97px] w-full">
+                        <p className=" font-publicsans pt-2 md:pt-0 text-gray text-left md:w-[725px] md:pr-[97px] w-full">
                             At Texel, we believe that <b>education is the foundation of a bright future.</b> We see
                             ourselves as a company that empowers teachers, engages students, and supports parents by
                             offering tools that make administrative work easier and improve learning experiences. We see
@@ -77,7 +77,7 @@ const About = () => {
                             <RedHeadingMob heading="OUR COMMITMENT" />
                         </div>
                         <RedHeading heading="OUR COMMITMENT" />
-                        <p className="pt-2 md:pt-0 text-gray text-left lg:w-[725px] md:w-[400px] md:pr-[97px] w-full text-[15px] md:text-xl">
+                        <p className="font-publicsans  pt-2 md:pt-0 text-gray text-left lg:w-[725px] md:w-[400px] md:pr-[97px] w-full text-[15px] md:text-xl">
                             We are dedicated to <b>continuous improvement</b> and <b>innovation.</b> Our team is
                             constantly working to enhance the platform based on user feedback, ensuring that we meet the
                             evolving needs of the educational community. At Texel, we're more than just a technology
