@@ -27,7 +27,8 @@ const Home = () => {
                                         </div>
                                         <img
                                             className="absolute w-[332px] h-[171px] left-0 pl-[40px] top-[12px]"
-                                            src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736535815/image-40_h0spiw.svg"
+                                            // src="https://res.cloudinary.com/dswwp9dju/image/upload/v1736535815/image-40_h0spiw.svg"
+                                            src="/assets-public/images/svgs/texel-white-logo.svg"
                                             alt="Illustration"
                                         />
                                     </div>
